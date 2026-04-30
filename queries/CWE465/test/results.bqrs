@@ -1,0 +1,5175 @@
+ÖöOnGUIµE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Editor/ClampSettingsDrawer.cs^Unity Lifecycle Method | Components.ClampSettingsDrawer.OnGUI @ Editor/ClampSettingsDrawer.cs≠E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Editor/DebugWindow.csZUnity Lifecycle Method | Cognitive3D.DebugInformationWindow.OnGUI @ Editor/DebugWindow.cs
+OnDisable∏E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Editor/DynamicObjectInspector.csiUnity Lifecycle Method | Cognitive3D.DynamicObjectInspector.OnDisable @ Editor/DynamicObjectInspector.cs∂E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Editor/DynamicObjectsWindow.cs`Unity Lifecycle Method | Cognitive3D.RenameDynamicWindow.OnGUI @ Editor/DynamicObjectsWindow.csaUnity Lifecycle Method | Cognitive3D.DynamicObjectsWindow.OnGUI @ Editor/DynamicObjectsWindow.cs	OnEnablehUnity Lifecycle Method | Cognitive3D.DynamicObjectInspector.OnEnable @ Editor/DynamicObjectInspector.cs¨E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Editor/HelpWindow.csMUnity Lifecycle Method | Cognitive3D.HelpWindow.OnGUI @ Editor/HelpWindow.cs¥E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Editor/ProjectSetupWindow.cs]Unity Lifecycle Method | Cognitive3D.ProjectSetupWindow.OnGUI @ Editor/ProjectSetupWindow.cs≤E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Editor/SceneSetupWindow.csYUnity Lifecycle Method | Cognitive3D.SceneSetupWindow.OnGUI @ Editor/SceneSetupWindow.cs
+OnDestroy]Unity Lifecycle Method | Cognitive3D.SceneSetupWindow.OnDestroy @ Editor/SceneSetupWindow.cs∞E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Editor/Setup360Window.csUUnity Lifecycle Method | Cognitive3D.Setup360Window.OnGUI @ Editor/Setup360Window.cs±E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Editor/UpdateSDKWindow.csWUnity Lifecycle Method | Cognitive3D.UpdateSDKWindow.OnGUI @ Editor/UpdateSDKWindow.cs[Unity Lifecycle Method | Cognitive3D.UpdateSDKWindow.OnDestroy @ Editor/UpdateSDKWindow.csStartŒE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/ActiveSessionView/Scripts/ActiveSessionView.csxUnity Lifecycle Method | ActiveSession.ActiveSessionView.Start @ Runtime/ActiveSessionView/Scripts/ActiveSessionView.csUpdateÃE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/ActiveSessionView/Scripts/DataBatchCanvas.csuUnity Lifecycle Method | ActiveSession.DataBatchCanvas.Update @ Runtime/ActiveSessionView/Scripts/DataBatchCanvas.csxUnity Lifecycle Method | ActiveSession.DataBatchCanvas.OnDestroy @ Runtime/ActiveSessionView/Scripts/DataBatchCanvas.cstUnity Lifecycle Method | ActiveSession.DataBatchCanvas.Start @ Runtime/ActiveSessionView/Scripts/DataBatchCanvas.cs»E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/ActiveSessionView/Scripts/EventCanvas.cspUnity Lifecycle Method | ActiveSession.EventCanvas.OnDestroy @ Runtime/ActiveSessionView/Scripts/EventCanvas.cs E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/ActiveSessionView/Scripts/DynamicCanvas.cspUnity Lifecycle Method | ActiveSession.DynamicCanvas.Start @ Runtime/ActiveSessionView/Scripts/DynamicCanvas.cslUnity Lifecycle Method | ActiveSession.EventCanvas.Start @ Runtime/ActiveSessionView/Scripts/EventCanvas.cs«E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/ActiveSessionView/Scripts/MetaCanvas.cskUnity Lifecycle Method | ActiveSession.MetaCanvas.Update @ Runtime/ActiveSessionView/Scripts/MetaCanvas.csnUnity Lifecycle Method | ActiveSession.MetaCanvas.OnDestroy @ Runtime/ActiveSessionView/Scripts/MetaCanvas.csAwakejUnity Lifecycle Method | ActiveSession.MetaCanvas.Awake @ Runtime/ActiveSessionView/Scripts/MetaCanvas.csŒE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/ActiveSessionView/Scripts/FullscreenDisplay.csyUnity Lifecycle Method | ActiveSession.FullscreenDisplay.Update @ Runtime/ActiveSessionView/Scripts/FullscreenDisplay.csxUnity Lifecycle Method | ActiveSession.FullscreenDisplay.OnGUI @ Runtime/ActiveSessionView/Scripts/FullscreenDisplay.cs|Unity Lifecycle Method | ActiveSession.FullscreenDisplay.OnDestroy @ Runtime/ActiveSessionView/Scripts/FullscreenDisplay.cs…E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/ActiveSessionView/Scripts/SensorCanvas.csnUnity Lifecycle Method | ActiveSession.SensorCanvas.Start @ Runtime/ActiveSessionView/Scripts/SensorCanvas.csoUnity Lifecycle Method | ActiveSession.SensorCanvas.Update @ Runtime/ActiveSessionView/Scripts/SensorCanvas.csrUnity Lifecycle Method | ActiveSession.SensorCanvas.OnDestroy @ Runtime/ActiveSessionView/Scripts/SensorCanvas.csπE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/CircularBuffer.csaUnity Lifecycle Method | Cognitive3D.CircularBuffer`1.Update @ Runtime/Scripts/CircularBuffer.csŒE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/ActiveSessionView/Scripts/RenderEyetracking.csyUnity Lifecycle Method | ActiveSession.RenderEyetracking.Update @ Runtime/ActiveSessionView/Scripts/RenderEyetracking.csLateUpdate}Unity Lifecycle Method | ActiveSession.RenderEyetracking.LateUpdate @ Runtime/ActiveSessionView/Scripts/RenderEyetracking.csOnPostRenderUnity Lifecycle Method | ActiveSession.RenderEyetracking.OnPostRender @ Runtime/ActiveSessionView/Scripts/RenderEyetracking.cs|Unity Lifecycle Method | ActiveSession.RenderEyetracking.OnDestroy @ Runtime/ActiveSessionView/Scripts/RenderEyetracking.csœE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/ActiveSessionView/Scripts/SensorRenderCamera.csÅUnity Lifecycle Method | ActiveSession.SensorRenderCamera.OnPostRender @ Runtime/ActiveSessionView/Scripts/SensorRenderCamera.cspUnity Lifecycle Method | Cognitive3D.CircularBuffer<ThreadGazePoint>.Update @ Runtime/Scripts/CircularBuffer.csƒE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Components/AnalyticsComponentBase.cstUnity Lifecycle Method | Components.AnalyticsComponentBase.OnDisable @ Runtime/Components/AnalyticsComponentBase.cssUnity Lifecycle Method | Components.AnalyticsComponentBase.OnEnable @ Runtime/Components/AnalyticsComponentBase.cs∫E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Components/BatteryLevel.cs]Unity Lifecycle Method | Components.BatteryLevel.Update @ Runtime/Components/BatteryLevel.cs∆E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Components/ControllerCollisionEvent.csxUnity Lifecycle Method | Components.ControllerCollisionEvent.OnDestroy @ Runtime/Components/ControllerCollisionEvent.cs∑E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Components/Framerate.csZUnity Lifecycle Method | Components.Framerate.OnDestroy @ Runtime/Components/Framerate.csƒE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Components/ControllerInputTracker.csqUnity Lifecycle Method | Components.ControllerInputTracker.Update @ Runtime/Components/ControllerInputTracker.csøE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Components/HMDCollisionEvent.csjUnity Lifecycle Method | Components.HMDCollisionEvent.OnDestroy @ Runtime/Components/HMDCollisionEvent.csΩE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Components/HMDPresentEvent.cscUnity Lifecycle Method | Components.HMDPresentEvent.Update @ Runtime/Components/HMDPresentEvent.csªE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Components/TeleportEvent.csbUnity Lifecycle Method | Components.TeleportEvent.OnDestroy @ Runtime/Components/TeleportEvent.cs∫E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/ExitPoll/ExitPollHolder.csbUnity Lifecycle Method | Cognitive3D.ExitPollHolder.OnEnable @ Runtime/ExitPoll/ExitPollHolder.csπE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/ExitPoll/ExitPollPanel.cs^Unity Lifecycle Method | Cognitive3D.ExitPollPanel.Update @ Runtime/ExitPoll/ExitPollPanel.csπE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Internal/GazeSphere360.cs]Unity Lifecycle Method | Components.GazeSphere360.Update @ Runtime/Internal/GazeSphere360.cs∫E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Internal/NetworkManager.cscUnity Lifecycle Method | Cognitive3D.NetworkManager.OnDestroy @ Runtime/Internal/NetworkManager.csæE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/Cognitive3D_Manager.csiUnity Lifecycle Method | Cognitive3D.Cognitive3D_Manager.Update @ Runtime/Scripts/Cognitive3D_Manager.cslUnity Lifecycle Method | Cognitive3D.Cognitive3D_Manager.OnDestroy @ Runtime/Scripts/Cognitive3D_Manager.csOnApplicationPauseuUnity Lifecycle Method | Cognitive3D.Cognitive3D_Manager.OnApplicationPause @ Runtime/Scripts/Cognitive3D_Manager.csºE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/ControllerPointer.cseUnity Lifecycle Method | Cognitive3D.ControllerPointer.Update @ Runtime/Scripts/ControllerPointer.cs∏E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/DynamicObject.cs_Unity Lifecycle Method | Cognitive3D.DynamicObject.OnEnable @ Runtime/Scripts/DynamicObject.cs`Unity Lifecycle Method | Cognitive3D.DynamicObject.OnDisable @ Runtime/Scripts/DynamicObject.cskUnity Lifecycle Method | Cognitive3D.Cognitive3D_Manager.OnEnable @ Runtime/Scripts/Cognitive3D_Manager.cshUnity Lifecycle Method | Cognitive3D.Cognitive3D_Manager.Start @ Runtime/Scripts/Cognitive3D_Manager.csæE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/DynamicObjectIdPool.cskUnity Lifecycle Method | Cognitive3D.DynamicObjectIdPool.OnEnable @ Runtime/Scripts/DynamicObjectIdPool.csªE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/FixationRecorder.cscUnity Lifecycle Method | Cognitive3D.FixationRecorder.Update @ Runtime/Scripts/FixationRecorder.cs∂E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/GazeReticle.csYUnity Lifecycle Method | Cognitive3D.GazeReticle.Update @ Runtime/Scripts/GazeReticle.csµE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/HMDPointer.csWUnity Lifecycle Method | Cognitive3D.HMDPointer.Update @ Runtime/Scripts/HMDPointer.csπE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/MediaComponent.cs^Unity Lifecycle Method | Cognitive3D.MediaComponent.Start @ Runtime/Scripts/MediaComponent.csªE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/MicrophoneButton.cseUnity Lifecycle Method | Cognitive3D.MicrophoneButton.OnEnable @ Runtime/Scripts/MicrophoneButton.cscUnity Lifecycle Method | Cognitive3D.MicrophoneButton.Update @ Runtime/Scripts/MicrophoneButton.csgUnity Lifecycle Method | Cognitive3D.MicrophoneButton.LateUpdate @ Runtime/Scripts/MicrophoneButton.csbUnity Lifecycle Method | Cognitive3D.MediaComponent.OnDestroy @ Runtime/Scripts/MediaComponent.cs∏E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/VirtualButton.csaUnity Lifecycle Method | Cognitive3D.VirtualButton.LateUpdate @ Runtime/Scripts/VirtualButton.cs∂E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Runtime/Scripts/PhysicsGaze.cs\Unity Lifecycle Method | Cognitive3D.PhysicsGaze.OnDestroy @ Runtime/Scripts/PhysicsGaze.csFixedUpdate√E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Demo Scene/Scripts/PlayerMoveXR.cseUnity Lifecycle Method | Demo.PlayerMoveXR.FixedUpdate @ Samples~/Demo Scene/Scripts/PlayerMoveXR.csÀE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Demo Scene/Scripts/SimpleDistanceSensor.csoUnity Lifecycle Method | Demo.SimpleDistanceSensor.Start @ Samples~/Demo Scene/Scripts/SimpleDistanceSensor.cs¬E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Demo Scene/Scripts/SimpleMover.cs^Unity Lifecycle Method | Demo.SimpleMover.Update @ Samples~/Demo Scene/Scripts/SimpleMover.cs E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Demo Scene/Scripts/SimplePositionReset.cssUnity Lifecycle Method | Demo.SimplePositionReset.FixedUpdate @ Samples~/Demo Scene/Scripts/SimplePositionReset.cs]Unity Lifecycle Method | Demo.SimpleMover.Start @ Samples~/Demo Scene/Scripts/SimpleMover.csmUnity Lifecycle Method | Demo.SimplePositionReset.Start @ Samples~/Demo Scene/Scripts/SimplePositionReset.cs\Unity Lifecycle Method | Cognitive3D.VirtualButton.Start @ Runtime/Scripts/VirtualButton.csOnTriggerEnter»E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Demo Scene/Scripts/SimpleTriggerArea.csrUnity Lifecycle Method | Demo.SimpleTriggerArea.OnTriggerEnter @ Samples~/Demo Scene/Scripts/SimpleTriggerArea.cs E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Ready Room/Editor/ReadyRoomSetupWindow.cssUnity Lifecycle Method | ReadyRoom.ReadyRoomSetupWindow.OnGUI @ Samples~/Ready Room/Editor/ReadyRoomSetupWindow.cs≈E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Ready Room/Scripts/AssessmentBase.cskUnity Lifecycle Method | ReadyRoom.AssessmentBase.OnEnable @ Samples~/Ready Room/Scripts/AssessmentBase.cs»E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Ready Room/Scripts/AssessmentManager.csnUnity Lifecycle Method | ReadyRoom.AssessmentManager.Start @ Samples~/Ready Room/Scripts/AssessmentManager.csnUnity Lifecycle Method | ReadyRoom.AssessmentManager.Awake @ Samples~/Ready Room/Scripts/AssessmentManager.cs»E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Ready Room/Scripts/DestinationBounds.csnUnity Lifecycle Method | ReadyRoom.DestinationBounds.Start @ Samples~/Ready Room/Scripts/DestinationBounds.cs√E:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Ready Room/Scripts/FollowTarget.csiUnity Lifecycle Method | ReadyRoom.FollowTarget.LateUpdate @ Samples~/Ready Room/Scripts/FollowTarget.csdUnity Lifecycle Method | ReadyRoom.FollowTarget.Start @ Samples~/Ready Room/Scripts/FollowTarget.csœE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Ready Room/Scripts/ObjectPositionAssessment.csUnity Lifecycle Method | ReadyRoom.ObjectPositionAssessment.OnEnable @ Samples~/Ready Room/Scripts/ObjectPositionAssessment.csøE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Ready Room/Scripts/GazeCube.cs\Unity Lifecycle Method | ReadyRoom.GazeCube.Start @ Samples~/Ready Room/Scripts/GazeCube.csÀE:/1_my_project/dataset/vulnerability_dataset/CWE-465/Null Pointer/CognitiveVR_cvr-sdk-unity_73aa6bf54bf86a5560479e27494cd13796881048_pre/_code_subset/Samples~/Ready Room/Scripts/RoomSpaceDestination.cswUnity Lifecycle Method | ReadyRoom.RoomSpaceDestination.OnEnable @ Samples~/Ready Room/Scripts/RoomSpaceDestination.cs•	#selectVeei s∑¶ "º„∂ öõõ»√¿¢¨  Âœœ ŒOOÖ≤— ŒÔÔÂêê∆	¨œ	¬ ∑
+11‰®  ±77ÊíÊ √BBˆÖËœ√ííŸÇÔ ∂Áß¶ º77Óπ¶œº≈äƒ†¶ıÑŒÌÙ//¡±ŒœÙÆÆ∂±÷†ÙÆ÷‹œ¢??ÎµÈ†€¶!ƒÈ†¢ñ"ÚÏÌÇ#** $ıÏœÇ#EE"µ%æÔ£&Ç#©&ƒÌì'88‚(÷ ì'FF€)€Úœì'≥≥”*Ù˜†œ+::ô-â¯Ìœ+bbá.é¯œœ+ììˆ.ÒçÌË/¢1¸éÌÉ2ää“3•êÀ4É2áá÷4–ê”5É2¨¨!‡5‘êœÉ2¿¿ﬂ6ºõ”5€7´9øùÌË/≠:∂°¢ù;& &(‚<â£∆	ù; '÷=≤¨Ì…>Ñ@¡∞œ·@VV®Bî¡œ†C]]ÿDî…Ì≤Eââ˜Fç÷œËG44®I◊ÔÌíJ))–K˙ìœ≥L;;ÔM˙ú∆	—NåPâ¨ÌÓP∫∫®R˜ñÌÜS¿Të∞œùU§§ÿVˆòÌªWÅÅ˙XÄôœªWùù„YÖôœZªW®®‚Z∆ôÌ◊[((î]Ÿ≤∆	˘]¢¢≤_Œµ¢˘]‘‘ë`ˇ„∆	ªWEEÒ`Ç‰†ªWPP‹aÎÓ∆	ƒbÉdü¸ÌÓdΩΩ™f◊∑ÌçgƒhóæÌùi”jé¡†™k&&‰lú¡∆	¬m( ('˛n£¡Ì¬m;;„o®¡À4¬mY!Y*∆p©¡œ™kcc≠qò»À4èrx x)»sçœœ©tmm‡u¿·ºv»våxä‚†ÒxΩz∆„Ì¨{Ô|º‰ºvÕ}ò Ê†¨{ãÄÏÊ†Õ}ËÄöÈ†èr2 2$’Å˛Ä±Ç¿Ç"âÑÄô ˚Ñ88∆Ü÷ú∆	πá  $ˇà†•†Íâ,,≥ãÿ±£&Íâ$$°åú¬†èçÿé†∆À4∆èäëŒ«†∆èÛë Ã∆	◊í%ßîÌÕ†¶ïÊñâ‡∆	¬óéôò	---
+run:
+  queries:
+   -
+    pack: cwe465-unity-nullpointer#3
+    relativeQueryPath: Extract_Candidate/unity-vr-sensitive-apis.ql
+    relativeBqrsPath: cwe465-unity-nullpointer/Extract_Candidate/unity-vr-sensitive-apis.bqrs
+    metadata:
+      name: Unity VR Sensitive API Finder (No Unity References Required)
+      description: "Detect Unity lifecycle methods, dangerous APIs, and VR input sources\
+        \ without requiring Unity DLLs."
+      kind: problem
+      problem.severity: warning
+      id: unity/vr-sensitive-api-finder
+      tags: "security, unity, vr, best-practice"
+  extensionPacks: []
+  packs:
+    codeql/threat-models#1:
+      name: codeql/threat-models
+      version: 1.0.34-dev
+      isLibrary: true
+      isExtensionPack: false
+      localPath: file:///D:/CodeQL/repo/shared/threat-models/
+      localPackDefinitionFile: file:///D:/CodeQL/repo/shared/threat-models/qlpack.yml
+      headSha: 66f95bcbcdd9ddfde1719396f3df424c4052bb27
+      runDataExtensions: []
+    codeql/csharp-all#0:
+      name: codeql/csharp-all
+      version: 5.2.7-dev
+      isLibrary: true
+      isExtensionPack: false
+      localPath: file:///D:/CodeQL/repo/csharp/ql/lib/
+      localPackDefinitionFile: file:///D:/CodeQL/repo/csharp/ql/lib/qlpack.yml
+      headSha: 66f95bcbcdd9ddfde1719396f3df424c4052bb27
+      runDataExtensions: []
+    codeql/util#2:
+      name: codeql/util
+      version: 2.0.21-dev
+      isLibrary: true
+      isExtensionPack: false
+      localPath: file:///D:/CodeQL/repo/shared/util/
+      localPackDefinitionFile: file:///D:/CodeQL/repo/shared/util/qlpack.yml
+      headSha: 66f95bcbcdd9ddfde1719396f3df424c4052bb27
+      runDataExtensions: []
+    cwe465-unity-nullpointer#3:
+      name: cwe465-unity-nullpointer
+      version: 0.0.1
+      isLibrary: false
+      isExtensionPack: false
+      localPath: file:///E:/1_my_project/dataset/queries/
+      localPackDefinitionFile: file:///E:/1_my_project/dataset/queries/qlpack.yml
+      runDataExtensions:
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Amazon.Lambda.model.yml
+        index: 0
+        firstRowId: 0
+        rowCount: 6
+        locations:
+          lineNumbers: A=6+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Amazon.Lambda.model.yml
+        index: 1
+        firstRowId: 6
+        rowCount: 10
+        locations:
+          lineNumbers: A=17+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Dapper.model.yml
+        index: 0
+        firstRowId: 16
+        rowCount: 55
+        locations:
+          lineNumbers: A=6+1*54
+          columnNumbers: A=9*55
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Dapper.model.yml
+        index: 1
+        firstRowId: 71
+        rowCount: 42
+        locations:
+          lineNumbers: A=65+1*41
+          columnNumbers: A=9*42
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Dapper.model.yml
+        index: 2
+        firstRowId: 113
+        rowCount: 1
+        locations:
+          lineNumbers: A=111
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.ApplicationBlocks.Data.model.yml
+        index: 0
+        firstRowId: 114
+        rowCount: 28
+        locations:
+          lineNumbers: A=6+1*27
+          columnNumbers: A=9*28
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.AspNetCore.Components.CompilerServices.model.yml
+        index: 0
+        firstRowId: 142
+        rowCount: 1
+        locations:
+          lineNumbers: A=6
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.AspNetCore.Components.model.yml
+        index: 0
+        firstRowId: 143
+        rowCount: 4
+        locations:
+          lineNumbers: A=6+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.AspNetCore.Components.model.yml
+        index: 1
+        firstRowId: 147
+        rowCount: 1
+        locations:
+          lineNumbers: A=14
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.AspNetCore.Components.model.yml
+        index: 2
+        firstRowId: 148
+        rowCount: 2
+        locations:
+          lineNumbers: A=19+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.AspNetCore.Http.model.yml
+        index: 0
+        firstRowId: 150
+        rowCount: 1
+        locations:
+          lineNumbers: A=6
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.AspNetCore.Mvc.model.yml
+        index: 0
+        firstRowId: 151
+        rowCount: 2
+        locations:
+          lineNumbers: A=6+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.AspNetCore.WebUtilities.model.yml
+        index: 0
+        firstRowId: 153
+        rowCount: 2
+        locations:
+          lineNumbers: A=6+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.Data.SqlClient.model.yml
+        index: 0
+        firstRowId: 155
+        rowCount: 7
+        locations:
+          lineNumbers: A=6+1*6
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.Data.SqlClient.model.yml
+        index: 1
+        firstRowId: 162
+        rowCount: 4
+        locations:
+          lineNumbers: A=17+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.EntityFrameworkCore.model.yml
+        index: 0
+        firstRowId: 166
+        rowCount: 6
+        locations:
+          lineNumbers: A=6+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.EntityFrameworkCore.model.yml
+        index: 1
+        firstRowId: 172
+        rowCount: 12
+        locations:
+          lineNumbers: A=16+1*11
+          columnNumbers: A=9*12
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.Extensions.Configuration.model.yml
+        index: 0
+        firstRowId: 184
+        rowCount: 2
+        locations:
+          lineNumbers: A=6+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.Extensions.Configuration.model.yml
+        index: 1
+        firstRowId: 186
+        rowCount: 6
+        locations:
+          lineNumbers: A=12+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.Extensions.Primitives.model.yml
+        index: 0
+        firstRowId: 192
+        rowCount: 54
+        locations:
+          lineNumbers: A=6+1*53
+          columnNumbers: A=9*54
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.JSInterop.model.yml
+        index: 0
+        firstRowId: 246
+        rowCount: 2
+        locations:
+          lineNumbers: A=6+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.VisualBasic.model.yml
+        index: 0
+        firstRowId: 248
+        rowCount: 5
+        locations:
+          lineNumbers: A=6+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Microsoft.Win32.model.yml
+        index: 0
+        firstRowId: 253
+        rowCount: 4
+        locations:
+          lineNumbers: A=6+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/MySql.Data.MySqlClient.model.yml
+        index: 0
+        firstRowId: 257
+        rowCount: 48
+        locations:
+          lineNumbers: A=6+1*47
+          columnNumbers: A=9*48
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Newtonsoft.Json.Linq.model.yml
+        index: 0
+        firstRowId: 305
+        rowCount: 25
+        locations:
+          lineNumbers: A=6+1*24
+          columnNumbers: A=9*25
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Newtonsoft.Json.model.yml
+        index: 0
+        firstRowId: 330
+        rowCount: 66
+        locations:
+          lineNumbers: A=6+1*65
+          columnNumbers: A=9*66
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/ServiceStack.OrmLite.model.yml
+        index: 0
+        firstRowId: 396
+        rowCount: 92
+        locations:
+          lineNumbers: A=6+1*91
+          columnNumbers: A=9*92
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/ServiceStack.Redis.model.yml
+        index: 0
+        firstRowId: 488
+        rowCount: 27
+        locations:
+          lineNumbers: A=6+1*26
+          columnNumbers: A=9*27
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/ServiceStack.model.yml
+        index: 0
+        firstRowId: 515
+        rowCount: 75
+        locations:
+          lineNumbers: A=6+1*74
+          columnNumbers: A=9*75
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/ServiceStack.model.yml
+        index: 1
+        firstRowId: 590
+        rowCount: 7
+        locations:
+          lineNumbers: A=85+1*6
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.CodeDom.model.yml
+        index: 0
+        firstRowId: 597
+        rowCount: 1
+        locations:
+          lineNumbers: A=6
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Collections.Concurrent.model.yml
+        index: 0
+        firstRowId: 598
+        rowCount: 17
+        locations:
+          lineNumbers: A=6+1*16
+          columnNumbers: A=9*17
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Collections.Generic.model.yml
+        index: 0
+        firstRowId: 615
+        rowCount: 81
+        locations:
+          lineNumbers: A=6+1*80
+          columnNumbers: A=9*81
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Collections.Immutable.model.yml
+        index: 0
+        firstRowId: 696
+        rowCount: 86
+        locations:
+          lineNumbers: A=6+1*85
+          columnNumbers: A=9*86
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Collections.ObjectModel.model.yml
+        index: 0
+        firstRowId: 782
+        rowCount: 9
+        locations:
+          lineNumbers: A=6+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Collections.Specialized.model.yml
+        index: 0
+        firstRowId: 791
+        rowCount: 15
+        locations:
+          lineNumbers: A=6+1*14
+          columnNumbers: A=9*15
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Collections.model.yml
+        index: 0
+        firstRowId: 806
+        rowCount: 51
+        locations:
+          lineNumbers: A=6+1*50
+          columnNumbers: A=9*51
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.ComponentModel.Design.model.yml
+        index: 0
+        firstRowId: 857
+        rowCount: 10
+        locations:
+          lineNumbers: A=6+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.ComponentModel.model.yml
+        index: 0
+        firstRowId: 867
+        rowCount: 33
+        locations:
+          lineNumbers: A=6+1*32
+          columnNumbers: A=9*33
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.ComponentModel.model.yml
+        index: 1
+        firstRowId: 900
+        rowCount: 1
+        locations:
+          lineNumbers: A=43
+          columnNumbers: A=10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Configuration.Provider.model.yml
+        index: 0
+        firstRowId: 901
+        rowCount: 1
+        locations:
+          lineNumbers: A=6
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Configuration.model.yml
+        index: 0
+        firstRowId: 902
+        rowCount: 12
+        locations:
+          lineNumbers: A=6+1*11
+          columnNumbers: A=9*12
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Configuration.model.yml
+        index: 1
+        firstRowId: 914
+        rowCount: 1
+        locations:
+          lineNumbers: A=22
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.Common.model.yml
+        index: 0
+        firstRowId: 915
+        rowCount: 29
+        locations:
+          lineNumbers: A=6+1*28
+          columnNumbers: A=9*29
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.Entity.model.yml
+        index: 0
+        firstRowId: 944
+        rowCount: 9
+        locations:
+          lineNumbers: A=6+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.Entity.model.yml
+        index: 1
+        firstRowId: 953
+        rowCount: 3
+        locations:
+          lineNumbers: A=19+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.EntityClient.model.yml
+        index: 0
+        firstRowId: 956
+        rowCount: 3
+        locations:
+          lineNumbers: A=6+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.Odbc.model.yml
+        index: 0
+        firstRowId: 959
+        rowCount: 3
+        locations:
+          lineNumbers: A=6+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.OleDb.model.yml
+        index: 0
+        firstRowId: 962
+        rowCount: 3
+        locations:
+          lineNumbers: A=6+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.SQLite.model.yml
+        index: 0
+        firstRowId: 965
+        rowCount: 7
+        locations:
+          lineNumbers: A=6+1*6
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.SQLite.model.yml
+        index: 1
+        firstRowId: 972
+        rowCount: 3
+        locations:
+          lineNumbers: A=17+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.SqlClient.model.yml
+        index: 0
+        firstRowId: 975
+        rowCount: 6
+        locations:
+          lineNumbers: A=6+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.SqlClient.model.yml
+        index: 1
+        firstRowId: 981
+        rowCount: 3
+        locations:
+          lineNumbers: A=16+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.model.yml
+        index: 0
+        firstRowId: 984
+        rowCount: 76
+        locations:
+          lineNumbers: A=6+1*75
+          columnNumbers: A=9*76
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Data.model.yml
+        index: 1
+        firstRowId: 1060
+        rowCount: 3
+        locations:
+          lineNumbers: A=87+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Diagnostics.model.yml
+        index: 0
+        firstRowId: 1063
+        rowCount: 19
+        locations:
+          lineNumbers: A=6+1*18
+          columnNumbers: A=9*19
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Diagnostics.model.yml
+        index: 1
+        firstRowId: 1082
+        rowCount: 1
+        locations:
+          lineNumbers: A=29
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Dynamic.model.yml
+        index: 0
+        firstRowId: 1083
+        rowCount: 2
+        locations:
+          lineNumbers: A=6+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.IO.Compression.model.yml
+        index: 0
+        firstRowId: 1085
+        rowCount: 4
+        locations:
+          lineNumbers: A=6+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.IO.model.yml
+        index: 0
+        firstRowId: 1089
+        rowCount: 32
+        locations:
+          lineNumbers: A=6+1*31
+          columnNumbers: A=9*32
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.IO.model.yml
+        index: 1
+        firstRowId: 1121
+        rowCount: 99
+        locations:
+          lineNumbers: A=42+1*49+2+1+2+1*37+2+1*3+2+1*4
+          columnNumbers: A=9*99
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Linq.model.yml
+        index: 0
+        firstRowId: 1220
+        rowCount: 634
+        locations:
+          lineNumbers: A=6+1*633
+          columnNumbers: A=9*634
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Net.Http.Headers.model.yml
+        index: 0
+        firstRowId: 1854
+        rowCount: 1
+        locations:
+          lineNumbers: A=6
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Net.Http.model.yml
+        index: 0
+        firstRowId: 1855
+        rowCount: 1
+        locations:
+          lineNumbers: A=6
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Net.Http.model.yml
+        index: 1
+        firstRowId: 1856
+        rowCount: 8
+        locations:
+          lineNumbers: A=11+1*7
+          columnNumbers: A=9*8
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Net.Mail.model.yml
+        index: 0
+        firstRowId: 1864
+        rowCount: 1
+        locations:
+          lineNumbers: A=6
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Net.Sockets.model.yml
+        index: 0
+        firstRowId: 1865
+        rowCount: 4
+        locations:
+          lineNumbers: A=6+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Net.model.yml
+        index: 0
+        firstRowId: 1869
+        rowCount: 9
+        locations:
+          lineNumbers: A=6+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Runtime.CompilerServices.model.yml
+        index: 0
+        firstRowId: 1878
+        rowCount: 4
+        locations:
+          lineNumbers: A=6+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Runtime.Serialization.model.yml
+        index: 0
+        firstRowId: 1882
+        rowCount: 7
+        locations:
+          lineNumbers: A=6+1*4+2+1
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Security.Cryptography.X509Certificates.model.yml
+        index: 0
+        firstRowId: 1889
+        rowCount: 21
+        locations:
+          lineNumbers: A=6+1*20
+          columnNumbers: A=9*21
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Security.Cryptography.model.yml
+        index: 0
+        firstRowId: 1910
+        rowCount: 3
+        locations:
+          lineNumbers: A=6+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Security.Cryptography.model.yml
+        index: 1
+        firstRowId: 1913
+        rowCount: 6
+        locations:
+          lineNumbers: A=13+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Security.Permissions.model.yml
+        index: 0
+        firstRowId: 1919
+        rowCount: 1
+        locations:
+          lineNumbers: A=6
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Security.Policy.model.yml
+        index: 0
+        firstRowId: 1920
+        rowCount: 2
+        locations:
+          lineNumbers: A=6+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Text.RegularExpressions.model.yml
+        index: 0
+        firstRowId: 1922
+        rowCount: 4
+        locations:
+          lineNumbers: A=6+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Text.model.yml
+        index: 0
+        firstRowId: 1926
+        rowCount: 131
+        locations:
+          lineNumbers: A=6+1*130
+          columnNumbers: A=9*131
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Threading.Tasks.model.yml
+        index: 0
+        firstRowId: 2057
+        rowCount: 176
+        locations:
+          lineNumbers: A=6+1*175
+          columnNumbers: A=9*176
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Web.UI.WebControls.model.yml
+        index: 0
+        firstRowId: 2233
+        rowCount: 1
+        locations:
+          lineNumbers: A=6
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Web.model.yml
+        index: 0
+        firstRowId: 2234
+        rowCount: 4
+        locations:
+          lineNumbers: A=6+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Web.model.yml
+        index: 1
+        firstRowId: 2238
+        rowCount: 16
+        locations:
+          lineNumbers: A=14+1*15
+          columnNumbers: A=9*16
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Xml.Schema.model.yml
+        index: 0
+        firstRowId: 2254
+        rowCount: 10
+        locations:
+          lineNumbers: A=6+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Xml.Serialization.model.yml
+        index: 0
+        firstRowId: 2264
+        rowCount: 23
+        locations:
+          lineNumbers: A=6+1*22
+          columnNumbers: A=9*23
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.Xml.model.yml
+        index: 0
+        firstRowId: 2287
+        rowCount: 141
+        locations:
+          lineNumbers: A=6+1*140
+          columnNumbers: A=9*141
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.model.yml
+        index: 0
+        firstRowId: 2428
+        rowCount: 8
+        locations:
+          lineNumbers: A=6+1*7
+          columnNumbers: A=9*8
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.model.yml
+        index: 1
+        firstRowId: 2436
+        rowCount: 906
+        locations:
+          lineNumbers: A=18+1*905
+          columnNumbers: A=9*906
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/System.model.yml
+        index: 2
+        firstRowId: 3342
+        rowCount: 1
+        locations:
+          lineNumbers: A=928
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/Windows.Security.Cryptography.Core.model.yml
+        index: 0
+        firstRowId: 3343
+        rowCount: 1
+        locations:
+          lineNumbers: A=6
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Generators.model.yml
+        index: 0
+        firstRowId: 3344
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.IBC.model.yml
+        index: 0
+        firstRowId: 3346
+        rowCount: 4
+        locations:
+          lineNumbers: A=7+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.IBC.model.yml
+        index: 1
+        firstRowId: 3350
+        rowCount: 6
+        locations:
+          lineNumbers: A=15+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.Reflection.ReadyToRun.Amd64.model.yml
+        index: 0
+        firstRowId: 3356
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.Reflection.ReadyToRun.Amd64.model.yml
+        index: 1
+        firstRowId: 3359
+        rowCount: 12
+        locations:
+          lineNumbers: A=14+1*11
+          columnNumbers: A=9*12
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.Reflection.ReadyToRun.Arm.model.yml
+        index: 0
+        firstRowId: 3371
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.Reflection.ReadyToRun.Arm64.model.yml
+        index: 0
+        firstRowId: 3376
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.Reflection.ReadyToRun.LoongArch64.model.yml
+        index: 0
+        firstRowId: 3381
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.Reflection.ReadyToRun.RiscV64.model.yml
+        index: 0
+        firstRowId: 3386
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.Reflection.ReadyToRun.model.yml
+        index: 0
+        firstRowId: 3391
+        rowCount: 105
+        locations:
+          lineNumbers: A=7+1*104
+          columnNumbers: A=9*105
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.Reflection.ReadyToRun.model.yml
+        index: 1
+        firstRowId: 3496
+        rowCount: 158
+        locations:
+          lineNumbers: A=116+1*157
+          columnNumbers: A=9*158
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.Reflection.ReadyToRun.x86.model.yml
+        index: 0
+        firstRowId: 3654
+        rowCount: 4
+        locations:
+          lineNumbers: A=7+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.Reflection.ReadyToRun.x86.model.yml
+        index: 1
+        firstRowId: 3658
+        rowCount: 23
+        locations:
+          lineNumbers: A=15+1*22
+          columnNumbers: A=9*23
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.model.yml
+        index: 0
+        firstRowId: 3681
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILCompiler.model.yml
+        index: 1
+        firstRowId: 3686
+        rowCount: 9
+        locations:
+          lineNumbers: A=16+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.CodeFix.model.yml
+        index: 0
+        firstRowId: 3695
+        rowCount: 23
+        locations:
+          lineNumbers: A=7+1*22
+          columnNumbers: A=9*23
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.RoslynAnalyzer.DataFlow.model.yml
+        index: 0
+        firstRowId: 3718
+        rowCount: 94
+        locations:
+          lineNumbers: A=7+1*93
+          columnNumbers: A=9*94
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.RoslynAnalyzer.DataFlow.model.yml
+        index: 1
+        firstRowId: 3812
+        rowCount: 74
+        locations:
+          lineNumbers: A=105+1*73
+          columnNumbers: A=9*74
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.RoslynAnalyzer.TrimAnalysis.model.yml
+        index: 0
+        firstRowId: 3886
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.RoslynAnalyzer.model.yml
+        index: 0
+        firstRowId: 3887
+        rowCount: 12
+        locations:
+          lineNumbers: A=7+1*11
+          columnNumbers: A=9*12
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.RoslynAnalyzer.model.yml
+        index: 1
+        firstRowId: 3899
+        rowCount: 40
+        locations:
+          lineNumbers: A=23+1*39
+          columnNumbers: A=9*40
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.Shared.DataFlow.model.yml
+        index: 0
+        firstRowId: 3939
+        rowCount: 26
+        locations:
+          lineNumbers: A=7+1*25
+          columnNumbers: A=9*26
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.Shared.DataFlow.model.yml
+        index: 1
+        firstRowId: 3965
+        rowCount: 62
+        locations:
+          lineNumbers: A=37+1*61
+          columnNumbers: A=9*62
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.Shared.TrimAnalysis.model.yml
+        index: 0
+        firstRowId: 4027
+        rowCount: 7
+        locations:
+          lineNumbers: A=7+1*6
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.Shared.TrimAnalysis.model.yml
+        index: 1
+        firstRowId: 4034
+        rowCount: 32
+        locations:
+          lineNumbers: A=18+1*31
+          columnNumbers: A=9*32
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.Shared.TypeSystemProxy.model.yml
+        index: 0
+        firstRowId: 4066
+        rowCount: 15
+        locations:
+          lineNumbers: A=7+1*14
+          columnNumbers: A=9*15
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.Shared.model.yml
+        index: 0
+        firstRowId: 4081
+        rowCount: 4
+        locations:
+          lineNumbers: A=7+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.Shared.model.yml
+        index: 1
+        firstRowId: 4085
+        rowCount: 6
+        locations:
+          lineNumbers: A=15+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.Tasks.model.yml
+        index: 0
+        firstRowId: 4091
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/ILLink.Tasks.model.yml
+        index: 1
+        firstRowId: 4096
+        rowCount: 15
+        locations:
+          lineNumbers: A=16+1*14
+          columnNumbers: A=9*15
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.IL.Stubs.model.yml
+        index: 0
+        firstRowId: 4111
+        rowCount: 27
+        locations:
+          lineNumbers: A=7+1*26
+          columnNumbers: A=9*27
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.IL.Stubs.model.yml
+        index: 1
+        firstRowId: 4138
+        rowCount: 37
+        locations:
+          lineNumbers: A=38+1*36
+          columnNumbers: A=9*37
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.IL.model.yml
+        index: 0
+        firstRowId: 4175
+        rowCount: 27
+        locations:
+          lineNumbers: A=7+1*26
+          columnNumbers: A=9*27
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.IL.model.yml
+        index: 1
+        firstRowId: 4202
+        rowCount: 27
+        locations:
+          lineNumbers: A=38+1*26
+          columnNumbers: A=9*27
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.NativeFormat.model.yml
+        index: 0
+        firstRowId: 4229
+        rowCount: 16
+        locations:
+          lineNumbers: A=7+1*15
+          columnNumbers: A=9*16
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.Pgo.model.yml
+        index: 0
+        firstRowId: 4245
+        rowCount: 9
+        locations:
+          lineNumbers: A=7+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.Pgo.model.yml
+        index: 1
+        firstRowId: 4254
+        rowCount: 22
+        locations:
+          lineNumbers: A=20+1*21
+          columnNumbers: A=9*22
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.TypeSystem.Ecma.model.yml
+        index: 0
+        firstRowId: 4276
+        rowCount: 54
+        locations:
+          lineNumbers: A=7+1*53
+          columnNumbers: A=9*54
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.TypeSystem.Ecma.model.yml
+        index: 1
+        firstRowId: 4330
+        rowCount: 137
+        locations:
+          lineNumbers: A=65+1*136
+          columnNumbers: A=9*137
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.TypeSystem.model.yml
+        index: 0
+        firstRowId: 4467
+        rowCount: 289
+        locations:
+          lineNumbers: A=7+1*288
+          columnNumbers: A=9*289
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.TypeSystem.model.yml
+        index: 1
+        firstRowId: 4756
+        rowCount: 668
+        locations:
+          lineNumbers: A=300+1*667
+          columnNumbers: A=9*668
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Internal.model.yml
+        index: 0
+        firstRowId: 5424
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/IntrinsicsInSystemPrivateCoreLib.model.yml
+        index: 0
+        firstRowId: 5429
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.CSharp.RuntimeBinder.model.yml
+        index: 0
+        firstRowId: 5431
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.CSharp.RuntimeBinder.model.yml
+        index: 1
+        firstRowId: 5432
+        rowCount: 17
+        locations:
+          lineNumbers: A=12+1*16
+          columnNumbers: A=9*17
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.CSharp.model.yml
+        index: 0
+        firstRowId: 5449
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.CSharp.model.yml
+        index: 1
+        firstRowId: 5450
+        rowCount: 2
+        locations:
+          lineNumbers: A=12+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Diagnostics.JitTrace.model.yml
+        index: 0
+        firstRowId: 5452
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Diagnostics.Tools.Pgo.TypeRefTypeSystem.model.yml
+        index: 0
+        firstRowId: 5457
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Diagnostics.Tools.Pgo.TypeRefTypeSystem.model.yml
+        index: 1
+        firstRowId: 5458
+        rowCount: 8
+        locations:
+          lineNumbers: A=12+1*7
+          columnNumbers: A=9*8
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Diagnostics.Tools.Pgo.model.yml
+        index: 0
+        firstRowId: 5466
+        rowCount: 20
+        locations:
+          lineNumbers: A=7+1*19
+          columnNumbers: A=9*20
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Diagnostics.Tools.Pgo.model.yml
+        index: 1
+        firstRowId: 5486
+        rowCount: 18
+        locations:
+          lineNumbers: A=31+1*17
+          columnNumbers: A=9*18
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.DotNet.Build.Tasks.model.yml
+        index: 0
+        firstRowId: 5504
+        rowCount: 11
+        locations:
+          lineNumbers: A=7+1*10
+          columnNumbers: A=9*11
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.DotNet.Build.Tasks.model.yml
+        index: 1
+        firstRowId: 5515
+        rowCount: 10
+        locations:
+          lineNumbers: A=22+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.DotNet.PlatformAbstractions.model.yml
+        index: 0
+        firstRowId: 5525
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.DotNet.PlatformAbstractions.model.yml
+        index: 1
+        firstRowId: 5526
+        rowCount: 5
+        locations:
+          lineNumbers: A=12+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Caching.Distributed.model.yml
+        index: 0
+        firstRowId: 5531
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Caching.Distributed.model.yml
+        index: 1
+        firstRowId: 5534
+        rowCount: 30
+        locations:
+          lineNumbers: A=14+1*29
+          columnNumbers: A=9*30
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Caching.Hybrid.model.yml
+        index: 0
+        firstRowId: 5564
+        rowCount: 10
+        locations:
+          lineNumbers: A=7+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Caching.Memory.model.yml
+        index: 0
+        firstRowId: 5574
+        rowCount: 37
+        locations:
+          lineNumbers: A=7+1*36
+          columnNumbers: A=9*37
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Caching.Memory.model.yml
+        index: 1
+        firstRowId: 5611
+        rowCount: 21
+        locations:
+          lineNumbers: A=48+1*20
+          columnNumbers: A=9*21
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.Binder.SourceGeneration.model.yml
+        index: 0
+        firstRowId: 5632
+        rowCount: 22
+        locations:
+          lineNumbers: A=7+1*21
+          columnNumbers: A=9*22
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.Binder.SourceGeneration.model.yml
+        index: 1
+        firstRowId: 5654
+        rowCount: 80
+        locations:
+          lineNumbers: A=33+1*79
+          columnNumbers: A=9*80
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.CommandLine.model.yml
+        index: 0
+        firstRowId: 5734
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.CommandLine.model.yml
+        index: 1
+        firstRowId: 5735
+        rowCount: 2
+        locations:
+          lineNumbers: A=12+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.EnvironmentVariables.model.yml
+        index: 0
+        firstRowId: 5737
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.EnvironmentVariables.model.yml
+        index: 1
+        firstRowId: 5739
+        rowCount: 1
+        locations:
+          lineNumbers: A=13
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.Ini.model.yml
+        index: 0
+        firstRowId: 5740
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.Ini.model.yml
+        index: 1
+        firstRowId: 5742
+        rowCount: 4
+        locations:
+          lineNumbers: A=13+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.Json.model.yml
+        index: 0
+        firstRowId: 5746
+        rowCount: 4
+        locations:
+          lineNumbers: A=7+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.Memory.model.yml
+        index: 0
+        firstRowId: 5750
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.Memory.model.yml
+        index: 1
+        firstRowId: 5751
+        rowCount: 1
+        locations:
+          lineNumbers: A=12
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.UserSecrets.model.yml
+        index: 0
+        firstRowId: 5752
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.UserSecrets.model.yml
+        index: 1
+        firstRowId: 5754
+        rowCount: 1
+        locations:
+          lineNumbers: A=13
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.UserSecrets.model.yml
+        index: 2
+        firstRowId: 5755
+        rowCount: 1
+        locations:
+          lineNumbers: A=18
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.Xml.model.yml
+        index: 0
+        firstRowId: 5756
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.Xml.model.yml
+        index: 1
+        firstRowId: 5759
+        rowCount: 4
+        locations:
+          lineNumbers: A=14+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.model.yml
+        index: 0
+        firstRowId: 5763
+        rowCount: 79
+        locations:
+          lineNumbers: A=7+1*78
+          columnNumbers: A=9*79
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Configuration.model.yml
+        index: 1
+        firstRowId: 5842
+        rowCount: 62
+        locations:
+          lineNumbers: A=90+1*61
+          columnNumbers: A=9*62
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyInjection.Extensions.model.yml
+        index: 0
+        firstRowId: 5904
+        rowCount: 18
+        locations:
+          lineNumbers: A=7+1*17
+          columnNumbers: A=9*18
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyInjection.Extensions.model.yml
+        index: 1
+        firstRowId: 5922
+        rowCount: 37
+        locations:
+          lineNumbers: A=29+1*36
+          columnNumbers: A=9*37
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyInjection.Specification.Fakes.model.yml
+        index: 0
+        firstRowId: 5959
+        rowCount: 24
+        locations:
+          lineNumbers: A=7+1*23
+          columnNumbers: A=9*24
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyInjection.Specification.Fakes.model.yml
+        index: 1
+        firstRowId: 5983
+        rowCount: 52
+        locations:
+          lineNumbers: A=35+1*51
+          columnNumbers: A=9*52
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyInjection.Specification.model.yml
+        index: 0
+        firstRowId: 6035
+        rowCount: 11
+        locations:
+          lineNumbers: A=7+1*10
+          columnNumbers: A=9*11
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyInjection.Specification.model.yml
+        index: 1
+        firstRowId: 6046
+        rowCount: 119
+        locations:
+          lineNumbers: A=22+1*118
+          columnNumbers: A=9*119
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyInjection.model.yml
+        index: 0
+        firstRowId: 6165
+        rowCount: 156
+        locations:
+          lineNumbers: A=7+1*155
+          columnNumbers: A=9*156
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyInjection.model.yml
+        index: 1
+        firstRowId: 6321
+        rowCount: 86
+        locations:
+          lineNumbers: A=167+1*85
+          columnNumbers: A=9*86
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyModel.Resolution.model.yml
+        index: 0
+        firstRowId: 6407
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyModel.Resolution.model.yml
+        index: 1
+        firstRowId: 6412
+        rowCount: 1
+        locations:
+          lineNumbers: A=16
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyModel.Resolution.model.yml
+        index: 2
+        firstRowId: 6413
+        rowCount: 4
+        locations:
+          lineNumbers: A=21+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyModel.model.yml
+        index: 0
+        firstRowId: 6417
+        rowCount: 52
+        locations:
+          lineNumbers: A=7+1*51
+          columnNumbers: A=9*52
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.DependencyModel.model.yml
+        index: 1
+        firstRowId: 6469
+        rowCount: 72
+        locations:
+          lineNumbers: A=63+1*71
+          columnNumbers: A=9*72
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Diagnostics.Metrics.Configuration.model.yml
+        index: 0
+        firstRowId: 6541
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Diagnostics.Metrics.model.yml
+        index: 0
+        firstRowId: 6542
+        rowCount: 14
+        locations:
+          lineNumbers: A=7+1*13
+          columnNumbers: A=9*14
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Diagnostics.Metrics.model.yml
+        index: 1
+        firstRowId: 6556
+        rowCount: 14
+        locations:
+          lineNumbers: A=25+1*13
+          columnNumbers: A=9*14
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileProviders.Composite.model.yml
+        index: 0
+        firstRowId: 6570
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileProviders.Composite.model.yml
+        index: 1
+        firstRowId: 6572
+        rowCount: 1
+        locations:
+          lineNumbers: A=13
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileProviders.Internal.model.yml
+        index: 0
+        firstRowId: 6573
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileProviders.Physical.model.yml
+        index: 0
+        firstRowId: 6576
+        rowCount: 11
+        locations:
+          lineNumbers: A=7+1*10
+          columnNumbers: A=9*11
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileProviders.Physical.model.yml
+        index: 1
+        firstRowId: 6587
+        rowCount: 17
+        locations:
+          lineNumbers: A=22+1*16
+          columnNumbers: A=9*17
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileProviders.model.yml
+        index: 0
+        firstRowId: 6604
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileProviders.model.yml
+        index: 1
+        firstRowId: 6609
+        rowCount: 36
+        locations:
+          lineNumbers: A=16+1*35
+          columnNumbers: A=9*36
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileSystemGlobbing.Abstractions.model.yml
+        index: 0
+        firstRowId: 6645
+        rowCount: 8
+        locations:
+          lineNumbers: A=7+1*7
+          columnNumbers: A=9*8
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileSystemGlobbing.Abstractions.model.yml
+        index: 1
+        firstRowId: 6653
+        rowCount: 3
+        locations:
+          lineNumbers: A=19+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments.model.yml
+        index: 0
+        firstRowId: 6656
+        rowCount: 4
+        locations:
+          lineNumbers: A=7+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments.model.yml
+        index: 1
+        firstRowId: 6660
+        rowCount: 16
+        locations:
+          lineNumbers: A=15+1*15
+          columnNumbers: A=9*16
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.model.yml
+        index: 0
+        firstRowId: 6676
+        rowCount: 15
+        locations:
+          lineNumbers: A=7+1*14
+          columnNumbers: A=9*15
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.model.yml
+        index: 1
+        firstRowId: 6691
+        rowCount: 28
+        locations:
+          lineNumbers: A=26+1*27
+          columnNumbers: A=9*28
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns.model.yml
+        index: 0
+        firstRowId: 6719
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileSystemGlobbing.Internal.model.yml
+        index: 0
+        firstRowId: 6722
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileSystemGlobbing.Internal.model.yml
+        index: 1
+        firstRowId: 6724
+        rowCount: 17
+        locations:
+          lineNumbers: A=13+1*16
+          columnNumbers: A=9*17
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileSystemGlobbing.model.yml
+        index: 0
+        firstRowId: 6741
+        rowCount: 8
+        locations:
+          lineNumbers: A=7+1*7
+          columnNumbers: A=9*8
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.FileSystemGlobbing.model.yml
+        index: 1
+        firstRowId: 6749
+        rowCount: 15
+        locations:
+          lineNumbers: A=19+1*14
+          columnNumbers: A=9*15
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Hosting.Internal.model.yml
+        index: 0
+        firstRowId: 6764
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Hosting.Internal.model.yml
+        index: 1
+        firstRowId: 6769
+        rowCount: 6
+        locations:
+          lineNumbers: A=16+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Hosting.Systemd.model.yml
+        index: 0
+        firstRowId: 6775
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Hosting.Systemd.model.yml
+        index: 1
+        firstRowId: 6780
+        rowCount: 7
+        locations:
+          lineNumbers: A=16+1*6
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Hosting.WindowsServices.model.yml
+        index: 0
+        firstRowId: 6787
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Hosting.WindowsServices.model.yml
+        index: 1
+        firstRowId: 6790
+        rowCount: 7
+        locations:
+          lineNumbers: A=14+1*6
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Hosting.model.yml
+        index: 0
+        firstRowId: 6797
+        rowCount: 48
+        locations:
+          lineNumbers: A=7+1*47
+          columnNumbers: A=9*48
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Hosting.model.yml
+        index: 1
+        firstRowId: 6845
+        rowCount: 50
+        locations:
+          lineNumbers: A=59+1*49
+          columnNumbers: A=9*50
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Http.Logging.model.yml
+        index: 0
+        firstRowId: 6895
+        rowCount: 6
+        locations:
+          lineNumbers: A=7+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Http.Logging.model.yml
+        index: 1
+        firstRowId: 6901
+        rowCount: 10
+        locations:
+          lineNumbers: A=17+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Http.model.yml
+        index: 0
+        firstRowId: 6911
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Http.model.yml
+        index: 1
+        firstRowId: 6914
+        rowCount: 6
+        locations:
+          lineNumbers: A=14+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Internal.model.yml
+        index: 0
+        firstRowId: 6920
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.Abstractions.model.yml
+        index: 0
+        firstRowId: 6922
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.Abstractions.model.yml
+        index: 1
+        firstRowId: 6927
+        rowCount: 23
+        locations:
+          lineNumbers: A=16+1*22
+          columnNumbers: A=9*23
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.Configuration.model.yml
+        index: 0
+        firstRowId: 6950
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.Console.model.yml
+        index: 0
+        firstRowId: 6955
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.Console.model.yml
+        index: 1
+        firstRowId: 6960
+        rowCount: 9
+        locations:
+          lineNumbers: A=16+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.Debug.model.yml
+        index: 0
+        firstRowId: 6969
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.EventLog.model.yml
+        index: 0
+        firstRowId: 6970
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.EventLog.model.yml
+        index: 1
+        firstRowId: 6971
+        rowCount: 2
+        locations:
+          lineNumbers: A=12+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.EventSource.model.yml
+        index: 0
+        firstRowId: 6973
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.EventSource.model.yml
+        index: 1
+        firstRowId: 6974
+        rowCount: 2
+        locations:
+          lineNumbers: A=12+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.Generators.model.yml
+        index: 0
+        firstRowId: 6976
+        rowCount: 29
+        locations:
+          lineNumbers: A=7+1*28
+          columnNumbers: A=9*29
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.TraceSource.model.yml
+        index: 0
+        firstRowId: 7005
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.TraceSource.model.yml
+        index: 1
+        firstRowId: 7007
+        rowCount: 2
+        locations:
+          lineNumbers: A=13+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.model.yml
+        index: 0
+        firstRowId: 7009
+        rowCount: 93
+        locations:
+          lineNumbers: A=7+1*92
+          columnNumbers: A=9*93
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Logging.model.yml
+        index: 1
+        firstRowId: 7102
+        rowCount: 75
+        locations:
+          lineNumbers: A=104+1*74
+          columnNumbers: A=9*75
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Options.Generators.model.yml
+        index: 0
+        firstRowId: 7177
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Options.model.yml
+        index: 0
+        firstRowId: 7178
+        rowCount: 174
+        locations:
+          lineNumbers: A=7+1*173
+          columnNumbers: A=9*174
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Options.model.yml
+        index: 1
+        firstRowId: 7352
+        rowCount: 137
+        locations:
+          lineNumbers: A=185+1*136
+          columnNumbers: A=9*137
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Primitives.model.yml
+        index: 0
+        firstRowId: 7489
+        rowCount: 21
+        locations:
+          lineNumbers: A=7+1*20
+          columnNumbers: A=9*21
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Extensions.Primitives.model.yml
+        index: 1
+        firstRowId: 7510
+        rowCount: 74
+        locations:
+          lineNumbers: A=32+1*73
+          columnNumbers: A=9*74
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Interop.Analyzers.model.yml
+        index: 0
+        firstRowId: 7584
+        rowCount: 16
+        locations:
+          lineNumbers: A=7+1*15
+          columnNumbers: A=9*16
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Interop.Analyzers.model.yml
+        index: 1
+        firstRowId: 7600
+        rowCount: 67
+        locations:
+          lineNumbers: A=27+1*66
+          columnNumbers: A=9*67
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Interop.JavaScript.model.yml
+        index: 0
+        firstRowId: 7667
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Interop.model.yml
+        index: 0
+        firstRowId: 7669
+        rowCount: 200
+        locations:
+          lineNumbers: A=7+1*199
+          columnNumbers: A=9*200
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Interop.model.yml
+        index: 1
+        firstRowId: 7869
+        rowCount: 479
+        locations:
+          lineNumbers: A=211+1*478
+          columnNumbers: A=9*479
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.NET.Build.Tasks.model.yml
+        index: 0
+        firstRowId: 8348
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.NET.Build.Tasks.model.yml
+        index: 1
+        firstRowId: 8353
+        rowCount: 13
+        locations:
+          lineNumbers: A=16+1*12
+          columnNumbers: A=9*13
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.NETCore.Platforms.model.yml
+        index: 0
+        firstRowId: 8366
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.VisualBasic.CompilerServices.model.yml
+        index: 0
+        firstRowId: 8367
+        rowCount: 200
+        locations:
+          lineNumbers: A=7+1*199
+          columnNumbers: A=9*200
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.VisualBasic.FileIO.model.yml
+        index: 0
+        firstRowId: 8567
+        rowCount: 89
+        locations:
+          lineNumbers: A=7+1*88
+          columnNumbers: A=9*89
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.VisualBasic.model.yml
+        index: 0
+        firstRowId: 8656
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.VisualBasic.model.yml
+        index: 1
+        firstRowId: 8657
+        rowCount: 292
+        locations:
+          lineNumbers: A=12+1*291
+          columnNumbers: A=9*292
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Win32.SafeHandles.model.yml
+        index: 0
+        firstRowId: 8949
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Win32.SafeHandles.model.yml
+        index: 1
+        firstRowId: 8951
+        rowCount: 33
+        locations:
+          lineNumbers: A=13+1*32
+          columnNumbers: A=9*33
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Microsoft.Win32.model.yml
+        index: 0
+        firstRowId: 8984
+        rowCount: 94
+        locations:
+          lineNumbers: A=7+1*93
+          columnNumbers: A=9*94
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Mono.Linker.Dataflow.model.yml
+        index: 0
+        firstRowId: 9078
+        rowCount: 24
+        locations:
+          lineNumbers: A=7+1*23
+          columnNumbers: A=9*24
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Mono.Linker.Dataflow.model.yml
+        index: 1
+        firstRowId: 9102
+        rowCount: 34
+        locations:
+          lineNumbers: A=35+1*33
+          columnNumbers: A=9*34
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Mono.Linker.Steps.model.yml
+        index: 0
+        firstRowId: 9136
+        rowCount: 91
+        locations:
+          lineNumbers: A=7+1*90
+          columnNumbers: A=9*91
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Mono.Linker.Steps.model.yml
+        index: 1
+        firstRowId: 9227
+        rowCount: 159
+        locations:
+          lineNumbers: A=102+1*158
+          columnNumbers: A=9*159
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Mono.Linker.model.yml
+        index: 0
+        firstRowId: 9386
+        rowCount: 163
+        locations:
+          lineNumbers: A=7+1*162
+          columnNumbers: A=9*163
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/Mono.Linker.model.yml
+        index: 1
+        firstRowId: 9549
+        rowCount: 291
+        locations:
+          lineNumbers: A=174+1*290
+          columnNumbers: A=9*291
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/SourceGenerators.model.yml
+        index: 0
+        firstRowId: 9840
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/SourceGenerators.model.yml
+        index: 1
+        firstRowId: 9845
+        rowCount: 15
+        locations:
+          lineNumbers: A=16+1*14
+          columnNumbers: A=9*15
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Buffers.Binary.model.yml
+        index: 0
+        firstRowId: 9860
+        rowCount: 126
+        locations:
+          lineNumbers: A=7+1*125
+          columnNumbers: A=9*126
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Buffers.Text.model.yml
+        index: 0
+        firstRowId: 9986
+        rowCount: 67
+        locations:
+          lineNumbers: A=7+1*66
+          columnNumbers: A=9*67
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Buffers.model.yml
+        index: 0
+        firstRowId: 10053
+        rowCount: 53
+        locations:
+          lineNumbers: A=7+1*52
+          columnNumbers: A=9*53
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Buffers.model.yml
+        index: 1
+        firstRowId: 10106
+        rowCount: 115
+        locations:
+          lineNumbers: A=64+1*114
+          columnNumbers: A=9*115
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.CodeDom.Compiler.model.yml
+        index: 0
+        firstRowId: 10221
+        rowCount: 187
+        locations:
+          lineNumbers: A=7+1*186
+          columnNumbers: A=9*187
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.CodeDom.Compiler.model.yml
+        index: 1
+        firstRowId: 10408
+        rowCount: 132
+        locations:
+          lineNumbers: A=198+1*131
+          columnNumbers: A=9*132
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.CodeDom.model.yml
+        index: 0
+        firstRowId: 10540
+        rowCount: 224
+        locations:
+          lineNumbers: A=7+1*223
+          columnNumbers: A=9*224
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.CodeDom.model.yml
+        index: 1
+        firstRowId: 10764
+        rowCount: 125
+        locations:
+          lineNumbers: A=235+1*124
+          columnNumbers: A=9*125
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.Concurrent.model.yml
+        index: 0
+        firstRowId: 10889
+        rowCount: 44
+        locations:
+          lineNumbers: A=7+1*43
+          columnNumbers: A=9*44
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.Concurrent.model.yml
+        index: 1
+        firstRowId: 10933
+        rowCount: 98
+        locations:
+          lineNumbers: A=55+1*97
+          columnNumbers: A=9*98
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.Frozen.model.yml
+        index: 0
+        firstRowId: 11031
+        rowCount: 23
+        locations:
+          lineNumbers: A=7+1*22
+          columnNumbers: A=9*23
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.Frozen.model.yml
+        index: 1
+        firstRowId: 11054
+        rowCount: 45
+        locations:
+          lineNumbers: A=34+1*44
+          columnNumbers: A=9*45
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.Generic.model.yml
+        index: 0
+        firstRowId: 11099
+        rowCount: 170
+        locations:
+          lineNumbers: A=7+1*169
+          columnNumbers: A=9*170
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.Generic.model.yml
+        index: 1
+        firstRowId: 11269
+        rowCount: 434
+        locations:
+          lineNumbers: A=181+1*433
+          columnNumbers: A=9*434
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.Immutable.model.yml
+        index: 0
+        firstRowId: 11703
+        rowCount: 373
+        locations:
+          lineNumbers: A=7+1*372
+          columnNumbers: A=9*373
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.Immutable.model.yml
+        index: 1
+        firstRowId: 12076
+        rowCount: 370
+        locations:
+          lineNumbers: A=384+1*369
+          columnNumbers: A=9*370
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.ObjectModel.model.yml
+        index: 0
+        firstRowId: 12446
+        rowCount: 19
+        locations:
+          lineNumbers: A=7+1*18
+          columnNumbers: A=9*19
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.ObjectModel.model.yml
+        index: 1
+        firstRowId: 12465
+        rowCount: 96
+        locations:
+          lineNumbers: A=30+1*95
+          columnNumbers: A=9*96
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.Specialized.model.yml
+        index: 0
+        firstRowId: 12561
+        rowCount: 46
+        locations:
+          lineNumbers: A=7+1*45
+          columnNumbers: A=9*46
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.Specialized.model.yml
+        index: 1
+        firstRowId: 12607
+        rowCount: 113
+        locations:
+          lineNumbers: A=57+1*112
+          columnNumbers: A=9*113
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.model.yml
+        index: 0
+        firstRowId: 12720
+        rowCount: 58
+        locations:
+          lineNumbers: A=7+1*57
+          columnNumbers: A=9*58
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Collections.model.yml
+        index: 1
+        firstRowId: 12778
+        rowCount: 153
+        locations:
+          lineNumbers: A=69+1*152
+          columnNumbers: A=9*153
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Composition.Hosting.model.yml
+        index: 0
+        firstRowId: 12931
+        rowCount: 98
+        locations:
+          lineNumbers: A=7+1*97
+          columnNumbers: A=9*98
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Composition.Hosting.model.yml
+        index: 1
+        firstRowId: 13029
+        rowCount: 123
+        locations:
+          lineNumbers: A=109+1*122
+          columnNumbers: A=9*123
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Composition.Primitives.model.yml
+        index: 0
+        firstRowId: 13152
+        rowCount: 38
+        locations:
+          lineNumbers: A=7+1*37
+          columnNumbers: A=9*38
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Composition.Primitives.model.yml
+        index: 1
+        firstRowId: 13190
+        rowCount: 16
+        locations:
+          lineNumbers: A=49+1*15
+          columnNumbers: A=9*16
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Composition.ReflectionModel.model.yml
+        index: 0
+        firstRowId: 13206
+        rowCount: 25
+        locations:
+          lineNumbers: A=7+1*24
+          columnNumbers: A=9*25
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Composition.ReflectionModel.model.yml
+        index: 1
+        firstRowId: 13231
+        rowCount: 9
+        locations:
+          lineNumbers: A=36+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Composition.Registration.model.yml
+        index: 0
+        firstRowId: 13240
+        rowCount: 43
+        locations:
+          lineNumbers: A=7+1*42
+          columnNumbers: A=9*43
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Composition.Registration.model.yml
+        index: 1
+        firstRowId: 13283
+        rowCount: 8
+        locations:
+          lineNumbers: A=54+1*7
+          columnNumbers: A=9*8
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Composition.model.yml
+        index: 0
+        firstRowId: 13291
+        rowCount: 30
+        locations:
+          lineNumbers: A=7+1*29
+          columnNumbers: A=9*30
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Composition.model.yml
+        index: 1
+        firstRowId: 13321
+        rowCount: 56
+        locations:
+          lineNumbers: A=41+1*55
+          columnNumbers: A=9*56
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.DataAnnotations.Schema.model.yml
+        index: 0
+        firstRowId: 13377
+        rowCount: 4
+        locations:
+          lineNumbers: A=7+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.DataAnnotations.Schema.model.yml
+        index: 1
+        firstRowId: 13381
+        rowCount: 6
+        locations:
+          lineNumbers: A=15+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.DataAnnotations.model.yml
+        index: 0
+        firstRowId: 13387
+        rowCount: 63
+        locations:
+          lineNumbers: A=7+1*62
+          columnNumbers: A=9*63
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.DataAnnotations.model.yml
+        index: 1
+        firstRowId: 13450
+        rowCount: 73
+        locations:
+          lineNumbers: A=74+1*72
+          columnNumbers: A=9*73
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Design.Serialization.model.yml
+        index: 0
+        firstRowId: 13523
+        rowCount: 20
+        locations:
+          lineNumbers: A=7+1*19
+          columnNumbers: A=9*20
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Design.Serialization.model.yml
+        index: 1
+        firstRowId: 13543
+        rowCount: 76
+        locations:
+          lineNumbers: A=31+1*75
+          columnNumbers: A=9*76
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Design.model.yml
+        index: 0
+        firstRowId: 13619
+        rowCount: 26
+        locations:
+          lineNumbers: A=7+1*25
+          columnNumbers: A=9*26
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.Design.model.yml
+        index: 1
+        firstRowId: 13645
+        rowCount: 226
+        locations:
+          lineNumbers: A=37+1*225
+          columnNumbers: A=9*226
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.model.yml
+        index: 0
+        firstRowId: 13871
+        rowCount: 239
+        locations:
+          lineNumbers: A=7+1*238
+          columnNumbers: A=9*239
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ComponentModel.model.yml
+        index: 1
+        firstRowId: 14110
+        rowCount: 814
+        locations:
+          lineNumbers: A=250+1*813
+          columnNumbers: A=9*814
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Composition.Convention.model.yml
+        index: 0
+        firstRowId: 14924
+        rowCount: 45
+        locations:
+          lineNumbers: A=7+1*44
+          columnNumbers: A=9*45
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Composition.Convention.model.yml
+        index: 1
+        firstRowId: 14969
+        rowCount: 12
+        locations:
+          lineNumbers: A=56+1*11
+          columnNumbers: A=9*12
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Composition.Hosting.Core.model.yml
+        index: 0
+        firstRowId: 14981
+        rowCount: 48
+        locations:
+          lineNumbers: A=7+1*47
+          columnNumbers: A=9*48
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Composition.Hosting.Core.model.yml
+        index: 1
+        firstRowId: 15029
+        rowCount: 12
+        locations:
+          lineNumbers: A=59+1*11
+          columnNumbers: A=9*12
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Composition.Hosting.model.yml
+        index: 0
+        firstRowId: 15041
+        rowCount: 17
+        locations:
+          lineNumbers: A=7+1*16
+          columnNumbers: A=9*17
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Composition.Hosting.model.yml
+        index: 1
+        firstRowId: 15058
+        rowCount: 6
+        locations:
+          lineNumbers: A=28+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Composition.model.yml
+        index: 0
+        firstRowId: 15064
+        rowCount: 29
+        locations:
+          lineNumbers: A=7+1*28
+          columnNumbers: A=9*29
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Composition.model.yml
+        index: 1
+        firstRowId: 15093
+        rowCount: 20
+        locations:
+          lineNumbers: A=40+1*19
+          columnNumbers: A=9*20
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Configuration.Internal.model.yml
+        index: 0
+        firstRowId: 15113
+        rowCount: 29
+        locations:
+          lineNumbers: A=7+1*28
+          columnNumbers: A=9*29
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Configuration.Internal.model.yml
+        index: 1
+        firstRowId: 15142
+        rowCount: 101
+        locations:
+          lineNumbers: A=40+1*100
+          columnNumbers: A=9*101
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Configuration.Provider.model.yml
+        index: 0
+        firstRowId: 15243
+        rowCount: 6
+        locations:
+          lineNumbers: A=7+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Configuration.Provider.model.yml
+        index: 1
+        firstRowId: 15249
+        rowCount: 8
+        locations:
+          lineNumbers: A=17+1*7
+          columnNumbers: A=9*8
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Configuration.model.yml
+        index: 0
+        firstRowId: 15257
+        rowCount: 217
+        locations:
+          lineNumbers: A=7+1*216
+          columnNumbers: A=9*217
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Configuration.model.yml
+        index: 1
+        firstRowId: 15474
+        rowCount: 328
+        locations:
+          lineNumbers: A=228+1*327
+          columnNumbers: A=9*328
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.Common.model.yml
+        index: 0
+        firstRowId: 15802
+        rowCount: 97
+        locations:
+          lineNumbers: A=7+1*96
+          columnNumbers: A=9*97
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.Common.model.yml
+        index: 1
+        firstRowId: 15899
+        rowCount: 338
+        locations:
+          lineNumbers: A=108+1*337
+          columnNumbers: A=9*338
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.Odbc.model.yml
+        index: 0
+        firstRowId: 16237
+        rowCount: 77
+        locations:
+          lineNumbers: A=7+1*76
+          columnNumbers: A=9*77
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.Odbc.model.yml
+        index: 1
+        firstRowId: 16314
+        rowCount: 2
+        locations:
+          lineNumbers: A=88+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.Odbc.model.yml
+        index: 2
+        firstRowId: 16316
+        rowCount: 108
+        locations:
+          lineNumbers: A=94+1*107
+          columnNumbers: A=9*108
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.OleDb.model.yml
+        index: 0
+        firstRowId: 16424
+        rowCount: 172
+        locations:
+          lineNumbers: A=7+1*171
+          columnNumbers: A=9*172
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.OracleClient.model.yml
+        index: 0
+        firstRowId: 16596
+        rowCount: 10
+        locations:
+          lineNumbers: A=7+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.SqlClient.model.yml
+        index: 0
+        firstRowId: 16606
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.SqlTypes.model.yml
+        index: 0
+        firstRowId: 16611
+        rowCount: 34
+        locations:
+          lineNumbers: A=7+1*33
+          columnNumbers: A=9*34
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.SqlTypes.model.yml
+        index: 1
+        firstRowId: 16645
+        rowCount: 631
+        locations:
+          lineNumbers: A=45+1*630
+          columnNumbers: A=9*631
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.model.yml
+        index: 0
+        firstRowId: 17276
+        rowCount: 212
+        locations:
+          lineNumbers: A=7+1*211
+          columnNumbers: A=9*212
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Data.model.yml
+        index: 1
+        firstRowId: 17488
+        rowCount: 547
+        locations:
+          lineNumbers: A=223+1*546
+          columnNumbers: A=9*547
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.CodeAnalysis.model.yml
+        index: 0
+        firstRowId: 18035
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.CodeAnalysis.model.yml
+        index: 1
+        firstRowId: 18040
+        rowCount: 44
+        locations:
+          lineNumbers: A=16+1*43
+          columnNumbers: A=9*44
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.Contracts.model.yml
+        index: 0
+        firstRowId: 18084
+        rowCount: 23
+        locations:
+          lineNumbers: A=7+1*22
+          columnNumbers: A=9*23
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.Contracts.model.yml
+        index: 1
+        firstRowId: 18107
+        rowCount: 35
+        locations:
+          lineNumbers: A=34+1*34
+          columnNumbers: A=9*35
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.Eventing.Reader.model.yml
+        index: 0
+        firstRowId: 18142
+        rowCount: 190
+        locations:
+          lineNumbers: A=7+1*189
+          columnNumbers: A=9*190
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.Metrics.model.yml
+        index: 0
+        firstRowId: 18332
+        rowCount: 22
+        locations:
+          lineNumbers: A=7+1*21
+          columnNumbers: A=9*22
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.Metrics.model.yml
+        index: 1
+        firstRowId: 18354
+        rowCount: 91
+        locations:
+          lineNumbers: A=33+1*90
+          columnNumbers: A=9*91
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.PerformanceData.model.yml
+        index: 0
+        firstRowId: 18445
+        rowCount: 14
+        locations:
+          lineNumbers: A=7+1*13
+          columnNumbers: A=9*14
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.SymbolStore.model.yml
+        index: 0
+        firstRowId: 18459
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.SymbolStore.model.yml
+        index: 1
+        firstRowId: 18462
+        rowCount: 78
+        locations:
+          lineNumbers: A=14+1*77
+          columnNumbers: A=9*78
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.Tracing.model.yml
+        index: 0
+        firstRowId: 18540
+        rowCount: 22
+        locations:
+          lineNumbers: A=7+1*21
+          columnNumbers: A=9*22
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.Tracing.model.yml
+        index: 1
+        firstRowId: 18562
+        rowCount: 76
+        locations:
+          lineNumbers: A=33+1*75
+          columnNumbers: A=9*76
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.model.yml
+        index: 0
+        firstRowId: 18638
+        rowCount: 161
+        locations:
+          lineNumbers: A=7+1*160
+          columnNumbers: A=9*161
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Diagnostics.model.yml
+        index: 1
+        firstRowId: 18799
+        rowCount: 718
+        locations:
+          lineNumbers: A=172+1*717
+          columnNumbers: A=9*718
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.DirectoryServices.AccountManagement.model.yml
+        index: 0
+        firstRowId: 19517
+        rowCount: 178
+        locations:
+          lineNumbers: A=7+1*177
+          columnNumbers: A=9*178
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.DirectoryServices.ActiveDirectory.model.yml
+        index: 0
+        firstRowId: 19695
+        rowCount: 631
+        locations:
+          lineNumbers: A=7+1*630
+          columnNumbers: A=9*631
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.DirectoryServices.Protocols.model.yml
+        index: 0
+        firstRowId: 20326
+        rowCount: 84
+        locations:
+          lineNumbers: A=7+1*83
+          columnNumbers: A=9*84
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.DirectoryServices.Protocols.model.yml
+        index: 1
+        firstRowId: 20410
+        rowCount: 141
+        locations:
+          lineNumbers: A=95+1*140
+          columnNumbers: A=9*141
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.DirectoryServices.model.yml
+        index: 0
+        firstRowId: 20551
+        rowCount: 226
+        locations:
+          lineNumbers: A=7+1*225
+          columnNumbers: A=9*226
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Drawing.Printing.model.yml
+        index: 0
+        firstRowId: 20777
+        rowCount: 8
+        locations:
+          lineNumbers: A=7+1*7
+          columnNumbers: A=9*8
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Drawing.model.yml
+        index: 0
+        firstRowId: 20785
+        rowCount: 13
+        locations:
+          lineNumbers: A=7+1*12
+          columnNumbers: A=9*13
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Drawing.model.yml
+        index: 1
+        firstRowId: 20798
+        rowCount: 361
+        locations:
+          lineNumbers: A=24+1*360
+          columnNumbers: A=9*361
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Dynamic.model.yml
+        index: 0
+        firstRowId: 21159
+        rowCount: 35
+        locations:
+          lineNumbers: A=7+1*34
+          columnNumbers: A=9*35
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Dynamic.model.yml
+        index: 1
+        firstRowId: 21194
+        rowCount: 115
+        locations:
+          lineNumbers: A=46+1*114
+          columnNumbers: A=9*115
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Formats.Asn1.model.yml
+        index: 0
+        firstRowId: 21309
+        rowCount: 23
+        locations:
+          lineNumbers: A=7+1*22
+          columnNumbers: A=9*23
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Formats.Asn1.model.yml
+        index: 1
+        firstRowId: 21332
+        rowCount: 116
+        locations:
+          lineNumbers: A=34+1*115
+          columnNumbers: A=9*116
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Formats.Cbor.model.yml
+        index: 0
+        firstRowId: 21448
+        rowCount: 7
+        locations:
+          lineNumbers: A=7+1*6
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Formats.Cbor.model.yml
+        index: 1
+        firstRowId: 21455
+        rowCount: 79
+        locations:
+          lineNumbers: A=18+1*78
+          columnNumbers: A=9*79
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Formats.Nrbf.model.yml
+        index: 0
+        firstRowId: 21534
+        rowCount: 10
+        locations:
+          lineNumbers: A=7+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Formats.Nrbf.model.yml
+        index: 1
+        firstRowId: 21544
+        rowCount: 33
+        locations:
+          lineNumbers: A=21+1*32
+          columnNumbers: A=9*33
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Formats.Tar.model.yml
+        index: 0
+        firstRowId: 21577
+        rowCount: 10
+        locations:
+          lineNumbers: A=7+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Formats.Tar.model.yml
+        index: 1
+        firstRowId: 21587
+        rowCount: 32
+        locations:
+          lineNumbers: A=21+1*31
+          columnNumbers: A=9*32
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Globalization.model.yml
+        index: 0
+        firstRowId: 21619
+        rowCount: 91
+        locations:
+          lineNumbers: A=7+1*90
+          columnNumbers: A=9*91
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Globalization.model.yml
+        index: 1
+        firstRowId: 21710
+        rowCount: 456
+        locations:
+          lineNumbers: A=102+1*455
+          columnNumbers: A=9*456
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Compression.model.yml
+        index: 0
+        firstRowId: 22166
+        rowCount: 26
+        locations:
+          lineNumbers: A=7+1*25
+          columnNumbers: A=9*26
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Compression.model.yml
+        index: 1
+        firstRowId: 22192
+        rowCount: 104
+        locations:
+          lineNumbers: A=37+1*103
+          columnNumbers: A=9*104
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Enumeration.model.yml
+        index: 0
+        firstRowId: 22296
+        rowCount: 6
+        locations:
+          lineNumbers: A=7+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Enumeration.model.yml
+        index: 1
+        firstRowId: 22302
+        rowCount: 21
+        locations:
+          lineNumbers: A=17+1*20
+          columnNumbers: A=9*21
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Hashing.model.yml
+        index: 0
+        firstRowId: 22323
+        rowCount: 80
+        locations:
+          lineNumbers: A=7+1*79
+          columnNumbers: A=9*80
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.IsolatedStorage.model.yml
+        index: 0
+        firstRowId: 22403
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.IsolatedStorage.model.yml
+        index: 1
+        firstRowId: 22406
+        rowCount: 80
+        locations:
+          lineNumbers: A=14+1*79
+          columnNumbers: A=9*80
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.MemoryMappedFiles.model.yml
+        index: 0
+        firstRowId: 22486
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.MemoryMappedFiles.model.yml
+        index: 1
+        firstRowId: 22491
+        rowCount: 29
+        locations:
+          lineNumbers: A=16+1*28
+          columnNumbers: A=9*29
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Packaging.model.yml
+        index: 0
+        firstRowId: 22520
+        rowCount: 45
+        locations:
+          lineNumbers: A=7+1*44
+          columnNumbers: A=9*45
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Packaging.model.yml
+        index: 1
+        firstRowId: 22565
+        rowCount: 50
+        locations:
+          lineNumbers: A=56+1*49
+          columnNumbers: A=9*50
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Pipelines.model.yml
+        index: 0
+        firstRowId: 22615
+        rowCount: 22
+        locations:
+          lineNumbers: A=7+1*21
+          columnNumbers: A=9*22
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Pipelines.model.yml
+        index: 1
+        firstRowId: 22637
+        rowCount: 48
+        locations:
+          lineNumbers: A=33+1*47
+          columnNumbers: A=9*48
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Pipes.model.yml
+        index: 0
+        firstRowId: 22685
+        rowCount: 8
+        locations:
+          lineNumbers: A=7+1*7
+          columnNumbers: A=9*8
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Pipes.model.yml
+        index: 1
+        firstRowId: 22693
+        rowCount: 95
+        locations:
+          lineNumbers: A=19+1*94
+          columnNumbers: A=9*95
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Ports.model.yml
+        index: 0
+        firstRowId: 22788
+        rowCount: 10
+        locations:
+          lineNumbers: A=7+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.Ports.model.yml
+        index: 1
+        firstRowId: 22798
+        rowCount: 29
+        locations:
+          lineNumbers: A=21+1*28
+          columnNumbers: A=9*29
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.model.yml
+        index: 0
+        firstRowId: 22827
+        rowCount: 274
+        locations:
+          lineNumbers: A=7+1*273
+          columnNumbers: A=9*274
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.model.yml
+        index: 1
+        firstRowId: 23101
+        rowCount: 1
+        locations:
+          lineNumbers: A=285
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.IO.model.yml
+        index: 2
+        firstRowId: 23102
+        rowCount: 480
+        locations:
+          lineNumbers: A=290+1*479
+          columnNumbers: A=9*480
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Linq.Expressions.Interpreter.model.yml
+        index: 0
+        firstRowId: 23582
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Linq.Expressions.Interpreter.model.yml
+        index: 1
+        firstRowId: 23583
+        rowCount: 1
+        locations:
+          lineNumbers: A=12
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Linq.Expressions.model.yml
+        index: 0
+        firstRowId: 23584
+        rowCount: 541
+        locations:
+          lineNumbers: A=7+1*540
+          columnNumbers: A=9*541
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Linq.Expressions.model.yml
+        index: 1
+        firstRowId: 24125
+        rowCount: 252
+        locations:
+          lineNumbers: A=552+1*251
+          columnNumbers: A=9*252
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Linq.model.yml
+        index: 0
+        firstRowId: 24377
+        rowCount: 242
+        locations:
+          lineNumbers: A=7+1*241
+          columnNumbers: A=9*242
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Linq.model.yml
+        index: 1
+        firstRowId: 24619
+        rowCount: 330
+        locations:
+          lineNumbers: A=253+1*329
+          columnNumbers: A=9*330
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Management.model.yml
+        index: 0
+        firstRowId: 24949
+        rowCount: 269
+        locations:
+          lineNumbers: A=7+1*268
+          columnNumbers: A=9*269
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Media.model.yml
+        index: 0
+        firstRowId: 25218
+        rowCount: 25
+        locations:
+          lineNumbers: A=7+1*24
+          columnNumbers: A=9*25
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Cache.model.yml
+        index: 0
+        firstRowId: 25243
+        rowCount: 9
+        locations:
+          lineNumbers: A=7+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Cache.model.yml
+        index: 1
+        firstRowId: 25252
+        rowCount: 9
+        locations:
+          lineNumbers: A=20+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Http.Headers.model.yml
+        index: 0
+        firstRowId: 25261
+        rowCount: 112
+        locations:
+          lineNumbers: A=7+1*111
+          columnNumbers: A=9*112
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Http.Headers.model.yml
+        index: 1
+        firstRowId: 25373
+        rowCount: 157
+        locations:
+          lineNumbers: A=123+1*156
+          columnNumbers: A=9*157
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Http.Json.model.yml
+        index: 0
+        firstRowId: 25530
+        rowCount: 4
+        locations:
+          lineNumbers: A=7+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Http.Json.model.yml
+        index: 1
+        firstRowId: 25534
+        rowCount: 60
+        locations:
+          lineNumbers: A=15+1*59
+          columnNumbers: A=9*60
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Http.Metrics.model.yml
+        index: 0
+        firstRowId: 25594
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Http.Metrics.model.yml
+        index: 1
+        firstRowId: 25597
+        rowCount: 2
+        locations:
+          lineNumbers: A=14+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Http.model.yml
+        index: 0
+        firstRowId: 25599
+        rowCount: 59
+        locations:
+          lineNumbers: A=7+1*58
+          columnNumbers: A=9*59
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Http.model.yml
+        index: 1
+        firstRowId: 25658
+        rowCount: 147
+        locations:
+          lineNumbers: A=70+1*146
+          columnNumbers: A=9*147
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Mail.model.yml
+        index: 0
+        firstRowId: 25805
+        rowCount: 77
+        locations:
+          lineNumbers: A=7+1*76
+          columnNumbers: A=9*77
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Mail.model.yml
+        index: 1
+        firstRowId: 25882
+        rowCount: 70
+        locations:
+          lineNumbers: A=88+1*69
+          columnNumbers: A=9*70
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Mime.model.yml
+        index: 0
+        firstRowId: 25952
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Mime.model.yml
+        index: 1
+        firstRowId: 25957
+        rowCount: 5
+        locations:
+          lineNumbers: A=16+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.NetworkInformation.model.yml
+        index: 0
+        firstRowId: 25962
+        rowCount: 25
+        locations:
+          lineNumbers: A=7+1*24
+          columnNumbers: A=9*25
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.NetworkInformation.model.yml
+        index: 1
+        firstRowId: 25987
+        rowCount: 275
+        locations:
+          lineNumbers: A=36+1*274
+          columnNumbers: A=9*275
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.PeerToPeer.Collaboration.model.yml
+        index: 0
+        firstRowId: 26262
+        rowCount: 7
+        locations:
+          lineNumbers: A=7+1*6
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.PeerToPeer.model.yml
+        index: 0
+        firstRowId: 26269
+        rowCount: 7
+        locations:
+          lineNumbers: A=7+1*6
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Quic.model.yml
+        index: 0
+        firstRowId: 26276
+        rowCount: 7
+        locations:
+          lineNumbers: A=7+1*6
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Quic.model.yml
+        index: 1
+        firstRowId: 26283
+        rowCount: 36
+        locations:
+          lineNumbers: A=18+1*35
+          columnNumbers: A=9*36
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Security.model.yml
+        index: 0
+        firstRowId: 26319
+        rowCount: 39
+        locations:
+          lineNumbers: A=7+1*38
+          columnNumbers: A=9*39
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Security.model.yml
+        index: 1
+        firstRowId: 26358
+        rowCount: 124
+        locations:
+          lineNumbers: A=50+1*123
+          columnNumbers: A=9*124
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.ServerSentEvents.model.yml
+        index: 0
+        firstRowId: 26482
+        rowCount: 6
+        locations:
+          lineNumbers: A=7+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.ServerSentEvents.model.yml
+        index: 1
+        firstRowId: 26488
+        rowCount: 4
+        locations:
+          lineNumbers: A=17+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Sockets.model.yml
+        index: 0
+        firstRowId: 26492
+        rowCount: 79
+        locations:
+          lineNumbers: A=7+1*78
+          columnNumbers: A=9*79
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.Sockets.model.yml
+        index: 1
+        firstRowId: 26571
+        rowCount: 300
+        locations:
+          lineNumbers: A=90+1*299
+          columnNumbers: A=9*300
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.WebSockets.model.yml
+        index: 0
+        firstRowId: 26871
+        rowCount: 17
+        locations:
+          lineNumbers: A=7+1*16
+          columnNumbers: A=9*17
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.WebSockets.model.yml
+        index: 1
+        firstRowId: 26888
+        rowCount: 66
+        locations:
+          lineNumbers: A=28+1*65
+          columnNumbers: A=9*66
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.model.yml
+        index: 0
+        firstRowId: 26954
+        rowCount: 143
+        locations:
+          lineNumbers: A=7+1*142
+          columnNumbers: A=9*143
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Net.model.yml
+        index: 1
+        firstRowId: 27097
+        rowCount: 460
+        locations:
+          lineNumbers: A=154+1*459
+          columnNumbers: A=9*460
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Numerics.Tensors.model.yml
+        index: 0
+        firstRowId: 27557
+        rowCount: 168
+        locations:
+          lineNumbers: A=7+1*167
+          columnNumbers: A=9*168
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Numerics.Tensors.model.yml
+        index: 1
+        firstRowId: 27725
+        rowCount: 551
+        locations:
+          lineNumbers: A=179+1*550
+          columnNumbers: A=9*551
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Numerics.model.yml
+        index: 0
+        firstRowId: 28276
+        rowCount: 90
+        locations:
+          lineNumbers: A=7+1*89
+          columnNumbers: A=9*90
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Numerics.model.yml
+        index: 1
+        firstRowId: 28366
+        rowCount: 1377
+        locations:
+          lineNumbers: A=101+1*1376
+          columnNumbers: A=9*1377
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.Context.model.yml
+        index: 0
+        firstRowId: 29743
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.Context.model.yml
+        index: 1
+        firstRowId: 29746
+        rowCount: 3
+        locations:
+          lineNumbers: A=14+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.Emit.model.yml
+        index: 0
+        firstRowId: 29749
+        rowCount: 156
+        locations:
+          lineNumbers: A=7+1*155
+          columnNumbers: A=9*156
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.Emit.model.yml
+        index: 1
+        firstRowId: 29905
+        rowCount: 431
+        locations:
+          lineNumbers: A=167+1*430
+          columnNumbers: A=9*431
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.Metadata.Ecma335.model.yml
+        index: 0
+        firstRowId: 30336
+        rowCount: 63
+        locations:
+          lineNumbers: A=7+1*62
+          columnNumbers: A=9*63
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.Metadata.Ecma335.model.yml
+        index: 1
+        firstRowId: 30399
+        rowCount: 327
+        locations:
+          lineNumbers: A=74+1*326
+          columnNumbers: A=9*327
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.Metadata.model.yml
+        index: 0
+        firstRowId: 30726
+        rowCount: 216
+        locations:
+          lineNumbers: A=7+1*215
+          columnNumbers: A=9*216
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.Metadata.model.yml
+        index: 1
+        firstRowId: 30942
+        rowCount: 853
+        locations:
+          lineNumbers: A=227+1*852
+          columnNumbers: A=9*853
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.PortableExecutable.model.yml
+        index: 0
+        firstRowId: 31795
+        rowCount: 24
+        locations:
+          lineNumbers: A=7+1*23
+          columnNumbers: A=9*24
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.PortableExecutable.model.yml
+        index: 1
+        firstRowId: 31819
+        rowCount: 155
+        locations:
+          lineNumbers: A=35+1*154
+          columnNumbers: A=9*155
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.model.yml
+        index: 0
+        firstRowId: 31974
+        rowCount: 207
+        locations:
+          lineNumbers: A=7+1*206
+          columnNumbers: A=9*207
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Reflection.model.yml
+        index: 1
+        firstRowId: 32181
+        rowCount: 499
+        locations:
+          lineNumbers: A=218+1*498
+          columnNumbers: A=9*499
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Resources.Extensions.model.yml
+        index: 0
+        firstRowId: 32680
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Resources.Extensions.model.yml
+        index: 1
+        firstRowId: 32683
+        rowCount: 14
+        locations:
+          lineNumbers: A=14+1*13
+          columnNumbers: A=9*14
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Resources.model.yml
+        index: 0
+        firstRowId: 32697
+        rowCount: 23
+        locations:
+          lineNumbers: A=7+1*22
+          columnNumbers: A=9*23
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Resources.model.yml
+        index: 1
+        firstRowId: 32720
+        rowCount: 49
+        locations:
+          lineNumbers: A=34+1*48
+          columnNumbers: A=9*49
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Caching.Hosting.model.yml
+        index: 0
+        firstRowId: 32769
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Caching.model.yml
+        index: 0
+        firstRowId: 32774
+        rowCount: 26
+        locations:
+          lineNumbers: A=7+1*25
+          columnNumbers: A=9*26
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Caching.model.yml
+        index: 1
+        firstRowId: 32800
+        rowCount: 57
+        locations:
+          lineNumbers: A=37+1*56
+          columnNumbers: A=9*57
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.CompilerServices.model.yml
+        index: 0
+        firstRowId: 32857
+        rowCount: 72
+        locations:
+          lineNumbers: A=7+1*71
+          columnNumbers: A=9*72
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.CompilerServices.model.yml
+        index: 1
+        firstRowId: 32929
+        rowCount: 282
+        locations:
+          lineNumbers: A=83+1*281
+          columnNumbers: A=9*282
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.ConstrainedExecution.model.yml
+        index: 0
+        firstRowId: 33211
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.ExceptionServices.model.yml
+        index: 0
+        firstRowId: 33214
+        rowCount: 6
+        locations:
+          lineNumbers: A=7+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.ExceptionServices.model.yml
+        index: 1
+        firstRowId: 33220
+        rowCount: 5
+        locations:
+          lineNumbers: A=17+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.InteropServices.ComTypes.model.yml
+        index: 0
+        firstRowId: 33225
+        rowCount: 182
+        locations:
+          lineNumbers: A=7+1*181
+          columnNumbers: A=9*182
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.InteropServices.JavaScript.model.yml
+        index: 0
+        firstRowId: 33407
+        rowCount: 162
+        locations:
+          lineNumbers: A=7+1*161
+          columnNumbers: A=9*162
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.InteropServices.Marshalling.model.yml
+        index: 0
+        firstRowId: 33569
+        rowCount: 42
+        locations:
+          lineNumbers: A=7+1*41
+          columnNumbers: A=9*42
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.InteropServices.Marshalling.model.yml
+        index: 1
+        firstRowId: 33611
+        rowCount: 133
+        locations:
+          lineNumbers: A=53+1*132
+          columnNumbers: A=9*133
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.InteropServices.ObjectiveC.model.yml
+        index: 0
+        firstRowId: 33744
+        rowCount: 4
+        locations:
+          lineNumbers: A=7+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.InteropServices.Swift.model.yml
+        index: 0
+        firstRowId: 33748
+        rowCount: 8
+        locations:
+          lineNumbers: A=7+1*7
+          columnNumbers: A=9*8
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.InteropServices.model.yml
+        index: 0
+        firstRowId: 33756
+        rowCount: 44
+        locations:
+          lineNumbers: A=7+1*43
+          columnNumbers: A=9*44
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.InteropServices.model.yml
+        index: 1
+        firstRowId: 33800
+        rowCount: 634
+        locations:
+          lineNumbers: A=55+1*633
+          columnNumbers: A=9*634
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Intrinsics.Arm.model.yml
+        index: 0
+        firstRowId: 34434
+        rowCount: 4207
+        locations:
+          lineNumbers: A=7+1*4206
+          columnNumbers: A=9*4207
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Intrinsics.Wasm.model.yml
+        index: 0
+        firstRowId: 38641
+        rowCount: 471
+        locations:
+          lineNumbers: A=7+1*470
+          columnNumbers: A=9*471
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Intrinsics.X86.model.yml
+        index: 0
+        firstRowId: 39112
+        rowCount: 3062
+        locations:
+          lineNumbers: A=7+1*3061
+          columnNumbers: A=9*3062
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Intrinsics.model.yml
+        index: 0
+        firstRowId: 42174
+        rowCount: 68
+        locations:
+          lineNumbers: A=7+1*67
+          columnNumbers: A=9*68
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Intrinsics.model.yml
+        index: 1
+        firstRowId: 42242
+        rowCount: 1179
+        locations:
+          lineNumbers: A=79+1*1178
+          columnNumbers: A=9*1179
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Loader.model.yml
+        index: 0
+        firstRowId: 43421
+        rowCount: 8
+        locations:
+          lineNumbers: A=7+1*7
+          columnNumbers: A=9*8
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Loader.model.yml
+        index: 1
+        firstRowId: 43429
+        rowCount: 28
+        locations:
+          lineNumbers: A=19+1*27
+          columnNumbers: A=9*28
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Remoting.model.yml
+        index: 0
+        firstRowId: 43457
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Serialization.DataContracts.model.yml
+        index: 0
+        firstRowId: 43459
+        rowCount: 9
+        locations:
+          lineNumbers: A=7+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Serialization.DataContracts.model.yml
+        index: 1
+        firstRowId: 43468
+        rowCount: 19
+        locations:
+          lineNumbers: A=20+1*18
+          columnNumbers: A=9*19
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Serialization.Formatters.Binary.model.yml
+        index: 0
+        firstRowId: 43487
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Serialization.Formatters.Binary.model.yml
+        index: 1
+        firstRowId: 43489
+        rowCount: 2
+        locations:
+          lineNumbers: A=13+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Serialization.Json.model.yml
+        index: 0
+        firstRowId: 43491
+        rowCount: 18
+        locations:
+          lineNumbers: A=7+1*17
+          columnNumbers: A=9*18
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Serialization.Json.model.yml
+        index: 1
+        firstRowId: 43509
+        rowCount: 35
+        locations:
+          lineNumbers: A=29+1*34
+          columnNumbers: A=9*35
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Serialization.model.yml
+        index: 0
+        firstRowId: 43544
+        rowCount: 68
+        locations:
+          lineNumbers: A=7+1*67
+          columnNumbers: A=9*68
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Serialization.model.yml
+        index: 1
+        firstRowId: 43612
+        rowCount: 247
+        locations:
+          lineNumbers: A=79+1*246
+          columnNumbers: A=9*247
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Versioning.model.yml
+        index: 0
+        firstRowId: 43859
+        rowCount: 12
+        locations:
+          lineNumbers: A=7+1*11
+          columnNumbers: A=9*12
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.Versioning.model.yml
+        index: 1
+        firstRowId: 43871
+        rowCount: 28
+        locations:
+          lineNumbers: A=23+1*27
+          columnNumbers: A=9*28
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.model.yml
+        index: 0
+        firstRowId: 43899
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Runtime.model.yml
+        index: 1
+        firstRowId: 43900
+        rowCount: 18
+        locations:
+          lineNumbers: A=12+1*17
+          columnNumbers: A=9*18
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.AccessControl.model.yml
+        index: 0
+        firstRowId: 43918
+        rowCount: 382
+        locations:
+          lineNumbers: A=7+1*381
+          columnNumbers: A=9*382
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Authentication.ExtendedProtection.model.yml
+        index: 0
+        firstRowId: 44300
+        rowCount: 10
+        locations:
+          lineNumbers: A=7+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Authentication.ExtendedProtection.model.yml
+        index: 1
+        firstRowId: 44310
+        rowCount: 10
+        locations:
+          lineNumbers: A=21+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Authentication.model.yml
+        index: 0
+        firstRowId: 44320
+        rowCount: 6
+        locations:
+          lineNumbers: A=7+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Claims.model.yml
+        index: 0
+        firstRowId: 44326
+        rowCount: 37
+        locations:
+          lineNumbers: A=7+1*36
+          columnNumbers: A=9*37
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Claims.model.yml
+        index: 1
+        firstRowId: 44363
+        rowCount: 48
+        locations:
+          lineNumbers: A=48+1*47
+          columnNumbers: A=9*48
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.Cose.model.yml
+        index: 0
+        firstRowId: 44411
+        rowCount: 14
+        locations:
+          lineNumbers: A=7+1*13
+          columnNumbers: A=9*14
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.Cose.model.yml
+        index: 1
+        firstRowId: 44425
+        rowCount: 97
+        locations:
+          lineNumbers: A=25+1*96
+          columnNumbers: A=9*97
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.Pkcs.model.yml
+        index: 0
+        firstRowId: 44522
+        rowCount: 57
+        locations:
+          lineNumbers: A=7+1*56
+          columnNumbers: A=9*57
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.Pkcs.model.yml
+        index: 1
+        firstRowId: 44579
+        rowCount: 190
+        locations:
+          lineNumbers: A=68+1*189
+          columnNumbers: A=9*190
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.X509Certificates.model.yml
+        index: 0
+        firstRowId: 44769
+        rowCount: 70
+        locations:
+          lineNumbers: A=7+1*69
+          columnNumbers: A=9*70
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.X509Certificates.model.yml
+        index: 1
+        firstRowId: 44839
+        rowCount: 322
+        locations:
+          lineNumbers: A=81+1*321
+          columnNumbers: A=9*322
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.Xml.model.yml
+        index: 0
+        firstRowId: 45161
+        rowCount: 108
+        locations:
+          lineNumbers: A=7+1*107
+          columnNumbers: A=9*108
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.Xml.model.yml
+        index: 1
+        firstRowId: 45269
+        rowCount: 11
+        locations:
+          lineNumbers: A=119+1*10
+          columnNumbers: A=9*11
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.Xml.model.yml
+        index: 2
+        firstRowId: 45280
+        rowCount: 99
+        locations:
+          lineNumbers: A=134+1*98
+          columnNumbers: A=9*99
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.model.yml
+        index: 0
+        firstRowId: 45379
+        rowCount: 149
+        locations:
+          lineNumbers: A=7+1*148
+          columnNumbers: A=9*149
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.model.yml
+        index: 1
+        firstRowId: 45528
+        rowCount: 2
+        locations:
+          lineNumbers: A=160+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Cryptography.model.yml
+        index: 2
+        firstRowId: 45530
+        rowCount: 1478
+        locations:
+          lineNumbers: A=166+1*1477
+          columnNumbers: A=9*1478
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Permissions.model.yml
+        index: 0
+        firstRowId: 47008
+        rowCount: 239
+        locations:
+          lineNumbers: A=7+1*238
+          columnNumbers: A=9*239
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Policy.model.yml
+        index: 0
+        firstRowId: 47247
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Policy.model.yml
+        index: 1
+        firstRowId: 47249
+        rowCount: 282
+        locations:
+          lineNumbers: A=13+1*281
+          columnNumbers: A=9*282
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Principal.model.yml
+        index: 0
+        firstRowId: 47531
+        rowCount: 13
+        locations:
+          lineNumbers: A=7+1*12
+          columnNumbers: A=9*13
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.Principal.model.yml
+        index: 1
+        firstRowId: 47544
+        rowCount: 96
+        locations:
+          lineNumbers: A=24+1*95
+          columnNumbers: A=9*96
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.model.yml
+        index: 0
+        firstRowId: 47640
+        rowCount: 18
+        locations:
+          lineNumbers: A=7+1*17
+          columnNumbers: A=9*18
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Security.model.yml
+        index: 1
+        firstRowId: 47658
+        rowCount: 146
+        locations:
+          lineNumbers: A=29+1*145
+          columnNumbers: A=9*146
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ServiceModel.Syndication.model.yml
+        index: 0
+        firstRowId: 47804
+        rowCount: 128
+        locations:
+          lineNumbers: A=7+1*127
+          columnNumbers: A=9*128
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ServiceModel.Syndication.model.yml
+        index: 1
+        firstRowId: 47932
+        rowCount: 305
+        locations:
+          lineNumbers: A=139+1*304
+          columnNumbers: A=9*305
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.ServiceProcess.model.yml
+        index: 0
+        firstRowId: 48237
+        rowCount: 77
+        locations:
+          lineNumbers: A=7+1*76
+          columnNumbers: A=9*77
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Speech.AudioFormat.model.yml
+        index: 0
+        firstRowId: 48314
+        rowCount: 11
+        locations:
+          lineNumbers: A=7+1*10
+          columnNumbers: A=9*11
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Speech.Recognition.SrgsGrammar.model.yml
+        index: 0
+        firstRowId: 48325
+        rowCount: 54
+        locations:
+          lineNumbers: A=7+1*53
+          columnNumbers: A=9*54
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Speech.Recognition.model.yml
+        index: 0
+        firstRowId: 48379
+        rowCount: 241
+        locations:
+          lineNumbers: A=7+1*240
+          columnNumbers: A=9*241
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Speech.Synthesis.TtsEngine.model.yml
+        index: 0
+        firstRowId: 48620
+        rowCount: 59
+        locations:
+          lineNumbers: A=7+1*58
+          columnNumbers: A=9*59
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Speech.Synthesis.model.yml
+        index: 0
+        firstRowId: 48679
+        rowCount: 128
+        locations:
+          lineNumbers: A=7+1*127
+          columnNumbers: A=9*128
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Encodings.Web.model.yml
+        index: 0
+        firstRowId: 48807
+        rowCount: 6
+        locations:
+          lineNumbers: A=7+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Encodings.Web.model.yml
+        index: 1
+        firstRowId: 48813
+        rowCount: 28
+        locations:
+          lineNumbers: A=17+1*27
+          columnNumbers: A=9*28
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Json.Nodes.model.yml
+        index: 0
+        firstRowId: 48841
+        rowCount: 19
+        locations:
+          lineNumbers: A=7+1*18
+          columnNumbers: A=9*19
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Json.Nodes.model.yml
+        index: 1
+        firstRowId: 48860
+        rowCount: 77
+        locations:
+          lineNumbers: A=30+1*76
+          columnNumbers: A=9*77
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Json.Schema.model.yml
+        index: 0
+        firstRowId: 48937
+        rowCount: 7
+        locations:
+          lineNumbers: A=7+1*6
+          columnNumbers: A=9*7
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Json.Serialization.Metadata.model.yml
+        index: 0
+        firstRowId: 48944
+        rowCount: 33
+        locations:
+          lineNumbers: A=7+1*32
+          columnNumbers: A=9*33
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Json.Serialization.Metadata.model.yml
+        index: 1
+        firstRowId: 48977
+        rowCount: 67
+        locations:
+          lineNumbers: A=44+1*66
+          columnNumbers: A=9*67
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Json.Serialization.model.yml
+        index: 0
+        firstRowId: 49044
+        rowCount: 9
+        locations:
+          lineNumbers: A=7+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Json.Serialization.model.yml
+        index: 1
+        firstRowId: 49053
+        rowCount: 46
+        locations:
+          lineNumbers: A=20+1*45
+          columnNumbers: A=9*46
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Json.SourceGeneration.model.yml
+        index: 0
+        firstRowId: 49099
+        rowCount: 1
+        locations:
+          lineNumbers: A=7
+          columnNumbers: A=9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Json.SourceGeneration.model.yml
+        index: 1
+        firstRowId: 49100
+        rowCount: 17
+        locations:
+          lineNumbers: A=12+1*16
+          columnNumbers: A=9*17
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Json.model.yml
+        index: 0
+        firstRowId: 49117
+        rowCount: 73
+        locations:
+          lineNumbers: A=7+1*72
+          columnNumbers: A=9*73
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Json.model.yml
+        index: 1
+        firstRowId: 49190
+        rowCount: 323
+        locations:
+          lineNumbers: A=84+1*322
+          columnNumbers: A=9*323
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.RegularExpressions.Generator.model.yml
+        index: 0
+        firstRowId: 49513
+        rowCount: 6
+        locations:
+          lineNumbers: A=7+1*5
+          columnNumbers: A=9*6
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.RegularExpressions.model.yml
+        index: 0
+        firstRowId: 49519
+        rowCount: 104
+        locations:
+          lineNumbers: A=7+1*103
+          columnNumbers: A=9*104
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.RegularExpressions.model.yml
+        index: 1
+        firstRowId: 49623
+        rowCount: 115
+        locations:
+          lineNumbers: A=115+1*114
+          columnNumbers: A=9*115
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Unicode.model.yml
+        index: 0
+        firstRowId: 49738
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.Unicode.model.yml
+        index: 1
+        firstRowId: 49741
+        rowCount: 183
+        locations:
+          lineNumbers: A=14+1*182
+          columnNumbers: A=9*183
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.model.yml
+        index: 0
+        firstRowId: 49924
+        rowCount: 86
+        locations:
+          lineNumbers: A=7+1*85
+          columnNumbers: A=9*86
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Text.model.yml
+        index: 1
+        firstRowId: 50010
+        rowCount: 324
+        locations:
+          lineNumbers: A=97+1*323
+          columnNumbers: A=9*324
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Threading.Channels.model.yml
+        index: 0
+        firstRowId: 50334
+        rowCount: 26
+        locations:
+          lineNumbers: A=7+1*25
+          columnNumbers: A=9*26
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Threading.RateLimiting.model.yml
+        index: 0
+        firstRowId: 50360
+        rowCount: 18
+        locations:
+          lineNumbers: A=7+1*17
+          columnNumbers: A=9*18
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Threading.RateLimiting.model.yml
+        index: 1
+        firstRowId: 50378
+        rowCount: 65
+        locations:
+          lineNumbers: A=29+1*64
+          columnNumbers: A=9*65
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Threading.Tasks.Dataflow.model.yml
+        index: 0
+        firstRowId: 50443
+        rowCount: 74
+        locations:
+          lineNumbers: A=7+1*73
+          columnNumbers: A=9*74
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Threading.Tasks.Dataflow.model.yml
+        index: 1
+        firstRowId: 50517
+        rowCount: 137
+        locations:
+          lineNumbers: A=85+1*136
+          columnNumbers: A=9*137
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Threading.Tasks.Sources.model.yml
+        index: 0
+        firstRowId: 50654
+        rowCount: 3
+        locations:
+          lineNumbers: A=7+1*2
+          columnNumbers: A=9*3
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Threading.Tasks.Sources.model.yml
+        index: 1
+        firstRowId: 50657
+        rowCount: 10
+        locations:
+          lineNumbers: A=14+1*9
+          columnNumbers: A=9*10
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Threading.Tasks.model.yml
+        index: 0
+        firstRowId: 50667
+        rowCount: 168
+        locations:
+          lineNumbers: A=7+1*167
+          columnNumbers: A=9*168
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Threading.Tasks.model.yml
+        index: 1
+        firstRowId: 50835
+        rowCount: 221
+        locations:
+          lineNumbers: A=179+1*220
+          columnNumbers: A=9*221
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Threading.model.yml
+        index: 0
+        firstRowId: 51056
+        rowCount: 50
+        locations:
+          lineNumbers: A=7+1*49
+          columnNumbers: A=9*50
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Threading.model.yml
+        index: 1
+        firstRowId: 51106
+        rowCount: 519
+        locations:
+          lineNumbers: A=61+1*518
+          columnNumbers: A=9*519
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Timers.model.yml
+        index: 0
+        firstRowId: 51625
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Timers.model.yml
+        index: 1
+        firstRowId: 51627
+        rowCount: 13
+        locations:
+          lineNumbers: A=13+1*12
+          columnNumbers: A=9*13
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Transactions.model.yml
+        index: 0
+        firstRowId: 51640
+        rowCount: 21
+        locations:
+          lineNumbers: A=7+1*20
+          columnNumbers: A=9*21
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Transactions.model.yml
+        index: 1
+        firstRowId: 51661
+        rowCount: 96
+        locations:
+          lineNumbers: A=32+1*95
+          columnNumbers: A=9*96
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Web.model.yml
+        index: 0
+        firstRowId: 51757
+        rowCount: 4
+        locations:
+          lineNumbers: A=7+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Web.model.yml
+        index: 1
+        firstRowId: 51761
+        rowCount: 22
+        locations:
+          lineNumbers: A=15+1*21
+          columnNumbers: A=9*22
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Windows.Input.model.yml
+        index: 0
+        firstRowId: 51783
+        rowCount: 4
+        locations:
+          lineNumbers: A=7+1*3
+          columnNumbers: A=9*4
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Windows.Markup.model.yml
+        index: 0
+        firstRowId: 51787
+        rowCount: 2
+        locations:
+          lineNumbers: A=7+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Windows.Markup.model.yml
+        index: 1
+        firstRowId: 51789
+        rowCount: 2
+        locations:
+          lineNumbers: A=13+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xaml.Permissions.model.yml
+        index: 0
+        firstRowId: 51791
+        rowCount: 17
+        locations:
+          lineNumbers: A=7+1*16
+          columnNumbers: A=9*17
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Linq.model.yml
+        index: 0
+        firstRowId: 51808
+        rowCount: 159
+        locations:
+          lineNumbers: A=7+1*158
+          columnNumbers: A=9*159
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Linq.model.yml
+        index: 1
+        firstRowId: 51967
+        rowCount: 110
+        locations:
+          lineNumbers: A=170+1*109
+          columnNumbers: A=9*110
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Resolvers.model.yml
+        index: 0
+        firstRowId: 52077
+        rowCount: 5
+        locations:
+          lineNumbers: A=7+1*4
+          columnNumbers: A=9*5
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Resolvers.model.yml
+        index: 1
+        firstRowId: 52082
+        rowCount: 9
+        locations:
+          lineNumbers: A=16+1*8
+          columnNumbers: A=9*9
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Schema.model.yml
+        index: 0
+        firstRowId: 52091
+        rowCount: 125
+        locations:
+          lineNumbers: A=7+1*124
+          columnNumbers: A=9*125
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Schema.model.yml
+        index: 1
+        firstRowId: 52216
+        rowCount: 110
+        locations:
+          lineNumbers: A=136+1*109
+          columnNumbers: A=9*110
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Serialization.model.yml
+        index: 0
+        firstRowId: 52326
+        rowCount: 296
+        locations:
+          lineNumbers: A=7+1*295
+          columnNumbers: A=9*296
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Serialization.model.yml
+        index: 1
+        firstRowId: 52622
+        rowCount: 205
+        locations:
+          lineNumbers: A=307+1*204
+          columnNumbers: A=9*205
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.XPath.model.yml
+        index: 0
+        firstRowId: 52827
+        rowCount: 58
+        locations:
+          lineNumbers: A=7+1*57
+          columnNumbers: A=9*58
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.XPath.model.yml
+        index: 1
+        firstRowId: 52885
+        rowCount: 102
+        locations:
+          lineNumbers: A=69+1*101
+          columnNumbers: A=9*102
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Xsl.Runtime.model.yml
+        index: 0
+        firstRowId: 52987
+        rowCount: 174
+        locations:
+          lineNumbers: A=7+1*173
+          columnNumbers: A=9*174
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Xsl.Runtime.model.yml
+        index: 1
+        firstRowId: 53161
+        rowCount: 202
+        locations:
+          lineNumbers: A=185+1*201
+          columnNumbers: A=9*202
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Xsl.model.yml
+        index: 0
+        firstRowId: 53363
+        rowCount: 25
+        locations:
+          lineNumbers: A=7+1*24
+          columnNumbers: A=9*25
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.Xsl.model.yml
+        index: 1
+        firstRowId: 53388
+        rowCount: 75
+        locations:
+          lineNumbers: A=36+1*74
+          columnNumbers: A=9*75
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.model.yml
+        index: 0
+        firstRowId: 53463
+        rowCount: 515
+        locations:
+          lineNumbers: A=7+1*514
+          columnNumbers: A=9*515
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.Xml.model.yml
+        index: 1
+        firstRowId: 53978
+        rowCount: 503
+        locations:
+          lineNumbers: A=526+1*502
+          columnNumbers: A=9*503
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.model.yml
+        index: 0
+        firstRowId: 54481
+        rowCount: 744
+        locations:
+          lineNumbers: A=7+1*743
+          columnNumbers: A=9*744
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.model.yml
+        index: 1
+        firstRowId: 55225
+        rowCount: 2
+        locations:
+          lineNumbers: A=755+1
+          columnNumbers: A=9*2
+       -
+        pack: codeql/csharp-all#0
+        relativePath: ext/generated/System.model.yml
+        index: 2
+        firstRowId: 55227
+        rowCount: 4757
+        locations:
+          lineNumbers: A=761+1*4756
+          columnNumbers: A=9*4757
+       -
+        pack: codeql/threat-models#1
+        relativePath: ext/supported-threat-models.model.yml
+        index: 0
+        firstRowId: 59984
+        rowCount: 1
+        locations:
+          lineNumbers: A=6
+          columnNumbers: A=9
+       -
+        pack: codeql/threat-models#1
+        relativePath: ext/threat-model-grouping.model.yml
+        index: 0
+        firstRowId: 59985
+        rowCount: 15
+        locations:
+          lineNumbers: A=8+3+1+3+1*5+3+1+5+1*3
+          columnNumbers: A=9*15
+metadata:
+  name: Unity VR Sensitive API Finder (No Unity References Required)
+  description: "Detect Unity lifecycle methods, dangerous APIs, and VR input sources\
+    \ without requiring Unity DLLs."
+  kind: problem
+  problem.severity: warning
+  id: unity/vr-sensitive-api-finder
+  tags: "security, unity, vr, best-practice"
