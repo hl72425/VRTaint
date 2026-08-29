@@ -1,0 +1,53 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+MemoryCaptures/
+Recordings/
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.userprefs
+
+# Unity cache
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.csi
+*.csi.txt
+*.db
+*.db-journal
+
+# Crash reports
+sysinfo.txt
+*.stackdump
+
+# CodeQL / analysis artifacts
+.codeql/
+*.bqrs
+*.sarif
+results/
+intermediate/
+
+# CodeQL database runtime-generated caches (rebuilt automatically on first analysis)
+analysis/db/*/db-csharp/default/cache/
+analysis/db/*/working/
+analysis/db/*/log/
+
+# OS
+.DS_Store
+Thumbs.db

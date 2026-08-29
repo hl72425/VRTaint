@@ -1,0 +1,12 @@
+---
+sourceLocationPrefix: src
+baselineLinesOfCode: 2260
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: csharp
+creationMetadata:
+  cliVersion: 2.25.2
+  creationTime: 2026-08-24T10:57:25.567955400Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true

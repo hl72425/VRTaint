@@ -1,0 +1,703 @@
+extensions:
+- addsTo:
+    pack: my-org/csharp-custom-queries
+    extensible: unityComponentInstanceModel
+  data:
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO141N_OWNER
+    - UnrelatedOwner
+    - C141N_OWNER
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.2N_ConfigurationRecoveredEdges_UnrelatedEventOwner_72_N.cs
+    - ConfigurationRecoveredEdges_UnrelatedEventOwner_72_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO141N_TARGET
+    - UnrelatedTarget
+    - C141N_TARGET
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.2N_ConfigurationRecoveredEdges_UnrelatedEventTarget_72_N.cs
+    - ConfigurationRecoveredEdges_UnrelatedEventTarget_72_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO142P_OWNER
+    - InheritedOwner
+    - C142P_OWNER
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.3P_ConfigurationRecoveredEdges_InheritedEventOwner_73_P.cs
+    - ConfigurationRecoveredEdges_InheritedEventOwner_73_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO142P_TARGET
+    - InheritedTarget
+    - C142P_TARGET
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.3P_ConfigurationRecoveredEdges_InheritedEventTarget_73_P.cs
+    - ConfigurationRecoveredEdges_InheritedEventTarget_73_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO144N_OWNER
+    - DisabledOwner
+    - C144N_OWNER
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.5N_ConfigurationRecoveredEdges_DisabledEventOwner_75_N.cs
+    - ConfigurationRecoveredEdges_DisabledEventOwner_75_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO144N_TARGET
+    - DisabledTarget
+    - C144N_TARGET
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.5N_ConfigurationRecoveredEdges_DisabledEventTarget_75_N.cs
+    - ConfigurationRecoveredEdges_DisabledEventTarget_75_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO146P_OWNER
+    - ArgumentOwner
+    - C146P_OWNER
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.6P_ConfigurationRecoveredEdges_ArgumentIndexOwner_76_P.cs
+    - ConfigurationRecoveredEdges_ArgumentIndexOwner_76_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO146P_TARGET
+    - ArgumentTarget
+    - C146P_TARGET
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.6P_ConfigurationRecoveredEdges_ArgumentIndexTarget_76_P.cs
+    - ConfigurationRecoveredEdges_ArgumentIndexTarget_76_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO146N_OWNER
+    - WrongArgumentOwner
+    - C146N_OWNER
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.6N_ConfigurationRecoveredEdges_WrongArgumentOwner_76_N.cs
+    - ConfigurationRecoveredEdges_WrongArgumentOwner_76_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO146N_TARGET
+    - WrongArgumentTarget
+    - C146N_TARGET
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.6N_ConfigurationRecoveredEdges_WrongArgumentTarget_76_N.cs
+    - ConfigurationRecoveredEdges_WrongArgumentTarget_76_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO147P_OWNER
+    - ReturnOwner
+    - C147P_OWNER
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.7P_ConfigurationRecoveredEdges_ReferenceReturnOwner_77_P.cs
+    - ConfigurationRecoveredEdges_ReferenceReturnOwner_77_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO147P_TARGET
+    - ReturnTarget
+    - C147P_TARGET
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.7P_ConfigurationRecoveredEdges_ReferenceReturnTarget_77_P.cs
+    - ConfigurationRecoveredEdges_ReferenceReturnTarget_77_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO161P_OWNER
+    - CompositeOwnerP
+    - C161P_OWNER
+    - Assets/Scripts/_TestCases/Category8-Composite/8.1P_Composite_LifecycleAsyncEventOwner_81_P.cs
+    - Composite_LifecycleAsyncEventOwner_81_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO161P_TARGET
+    - CompositeTargetP
+    - C161P_TARGET
+    - Assets/Scripts/_TestCases/Category8-Composite/8.1P_Composite_LifecycleAsyncEventTarget_81_P.cs
+    - Composite_LifecycleAsyncEventTarget_81_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO161N_OWNER
+    - CompositeOwnerN
+    - C161N_OWNER
+    - Assets/Scripts/_TestCases/Category8-Composite/8.1N_Composite_CleanedAsyncEventOwner_81_N.cs
+    - Composite_CleanedAsyncEventOwner_81_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO161N_TARGET
+    - CompositeTargetN
+    - C161N_TARGET
+    - Assets/Scripts/_TestCases/Category8-Composite/8.1N_Composite_CleanedAsyncEventTarget_81_N.cs
+    - Composite_CleanedAsyncEventTarget_81_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO162P_OWNER
+    - ReferenceAsyncOwner
+    - C162P_OWNER
+    - Assets/Scripts/_TestCases/Category8-Composite/8.2P_Composite_ReferenceAsyncOwner_82_P.cs
+    - Composite_ReferenceAsyncOwner_82_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO162P_TARGET
+    - ReferenceAsyncTarget
+    - C162P_TARGET
+    - Assets/Scripts/_TestCases/Category8-Composite/8.2P_Composite_ReferenceAsyncTarget_82_P.cs
+    - Composite_ReferenceAsyncTarget_82_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO143P_OWNER
+    - ReferenceOwner
+    - C143P_OWNER
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.4P_ConfigurationRecoveredEdges_ReferenceOwner_74_P.cs
+    - ConfigurationRecoveredEdges_ReferenceOwner_74_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO143P_TARGET
+    - ReferenceTarget
+    - C143P_TARGET
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.4P_ConfigurationRecoveredEdges_ReferenceTarget_74_P.cs
+    - ConfigurationRecoveredEdges_ReferenceTarget_74_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO143N_OWNER
+    - DistinctOwner
+    - C143N_OWNER
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.4N_ConfigurationRecoveredEdges_DistinctReferenceOwner_74_N.cs
+    - ConfigurationRecoveredEdges_DistinctReferenceOwner_74_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO143N_A
+    - WriterTarget
+    - C143N_A
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.4N_ConfigurationRecoveredEdges_DistinctReferenceTarget_74_N.cs
+    - ConfigurationRecoveredEdges_DistinctReferenceTarget_74_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - GO143N_B
+    - ReaderTarget
+    - C143N_B
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.4N_ConfigurationRecoveredEdges_DistinctReferenceTarget_74_N.cs
+    - ConfigurationRecoveredEdges_DistinctReferenceTarget_74_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.19P_ObjectIdentityHeap_SameReceiver.unity
+    - '151000'
+    - Driver
+    - '151020'
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.19P_ObjectIdentityHeap_Instance_SameReceiver_219_P.cs
+    - ObjectIdentityHeap_Instance_SameReceiver_219_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.19P_ObjectIdentityHeap_SameReceiver.unity
+    - '151100'
+    - BufferA
+    - '151120'
+    - Assets/Scripts/_TestCases/Helper/ObjectIdentityHeap_InstanceBuffer.cs
+    - ObjectIdentityHeap_InstanceBuffer
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.20N_ObjectIdentityHeap_DistinctReceivers.unity
+    - '152000'
+    - Driver
+    - '152020'
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.20N_ObjectIdentityHeap_Instance_DistinctReceivers_220_N.cs
+    - ObjectIdentityHeap_Instance_DistinctReceivers_220_N
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.20N_ObjectIdentityHeap_DistinctReceivers.unity
+    - '152100'
+    - BufferA
+    - '152120'
+    - Assets/Scripts/_TestCases/Helper/ObjectIdentityHeap_InstanceBuffer.cs
+    - ObjectIdentityHeap_InstanceBuffer
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.20N_ObjectIdentityHeap_DistinctReceivers.unity
+    - '152200'
+    - BufferB
+    - '152220'
+    - Assets/Scripts/_TestCases/Helper/ObjectIdentityHeap_InstanceBuffer.cs
+    - ObjectIdentityHeap_InstanceBuffer
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.21P_ObjectIdentityHeap_AliasedReferences.unity
+    - '153000'
+    - Driver
+    - '153020'
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.21P_ObjectIdentityHeap_Instance_AliasedReferences_221_P.cs
+    - ObjectIdentityHeap_Instance_AliasedReferences_221_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.21P_ObjectIdentityHeap_AliasedReferences.unity
+    - '153100'
+    - BufferA
+    - '153120'
+    - Assets/Scripts/_TestCases/Helper/ObjectIdentityHeap_InstanceBuffer.cs
+    - ObjectIdentityHeap_InstanceBuffer
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.21P_ObjectIdentityHeap_AliasedReferences.unity
+    - '153200'
+    - BufferB
+    - '153220'
+    - Assets/Scripts/_TestCases/Helper/ObjectIdentityHeap_InstanceBuffer.cs
+    - ObjectIdentityHeap_InstanceBuffer
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.22P_ObjectIdentityHeap_StaticShared.unity
+    - '154000'
+    - Driver
+    - '154020'
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.22P_ObjectIdentityHeap_Instance_StaticShared_222_P.cs
+    - ObjectIdentityHeap_Instance_StaticShared_222_P
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.22P_ObjectIdentityHeap_StaticShared.unity
+    - '154100'
+    - BufferA
+    - '154120'
+    - Assets/Scripts/_TestCases/Helper/ObjectIdentityHeap_StaticInstanceBuffer.cs
+    - ObjectIdentityHeap_StaticInstanceBuffer
+    - active
+    - high
+  - - TryNotDieBenchmark
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.22P_ObjectIdentityHeap_StaticShared.unity
+    - '154200'
+    - BufferB
+    - '154220'
+    - Assets/Scripts/_TestCases/Helper/ObjectIdentityHeap_StaticInstanceBuffer.cs
+    - ObjectIdentityHeap_StaticInstanceBuffer
+    - active
+    - high
+  - - TryNotDie
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - name:EventListener32
+    - EventListener32
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:342441547
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1N_ConfigurationRecoveredEdges_Listener_Events_PanelBind_71_N.cs
+    - ConfigurationRecoveredEdges_EventListener_71_N
+    - unknown
+    - high
+  - - TryNotDie
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - name:EventSource32
+    - EventSource32
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:1274899359
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1N_ConfigurationRecoveredEdges_Source_Events_PanelBind_71_N.cs
+    - ConfigurationRecoveredEdges_EventSource_71_N
+    - unknown
+    - high
+  - - TryNotDie
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - name:EventListener32
+    - EventListener32
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:342441546
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1P_ConfigurationRecoveredEdges_Listener_Events_PanelBind_71_P.cs
+    - ConfigurationRecoveredEdges_EventListener_71_P
+    - unknown
+    - high
+  - - TryNotDie
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - name:EventSource32
+    - EventSource32
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:1274899360
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1P_ConfigurationRecoveredEdges_Source_Events_PanelBind_71_P.cs
+    - ConfigurationRecoveredEdges_EventSource_71_P
+    - unknown
+    - high
+- addsTo:
+    pack: my-org/csharp-custom-queries
+    extensible: unityLifecycleEntryModel
+  data:
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.19P_ObjectIdentityHeap_Instance_SameReceiver_219_P.cs
+    - ObjectIdentityHeap_Instance_SameReceiver_219_P
+    - Start
+    - Start
+    - high
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.20N_ObjectIdentityHeap_Instance_DistinctReceivers_220_N.cs
+    - ObjectIdentityHeap_Instance_DistinctReceivers_220_N
+    - Start
+    - Start
+    - high
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.21P_ObjectIdentityHeap_Instance_AliasedReferences_221_P.cs
+    - ObjectIdentityHeap_Instance_AliasedReferences_221_P
+    - Start
+    - Start
+    - high
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.22P_ObjectIdentityHeap_Instance_StaticShared_222_P.cs
+    - ObjectIdentityHeap_Instance_StaticShared_222_P
+    - Start
+    - Start
+    - high
+- addsTo:
+    pack: my-org/csharp-custom-queries
+    extensible: unityEntryInstanceModel
+  data:
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.19P_ObjectIdentityHeap_Instance_SameReceiver_219_P.cs
+    - ObjectIdentityHeap_Instance_SameReceiver_219_P
+    - Start
+    - '151020'
+    - TryNotDieBenchmark:Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.19P_ObjectIdentityHeap_SameReceiver.unity#component:151020
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.19P_ObjectIdentityHeap_SameReceiver.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.20N_ObjectIdentityHeap_Instance_DistinctReceivers_220_N.cs
+    - ObjectIdentityHeap_Instance_DistinctReceivers_220_N
+    - Start
+    - '152020'
+    - TryNotDieBenchmark:Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.20N_ObjectIdentityHeap_DistinctReceivers.unity#component:152020
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.20N_ObjectIdentityHeap_DistinctReceivers.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.21P_ObjectIdentityHeap_Instance_AliasedReferences_221_P.cs
+    - ObjectIdentityHeap_Instance_AliasedReferences_221_P
+    - Start
+    - '153020'
+    - TryNotDieBenchmark:Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.21P_ObjectIdentityHeap_AliasedReferences.unity#component:153020
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.21P_ObjectIdentityHeap_AliasedReferences.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.22P_ObjectIdentityHeap_Instance_StaticShared_222_P.cs
+    - ObjectIdentityHeap_Instance_StaticShared_222_P
+    - Start
+    - '154020'
+    - TryNotDieBenchmark:Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.22P_ObjectIdentityHeap_StaticShared.unity#component:154020
+    - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/Fixtures/2.22P_ObjectIdentityHeap_StaticShared.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1N_ConfigurationRecoveredEdges_Listener_Events_PanelBind_71_N.cs
+    - ConfigurationRecoveredEdges_EventListener_71_N
+    - SafeHandler
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:342441547
+    - asset:Assets/Scenes/VRTaintBenchmark.unity|gameObject:name:EventListener32|component:TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:342441547
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1P_ConfigurationRecoveredEdges_Listener_Events_PanelBind_71_P.cs
+    - ConfigurationRecoveredEdges_EventListener_71_P
+    - HandleFromPanel
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:342441546
+    - asset:Assets/Scenes/VRTaintBenchmark.unity|gameObject:name:EventListener32|component:TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:342441546
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - high
+- addsTo:
+    pack: my-org/csharp-custom-queries
+    extensible: unityComponentReferenceModel
+  data:
+  - - C141N_OWNER
+    - event:onBound
+    - C141N_TARGET
+    - high
+  - - C142P_OWNER
+    - event:inheritedEvent
+    - C142P_TARGET
+    - high
+  - - C144N_OWNER
+    - event:onDisabled
+    - C144N_TARGET
+    - high
+  - - C146P_OWNER
+    - event:onPair
+    - C146P_TARGET
+    - high
+  - - C146N_OWNER
+    - event:onPair
+    - C146N_TARGET
+    - high
+  - - C147P_OWNER
+    - target
+    - C147P_TARGET
+    - high
+  - - C161P_OWNER
+    - event:onReady
+    - C161P_TARGET
+    - high
+  - - C161N_OWNER
+    - event:onReady
+    - C161N_TARGET
+    - high
+  - - C162P_OWNER
+    - target
+    - C162P_TARGET
+    - high
+  - - C143P_OWNER
+    - target
+    - C143P_TARGET
+    - high
+  - - C143N_OWNER
+    - writerTarget
+    - C143N_A
+    - high
+  - - C143N_OWNER
+    - readerTarget
+    - C143N_B
+    - high
+  - - '151020'
+    - buffer
+    - '151120'
+    - high
+  - - '152020'
+    - writer
+    - '152120'
+    - high
+  - - '152020'
+    - reader
+    - '152220'
+    - high
+  - - '153020'
+    - writer
+    - '153120'
+    - high
+  - - '153020'
+    - reader
+    - '153120'
+    - high
+  - - '154020'
+    - writer
+    - '154120'
+    - high
+  - - '154020'
+    - reader
+    - '154220'
+    - high
+  - - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:1274899359
+    - event:onSafeEvent
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:342441547
+    - high
+  - - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:1274899360
+    - event:onPanelEvent
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:342441546
+    - high
+- addsTo:
+    pack: my-org/csharp-custom-queries
+    extensible: unityInstanceCoverageModel
+  data:
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.19P_ObjectIdentityHeap_Instance_SameReceiver_219_P.cs
+    - ObjectIdentityHeap_Instance_SameReceiver_219_P
+    - complete
+    - unity-scene-fixture
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.20N_ObjectIdentityHeap_Instance_DistinctReceivers_220_N.cs
+    - ObjectIdentityHeap_Instance_DistinctReceivers_220_N
+    - complete
+    - unity-scene-fixture
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.21P_ObjectIdentityHeap_Instance_AliasedReferences_221_P.cs
+    - ObjectIdentityHeap_Instance_AliasedReferences_221_P
+    - complete
+    - unity-scene-fixture
+  - - Assets/Scripts/_TestCases/Category2-ObjectIdentityHeap/2.22P_ObjectIdentityHeap_Instance_StaticShared_222_P.cs
+    - ObjectIdentityHeap_Instance_StaticShared_222_P
+    - complete
+    - unity-scene-fixture
+  - - Assets/Scripts/_TestCases/Helper/ObjectIdentityHeap_InstanceBuffer.cs
+    - ObjectIdentityHeap_InstanceBuffer
+    - complete
+    - unity-scene-fixture
+  - - Assets/Scripts/_TestCases/Helper/ObjectIdentityHeap_StaticInstanceBuffer.cs
+    - ObjectIdentityHeap_StaticInstanceBuffer
+    - complete
+    - unity-scene-fixture
+- addsTo:
+    pack: my-org/csharp-custom-queries
+    extensible: unitySerializedUnityEventBindingModel
+  data:
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.2N_ConfigurationRecoveredEdges_UnrelatedEventOwner_72_N.cs
+    - ConfigurationRecoveredEdges_UnrelatedEventOwner_72_N
+    - C141N_OWNER
+    - onBound
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.2N_ConfigurationRecoveredEdges_UnrelatedEventTarget_72_N.cs
+    - ConfigurationRecoveredEdges_UnrelatedEventTarget_72_N
+    - C141N_TARGET
+    - HandleBound
+    - 0
+    - 0
+    - dynamic
+    - '2'
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.3P_ConfigurationRecoveredEdges_InheritedEventOwner_73_P.cs
+    - ConfigurationRecoveredEdges_InheritedEventOwner_73_P
+    - C142P_OWNER
+    - inheritedEvent
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.3P_ConfigurationRecoveredEdges_InheritedEventTarget_73_P.cs
+    - ConfigurationRecoveredEdges_InheritedEventTarget_73_P
+    - C142P_TARGET
+    - HandleInherited
+    - 0
+    - 0
+    - dynamic
+    - '2'
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.5N_ConfigurationRecoveredEdges_DisabledEventOwner_75_N.cs
+    - ConfigurationRecoveredEdges_DisabledEventOwner_75_N
+    - C144N_OWNER
+    - onDisabled
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.5N_ConfigurationRecoveredEdges_DisabledEventTarget_75_N.cs
+    - ConfigurationRecoveredEdges_DisabledEventTarget_75_N
+    - C144N_TARGET
+    - HandleDisabled
+    - 0
+    - 0
+    - dynamic
+    - '0'
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.6P_ConfigurationRecoveredEdges_ArgumentIndexOwner_76_P.cs
+    - ConfigurationRecoveredEdges_ArgumentIndexOwner_76_P
+    - C146P_OWNER
+    - onPair
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.6P_ConfigurationRecoveredEdges_ArgumentIndexTarget_76_P.cs
+    - ConfigurationRecoveredEdges_ArgumentIndexTarget_76_P
+    - C146P_TARGET
+    - HandleSecond
+    - 1
+    - 0
+    - dynamic
+    - '2'
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.6N_ConfigurationRecoveredEdges_WrongArgumentOwner_76_N.cs
+    - ConfigurationRecoveredEdges_WrongArgumentOwner_76_N
+    - C146N_OWNER
+    - onPair
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.6N_ConfigurationRecoveredEdges_WrongArgumentTarget_76_N.cs
+    - ConfigurationRecoveredEdges_WrongArgumentTarget_76_N
+    - C146N_TARGET
+    - HandleSecond
+    - 1
+    - 0
+    - dynamic
+    - '2'
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category8-Composite/8.1P_Composite_LifecycleAsyncEventOwner_81_P.cs
+    - Composite_LifecycleAsyncEventOwner_81_P
+    - C161P_OWNER
+    - onReady
+    - Assets/Scripts/_TestCases/Category8-Composite/8.1P_Composite_LifecycleAsyncEventTarget_81_P.cs
+    - Composite_LifecycleAsyncEventTarget_81_P
+    - C161P_TARGET
+    - Upload
+    - 0
+    - 0
+    - dynamic
+    - '2'
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category8-Composite/8.1N_Composite_CleanedAsyncEventOwner_81_N.cs
+    - Composite_CleanedAsyncEventOwner_81_N
+    - C161N_OWNER
+    - onReady
+    - Assets/Scripts/_TestCases/Category8-Composite/8.1N_Composite_CleanedAsyncEventTarget_81_N.cs
+    - Composite_CleanedAsyncEventTarget_81_N
+    - C161N_TARGET
+    - Upload
+    - 0
+    - 0
+    - dynamic
+    - '2'
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1N_ConfigurationRecoveredEdges_Source_Events_PanelBind_71_N.cs
+    - ConfigurationRecoveredEdges_EventSource_71_N
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:1274899359
+    - onSafeEvent
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1N_ConfigurationRecoveredEdges_Listener_Events_PanelBind_71_N.cs
+    - ConfigurationRecoveredEdges_EventListener_71_N
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:342441547
+    - SafeHandler
+    - 0
+    - 0
+    - dynamic
+    - '2'
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - high
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1P_ConfigurationRecoveredEdges_Source_Events_PanelBind_71_P.cs
+    - ConfigurationRecoveredEdges_EventSource_71_P
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:1274899360
+    - onPanelEvent
+    - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1P_ConfigurationRecoveredEdges_Listener_Events_PanelBind_71_P.cs
+    - ConfigurationRecoveredEdges_EventListener_71_P
+    - TryNotDie:Assets/Scenes/VRTaintBenchmark.unity#component:342441546
+    - HandleFromPanel
+    - 0
+    - 0
+    - dynamic
+    - '2'
+    - Assets/Scenes/VRTaintBenchmark.unity
+    - high
+- addsTo:
+    pack: my-org/csharp-custom-queries
+    extensible: unitySerializedUnityEventInvocationModel
+  data:
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.2N_ConfigurationRecoveredEdges_UnrelatedEventOwner_72_N.cs
+    - onBound
+    - 12
+    - source-lexical
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.3P_ConfigurationRecoveredEdges_InheritedEventOwner_73_P.cs
+    - inheritedEvent
+    - 14
+    - source-lexical
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.5N_ConfigurationRecoveredEdges_DisabledEventOwner_75_N.cs
+    - onDisabled
+    - 11
+    - source-lexical
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.6P_ConfigurationRecoveredEdges_ArgumentIndexOwner_76_P.cs
+    - onPair
+    - 11
+    - source-lexical
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.6N_ConfigurationRecoveredEdges_WrongArgumentOwner_76_N.cs
+    - onPair
+    - 11
+    - source-lexical
+  - - Assets/Scripts/_TestCases/Category8-Composite/8.1P_Composite_LifecycleAsyncEventOwner_81_P.cs
+    - onReady
+    - 15
+    - source-lexical
+  - - Assets/Scripts/_TestCases/Category8-Composite/8.1N_Composite_CleanedAsyncEventOwner_81_N.cs
+    - onReady
+    - 15
+    - source-lexical
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1N_ConfigurationRecoveredEdges_Source_Events_PanelBind_71_N.cs
+    - onSafeEvent
+    - 16
+    - source-lexical
+  - - Assets/Scripts/_TestCases/Category7-ConfigurationRecoveredEdges/7.1P_ConfigurationRecoveredEdges_Source_Events_PanelBind_71_P.cs
+    - onPanelEvent
+    - 16
+    - source-lexical
