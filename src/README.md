@@ -50,8 +50,9 @@ python src/data_build/build_codeql_db.py            # build CodeQL DBs -> new5_c
 
 - All scripts use relative/anchored paths (no hardcoded absolute paths); they can
   be moved together with the dataset root.
-- `vrtaint_cli.py` is a copy of the canonical entry point at
-  `query_test/VRTaint/.../scripts/20260815_003557_v001_vrtaint_cli.py`; keep the
-  two in sync if you modify either one.
+- `vrtaint_cli.py` is the canonical pipeline entry point. It locates the VRTaint
+  query pack at `<dataset>/VRTaint` (derived from this file's location) or via
+  the `VRTRAINT_PACK_ROOT` environment variable; the preprocessing analyzer is
+  expected at `<dataset>/src/Unity_preprocessing/UnityInspectorBindingAnalyzer.py`.
 - Third-party runtime dependencies: `PyYAML`, `ruamel.yaml`, `chardet`, `tqdm`
   (see each script's imports).

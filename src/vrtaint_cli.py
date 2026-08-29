@@ -20,42 +20,36 @@ from pathlib import Path
 from typing import Callable
 
 
-VERSION = "20260829_145900_v013"
+VERSION = "v013"
 
 
 def _default_pack_root() -> Path:
     """Locate the VRTaint pack root: prefer the environment variable, otherwise derive it from this script's location.
 
-    This script may live in either of two places:
-    1. Inside the pack:  <pack_root>/maintenance/main-entry/scripts/
-       -> parents[0]=scripts, parents[1]=main entry dir, parents[2]=maintenance dir,
-          parents[3]=VRTaint pack root.
-    2. Under src/:        <root>/src/vrtaint_cli.py
-       -> parents[0]=src, parents[1]=<root> (dataset root), pack root = <root>/query_test/VRTaint.
+    The driver lives at <root>/src/vrtaint_cli.py and the pack at <root>/VRTaint:
+      -> parents[0]=src, parents[1]=<root> (dataset root), pack root = <root>/VRTaint.
 
-    After the tree is reorganized/moved, the VRTRAINT_PACK_ROOT environment variable can
-    still be used to specify the pack root explicitly.
+    The VRTRAINT_PACK_ROOT environment variable always takes precedence and can be used
+    to point at any relocated pack root.
     """
     env = os.environ.get("VRTRAINT_PACK_ROOT")
     if env:
         return Path(env).resolve()
     here = Path(__file__).resolve()
-    if here.parent.name == "src":
-        # <root>/src/vrtaint_cli.py -> pack root at <root>/query_test/VRTaint
-        return here.parent.parent / "query_test" / "VRTaint"
-    return here.parents[3]
+    # <root>/src/vrtaint_cli.py -> pack root at <root>/VRTaint
+    return here.parent.parent / "VRTaint"
 
 
 def _default_inspector_analyzer() -> Path:
     """Locate UnityInspectorBindingAnalyzer: prefer the environment variable, otherwise derive it from pack_root.
 
-    Derivation rule (when pack_root=<root>/query_test/VRTaint, parents[1]=<root>):
+    Derivation rule (pack root = <root>/VRTaint, so DEFAULT_PACK_ROOT.parent = <root>):
         <root>/src/Unity_preprocessing/UnityInspectorBindingAnalyzer.py
     """
     env = os.environ.get("VRTRAINT_INSPECTOR_ANALYZER")
     if env:
         return Path(env).resolve()
-    return DEFAULT_PACK_ROOT.parents[1] / "src" / "Unity_preprocessing" / "UnityInspectorBindingAnalyzer.py"
+    return DEFAULT_PACK_ROOT.parent / "src" / "Unity_preprocessing" / "UnityInspectorBindingAnalyzer.py"
 
 
 DEFAULT_PACK_ROOT = _default_pack_root()
@@ -596,12 +590,12 @@ def pipeline_compile_privacy(a: argparse.Namespace, run_root: Path,
     if a.privacy_codeql_languages in {"all", "csharp"}:
         queries.extend([
             a.pack_root / "queries" / "UnitySensitiveDataExposure.ql",
-            a.pack_root / "queries" / "20260829_040000_v001_UnitySerializedSensitiveDataExposure.ql",
+            a.pack_root / "queries" / "UnitySerializedSensitiveDataExposure.ql",
         ])
     if a.privacy_codeql_languages in {"all", "python"} and a.python_database:
         queries.append(a.pack_root / "python_queries" /
-                       "20260829_053000_v001_python_privacy_pack" /
-                       "20260829_053000_v001_PythonBiometricNetworkExposure.ql")
+                       "python_privacy_pack" /
+                       "PythonBiometricNetworkExposure.ql")
     outcomes = []
     for query in queries:
         qid = query_id(query)
@@ -642,7 +636,7 @@ def pipeline_privacy_configuration(a: argparse.Namespace, run_root: Path,
     """Report direct sensitive SDK configuration semantics from scene/prefab facts."""
     execute_query(
         a, run_root, stages, "privacy-configuration",
-        a.pack_root / "queries" / "20260829_040000_v001_UnitySerializedSensitiveDataExposure.ql",
+        a.pack_root / "queries" / "UnitySerializedSensitiveDataExposure.ql",
         min(a.privacy_timeout, 300), instance_only=True,
     )
 
@@ -651,8 +645,8 @@ def pipeline_python_privacy_codeql(a: argparse.Namespace, run_root: Path,
                                    stages: list[StageResult]) -> None:
     if a.python_database is None:
         return
-    query = (a.pack_root / "python_queries" / "20260829_053000_v001_python_privacy_pack" /
-             "20260829_053000_v001_PythonBiometricNetworkExposure.ql")
+    query = (a.pack_root / "python_queries" / "python_privacy_pack" /
+             "PythonBiometricNetworkExposure.ql")
     execute_query(a, run_root, stages, "privacy-codeql-python", query,
                   a.deep_timeout, a.python_database, use_models=False)
 
@@ -964,10 +958,10 @@ def prepare_privacy_model(a: argparse.Namespace, run_root: Path,
     summary = generated / "privacy_model_summary.json"
     command = [
         sys.executable,
-        str(script_root / "20260829_145900_v001_unity_privacy_source_model_pack.py"),
+        str(script_root / "unity_privacy_source_model_pack.py"),
         "--project-root", str(a.project), "--output-pack", str(generated),
         "--base-pack", str(a.instance_model_pack),
-        "--source-generator", str(script_root / "20260829_040000_v001_unity_privacy_model_pack.py"),
+        "--source-generator", str(script_root / "unity_privacy_model_pack.py"),
     ]
     result = run_stage(
         "privacy_model", command,
