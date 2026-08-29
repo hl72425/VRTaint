@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "scoring_unit": "logical manifest case",
+  "logical_cases": 141,
+  "positive_cases": 80,
+  "negative_cases": 61,
+  "query_alert_rows": {
+    "UnityTaint.ql": 88,
+    "UnitySensitiveDataExposure.ql": 7
+  },
+  "mapped_alert_rows": 95,
+  "unmapped_alert_rows": 0,
+  "confusion_matrix": {
+    "TN": 55,
+    "TP": 77,
+    "FP": 6,
+    "FN": 3
+  },
+  "precision": 0.927710843373494,
+  "recall": 0.9625,
+  "accuracy": 0.9361702127659575,
+  "f1": 0.9447852760736196,
+  "category_matrix": {
+    "Category1-CoreDataflow": {
+      "TN": 9,
+      "TP": 10
+    },
+    "Category2-ObjectIdentityHeap": {
+      "TN": 9,
+      "TP": 17,
+      "FP": 4,
+      "FN": 1
+    },
+    "Category3-UnityLifecycle": {
+      "TN": 9,
+      "TP": 14,
+      "FP": 1,
+      "FN": 1
+    },
+    "Category4-AsyncTemporal": {
+      "FP": 1,
+      "TP": 6,
+      "TN": 5
+    },
+    "Category5-DynamicInvocation": {
+      "TN": 12,
+      "TP": 13,
+      "FN": 1
+    },
+    "Category6-RuntimeEventDispatch": {
+      "TN": 3,
+      "TP": 3
+    },
+    "Category7-ConfigurationRecoveredEdges": {
+      "TN": 5,
+      "TP": 5
+    },
+    "Category8-Composite": {
+      "TN": 1,
+      "TP": 2
+    },
+    "Category9-Privacy": {
+      "TN": 2,
+      "TP": 7
+    }
+  },
+  "false_positive_case_ids": [
+    "2.2N",
+    "2.13N",
+    "2.18N",
+    "2.20N",
+    "3.7N",
+    "4.1N"
+  ],
+  "false_negative_case_ids": [
+    "2.3P",
+    "3.13P",
+    "5.10P"
+  ],
+  "unmapped_alerts": []
+}

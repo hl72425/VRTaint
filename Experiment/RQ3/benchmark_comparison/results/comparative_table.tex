@@ -1,0 +1,51 @@
+\begin{table*}[t]
+\centering
+\caption{Quantitative Evaluation Results across Different Vulnerability Categories (RQ1)}
+\label{tab:rq1_results}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{l|l|c|c|c|c|c|c|c}
+\hline
+Category & Tools & TP/P & FP/N & Precision & Recall & F1 & FPR & Accuracy \\ \hline
+\multirow{3}{*}{C1-CoreDataflow} & CodeQL & 3/10 & 0/9 & 100.00\% & 30.00\% & 46.15\% & 0.00\% & 63.16\% \\
+ & Semgrep & 2/10 & 0/9 & 100.00\% & 20.00\% & 33.33\% & 0.00\% & 57.89\% \\
+ & \sys{} & \textbf{10/10} & \textbf{0/9} & \textbf{100.00\%} & \textbf{100.00\%} & \textbf{100.00\%} & \textbf{0.00\%} & \textbf{100.00\%} \\
+\hline
+\multirow{3}{*}{C2-ObjectIdentityHeap} & CodeQL & 4/18 & 1/13 & 80.00\% & 22.22\% & 34.78\% & 7.69\% & 51.61\% \\
+ & Semgrep & 0/18 & 0/13 & --- & 0.00\% & 0.00\% & 0.00\% & 41.94\% \\
+ & \sys{} & \textbf{17/18} & \textbf{4/13} & \textbf{80.95\%} & \textbf{94.44\%} & \textbf{87.18\%} & \textbf{30.77\%} & \textbf{83.87\%} \\
+\hline
+\multirow{3}{*}{C3-UnityLifecycle} & CodeQL & 0/15 & 0/10 & --- & 0.00\% & 0.00\% & 0.00\% & 40.00\% \\
+ & Semgrep & 0/15 & 0/10 & --- & 0.00\% & 0.00\% & 0.00\% & 40.00\% \\
+ & \sys{} & \textbf{14/15} & \textbf{1/10} & \textbf{93.33\%} & \textbf{93.33\%} & \textbf{93.33\%} & \textbf{10.00\%} & \textbf{92.00\%} \\
+\hline
+\multirow{3}{*}{C4-AsyncTemporal} & CodeQL & 5/6 & 1/6 & 83.33\% & 83.33\% & 83.33\% & 16.67\% & 83.33\% \\
+ & Semgrep & 0/6 & 0/6 & --- & 0.00\% & 0.00\% & 0.00\% & 50.00\% \\
+ & \sys{} & \textbf{6/6} & \textbf{1/6} & \textbf{85.71\%} & \textbf{100.00\%} & \textbf{92.31\%} & \textbf{16.67\%} & \textbf{91.67\%} \\
+\hline
+\multirow{3}{*}{C5-DynamicInvocation} & CodeQL & 1/14 & 0/12 & 100.00\% & 7.14\% & 13.33\% & 0.00\% & 50.00\% \\
+ & Semgrep & 0/14 & 0/12 & --- & 0.00\% & 0.00\% & 0.00\% & 46.15\% \\
+ & \sys{} & \textbf{13/14} & \textbf{0/12} & \textbf{100.00\%} & \textbf{92.86\%} & \textbf{96.30\%} & \textbf{0.00\%} & \textbf{96.15\%} \\
+\hline
+\multirow{3}{*}{C6-RuntimeEventDispatch} & CodeQL & 0/3 & 0/3 & --- & 0.00\% & 0.00\% & 0.00\% & 50.00\% \\
+ & Semgrep & 0/3 & 0/3 & --- & 0.00\% & 0.00\% & 0.00\% & 50.00\% \\
+ & \sys{} & \textbf{3/3} & \textbf{0/3} & \textbf{100.00\%} & \textbf{100.00\%} & \textbf{100.00\%} & \textbf{0.00\%} & \textbf{100.00\%} \\
+\hline
+\multirow{3}{*}{C7-ConfigurationRecoveredEdges} & CodeQL & 0/5 & 0/5 & --- & 0.00\% & 0.00\% & 0.00\% & 50.00\% \\
+ & Semgrep & 0/5 & 0/5 & --- & 0.00\% & 0.00\% & 0.00\% & 50.00\% \\
+ & \sys{} & \textbf{5/5} & \textbf{0/5} & \textbf{100.00\%} & \textbf{100.00\%} & \textbf{100.00\%} & \textbf{0.00\%} & \textbf{100.00\%} \\
+\hline
+\multirow{3}{*}{C8-Composite} & CodeQL & 0/2 & 0/1 & --- & 0.00\% & 0.00\% & 0.00\% & 33.33\% \\
+ & Semgrep & 0/2 & 0/1 & --- & 0.00\% & 0.00\% & 0.00\% & 33.33\% \\
+ & \sys{} & \textbf{2/2} & \textbf{0/1} & \textbf{100.00\%} & \textbf{100.00\%} & \textbf{100.00\%} & \textbf{0.00\%} & \textbf{100.00\%} \\
+\hline
+\multirow{3}{*}{C9-Privacy} & CodeQL & 6/7 & 0/2 & 100.00\% & 85.71\% & 92.31\% & 0.00\% & 88.89\% \\
+ & Semgrep & 3/7 & 0/2 & 100.00\% & 42.86\% & 60.00\% & 0.00\% & 55.56\% \\
+ & \sys{} & \textbf{7/7} & \textbf{0/2} & \textbf{100.00\%} & \textbf{100.00\%} & \textbf{100.00\%} & \textbf{0.00\%} & \textbf{100.00\%} \\
+\hline
+\multirow{3}{*}{Overall} & CodeQL & 19/80 & 2/61 & 90.48\% & 23.75\% & 37.62\% & 3.28\% & 55.32\% \\
+ & Semgrep & 5/80 & 0/61 & 100.00\% & 6.25\% & 11.76\% & 0.00\% & 46.81\% \\
+ & \sys{} & \textbf{77/80} & \textbf{6/61} & \textbf{92.77\%} & \textbf{96.25\%} & \textbf{94.48\%} & \textbf{9.84\%} & \textbf{93.62\%} \\
+\hline
+\end{tabular}
+\end{table*}

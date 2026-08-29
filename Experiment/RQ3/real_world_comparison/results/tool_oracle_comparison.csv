@@ -1,0 +1,19 @@
+id,category,project,risk,native_codeql_detected,native_rule,native_evidence,native_scope,semgrep_location_detected,semgrep_rule,semgrep_evidence,semgrep_scope
+S01,security,Arcthesia_ArcCreate,Zip Slip / Lua second stage,yes,cs/zipslip,Assets/Scripts/Storage/FileImportManager.IO.cs:82,Zip entry to filesystem operation,no,,,
+S02,security,Cytoid_Cytoid,Zip Slip arbitrary write,no,,,,no,,,
+S03,security,TheYellowArchitect_doubledamnation,Network-reachable BinaryFormatter,no,,,,yes,insecure-binaryformatter-deserialization,"Assets/Co-Op Prototype/Scripts/GameManager/Extensions.cs:137,148",Target BinaryFormatter sink; network reachability is not modeled
+S04,security,QuestNav_QuestNav,Unauthenticated wildcard HTTP management surface,no,,,,no,,,
+S05,security,icosa-foundation_open-brush,HTTP path traversal to Lua plugin execution,no,,,,yes,unsafe-path-combine,Assets/Scripts/API/ApiMethods.cs:1044,Target traversal write construction; Lua execution second stage is not modeled
+S06,security,Cuerzor_MinecraftVsZombies2Unity,Zip Slip arbitrary write,yes,cs/zipslip,Assets/Scripts/Managers/SaveManager_Users.cs:239,Archive entry path to extraction write,no,,,
+S07,security,finol-digital_Card-Game-Simulator,Structured metadata path traversal write,no,,,,no,,,
+S08,security,Boysle_TinkerXR,Command injection plus path traversal plus unsafe deserialization,yes,,MgrServer/server.ts:83,HTTP-controlled command reaches exec,yes,insecure-binaryformatter-deserialization,"Assets/Scripts/Artun/ModelCreator.cs:250,269",Target unsafe deserialization subissue; JS command injection/path traversal are not detected
+S09,security,vyshnovka_procedural-generation-tool,User-file unsafe deserialization,no,,,,no,,,
+S10,security,planetarium_NineChronicles,Unbounded gRPC receive/decompression DoS,no,,,,no,,,
+S11,security,Fragsurf_Fragsurf-2,Unitypackage path traversal move/overwrite,no,,,,no,,,
+S12,security,megalithos_Ace-Squared,Server-controlled path traversal write,no,,,,no,,,
+P01,privacy,breineng_mimesis-ai-clone-unity,Microphone plus spatial context sharing,no,,,,no,,,
+P02,privacy,pollen-robotics_ReachyTeleoperation,Head/hand tracking to robot gRPC,no,,,,no,,,
+P03,privacy,MaxAndreassen_VR-Multiplayer-Table-Tennis,Photon voice and transform autosync,no,,,,no,,,
+P04,privacy,DreVinciCode_Unity_KinovaGen3LiteAR,XR hand/gaze-derived robot telemetry,no,,,,no,,,
+P05,privacy,stalomeow_StarRailMotionCapture,Face landmarks/blendshapes to UDP client,no,,,,no,,,
+P06,privacy,Snowapril_VRoom,Head/hand transforms to Photon room,no,,,,no,,,

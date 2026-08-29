@@ -1,0 +1,177 @@
+﻿id,tool,rule,path,line,message
+S01,Native CodeQL,cs/zipslip,Assets/Scripts/Storage/FileImportManager.IO.cs,82,"Unsanitized archive entry, which may contain '..', is used in a [file system operation](1)."
+S01,Native CodeQL,cs/path-combine,Assets/Scripts/Storage/FileImportManager.IO.cs,35,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S01,Native CodeQL,cs/path-combine,Assets/Scripts/Storage/FileImportManager.IO.cs,82,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S01,Native CodeQL,cs/path-combine,Assets/Scripts/Storage/FileImportManager.IO.cs,249,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S01,Native CodeQL,cs/path-combine,Assets/Scripts/Storage/FileImportManager.IO.cs,282,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S01,Native CodeQL,cs/path-combine,Assets/Scripts/Storage/FileImportManager.IO.cs,333,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S01,Native CodeQL,cs/dereferenced-value-may-be-null,Assets/Scripts/Storage/FileImportManager.IO.cs,317,Variable [storage](1) may be null at this access because of [this](2) assignment.
+S01,Native CodeQL,cs/useless-assignment-to-local,Assets/Scripts/Compose/Macros/MacroLuaEnvironment.cs,66,"This assignment to [script](1) is useless, since its value is never read."
+S01,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/Compose/Macros/MacroLuaEnvironment.cs,79,Generic catch clause.
+S01,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/Compose/Macros/MacroLuaEnvironment.cs,171,Generic catch clause.
+S01,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/Compose/Macros/MacroLuaEnvironment.cs,236,Generic catch clause.
+S01,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/Storage/FileImportManager.IO.cs,51,Generic catch clause.
+S01,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/Storage/FileImportManager.IO.cs,101,Generic catch clause.
+S01,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/Storage/FileImportManager.IO.cs,322,Generic catch clause.
+S01,Native CodeQL,cs/test-for-negative-container-size,Assets/Scripts/Storage/FileImportManager.IO.cs,167,"This expression is always true, since a collection can never have negative size."
+S01,Native CodeQL,cs/equality-on-floats,Assets/Scripts/Storage/FileImportManager.IO.cs,312,Equality checks on floating point values can yield unexpected results.
+S01,Native CodeQL,cs/inefficient-containskey,Assets/Scripts/Compose/Macros/MacroLuaEnvironment.cs,275,Inefficient use of 'ContainsKey' and [indexer](1).
+S02,Native CodeQL,cs/path-combine,engines/unity/Assets/Scripts/LevelManager.cs,210,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S02,Native CodeQL,cs/path-combine,engines/unity/Assets/Scripts/LevelManager.cs,321,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S02,Native CodeQL,cs/comparison-of-identical-expressions,engines/unity/Assets/Scripts/LevelManager.cs,53,Comparison of identical values.
+S02,Native CodeQL,cs/comparison-of-identical-expressions,engines/unity/Assets/Scripts/LevelManager.cs,102,Comparison of identical values.
+S02,Native CodeQL,cs/useless-assignment-to-local,engines/unity/Assets/Scripts/LevelManager.cs,307,"This assignment to [entry](1) is useless, since its value is never read."
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,77,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,129,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,140,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,154,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,230,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,265,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,277,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,288,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,312,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,342,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,366,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,383,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,639,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,466,Generic catch clause.
+S02,Native CodeQL,cs/catch-of-all-exceptions,engines/unity/Assets/Scripts/LevelManager.cs,621,Generic catch clause.
+S02,Native CodeQL,cs/linq/missed-where,engines/unity/Assets/Scripts/LevelManager.cs,117,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S02,Native CodeQL,cs/linq/missed-where,engines/unity/Assets/Scripts/LevelManager.cs,723,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S02,Native CodeQL,cs/inefficient-containskey,engines/unity/Assets/Scripts/LevelManager.cs,244,Inefficient use of 'ContainsKey' and [indexer](1).
+S02,Native CodeQL,cs/inefficient-containskey,engines/unity/Assets/Scripts/LevelManager.cs,421,Inefficient use of 'ContainsKey' and [indexer](1).
+S02,Native CodeQL,cs/inefficient-containskey,engines/unity/Assets/Scripts/LevelManager.cs,505,"Inefficient use of 'ContainsKey' and [indexer](1).
+Inefficient use of 'ContainsKey' and [indexer](2).
+Inefficient use of 'ContainsKey' and [indexer](3)."
+S03,Native CodeQL,cs/local-not-disposed,Assets/Co-Op%20Prototype/Scripts/GameManager/Extensions.cs,138,Disposable 'MemoryStream' is created but not disposed.
+S03,Native CodeQL,cs/local-not-disposed,Assets/Co-Op%20Prototype/Scripts/GameManager/Extensions.cs,147,Disposable 'MemoryStream' is created but not disposed.
+S03,Native CodeQL,cs/simplifiable-boolean-expression,Assets/Co-Op%20Prototype/Scripts/GameManager/Extensions.cs,58,The expression 'A == false' can be simplified to '!A'.
+S03,Native CodeQL,cs/simplifiable-boolean-expression,Assets/Co-Op%20Prototype/Scripts/GameManager/Extensions.cs,91,The expression 'A == false' can be simplified to '!A'.
+S04,Native CodeQL,cs/local-not-disposed,unity/Assets/QuestNav/WebServer/Server/ConfigServer.cs,133,Disposable 'WebServer' is created but not disposed.
+S04,Native CodeQL,cs/path-combine,unity/Assets/QuestNav/WebServer/Server/ConfigServer.cs,97,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S04,Native CodeQL,cs/catch-of-all-exceptions,unity/Assets/QuestNav/WebServer/Server/ConfigServer.cs,153,Generic catch clause.
+S04,Native CodeQL,cs/catch-of-all-exceptions,unity/Assets/QuestNav/WebServer/Server/ConfigServer.cs,331,Generic catch clause.
+S04,Native CodeQL,cs/catch-of-all-exceptions,unity/Assets/QuestNav/WebServer/Server/ConfigServer.cs,439,Generic catch clause.
+S04,Native CodeQL,cs/catch-of-all-exceptions,unity/Assets/QuestNav/WebServer/Server/ConfigServer.cs,464,Generic catch clause.
+S04,Native CodeQL,cs/catch-of-all-exceptions,unity/Assets/QuestNav/WebServer/Server/ConfigServer.cs,498,Generic catch clause.
+S04,Native CodeQL,cs/catch-of-all-exceptions,unity/Assets/QuestNav/WebServer/Server/ConfigServer.cs,544,Generic catch clause.
+S04,Native CodeQL,cs/catch-of-all-exceptions,unity/Assets/QuestNav/WebServer/Server/ConfigServer.cs,164,Generic catch clause.
+S04,Native CodeQL,cs/linq/missed-where,unity/Assets/QuestNav/WebServer/Server/ConfigServer.cs,224,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S05,Native CodeQL,cs/path-combine,Assets/Scripts/API/ApiMethods.cs,484,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S05,Native CodeQL,cs/path-combine,Assets/Scripts/API/ApiMethods.cs,535,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S05,Native CodeQL,cs/path-combine,Assets/Scripts/API/ApiMethods.cs,1043,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S05,Native CodeQL,cs/path-combine,Assets/Scripts/API/Lua/LuaManager.cs,161,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S05,Native CodeQL,cs/unsynchronized-static-access,Assets/Scripts/API/Lua/LuaManager.cs,1333,"Unsynchronized access to [m_Timers](1) in non-static context from [DelayedGenerateEnvironmentScreenshots](2).
+Unsynchronized access to [m_Timers](1) in non-static context from [UploadCurrentSketchAsync](3)."
+S05,Native CodeQL,cs/comparison-of-identical-expressions,Assets/Scripts/API/ApiMethods.cs,61,Comparison of identical values.
+S05,Native CodeQL,cs/comparison-of-identical-expressions,Assets/Scripts/API/ApiMethods.cs,61,Comparison of identical values.
+S05,Native CodeQL,cs/dereferenced-value-may-be-null,Assets/Scripts/API/Lua/LuaManager.cs,442,Variable [e](1) may be null at this access because of [this](2) potential null argument.
+S05,Native CodeQL,cs/useless-assignment-to-local,Assets/Scripts/API/Lua/LuaManager.cs,711,"This assignment to [_](1) is useless, since its value is never read."
+S05,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/API/Lua/LuaManager.cs,243,Generic catch clause.
+S05,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/API/Lua/LuaManager.cs,711,Generic catch clause.
+S05,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/API/Lua/LuaManager.cs,720,Generic catch clause.
+S05,Native CodeQL,cs/missed-ternary-operator,Assets/Scripts/API/ApiMethods.cs,312,Both branches of this 'if' statement write to the same variable - consider using '?' to express intent better.
+S05,Native CodeQL,cs/missed-ternary-operator,Assets/Scripts/API/ApiMethods.cs,892,Both branches of this 'if' statement write to the same variable - consider using '?' to express intent better.
+S05,Native CodeQL,cs/missed-ternary-operator,Assets/Scripts/API/ApiMethods.cs,909,Both branches of this 'if' statement write to the same variable - consider using '?' to express intent better.
+S05,Native CodeQL,cs/missed-ternary-operator,Assets/Scripts/API/Lua/LuaManager.cs,992,Both branches of this 'if' statement return - consider using '?' to express intent better.
+S05,Native CodeQL,cs/nested-if-statements,Assets/Scripts/API/ApiMethods.cs,1036,These 'if' statements can be combined.
+S05,Native CodeQL,cs/useless-cast-to-self,Assets/Scripts/API/Lua/LuaManager.cs,220,This cast is redundant because the expression already has type <unknown type>.
+S05,Native CodeQL,cs/useless-cast-to-self,Assets/Scripts/API/Lua/LuaManager.cs,413,This cast is redundant because the expression already has type <unknown type>.
+S05,Native CodeQL,cs/coalesce-of-identical-expressions,Assets/Scripts/API/Lua/LuaManager.cs,436,Both operands of this null-coalescing expression access the same variable or property.
+S05,Native CodeQL,cs/static-field-written-by-instance,Assets/Scripts/API/Lua/LuaManager.cs,160,"Write to static field from instance method, property, or constructor."
+S05,Native CodeQL,cs/static-field-written-by-instance,Assets/Scripts/API/Lua/LuaManager.cs,198,"Write to static field from instance method, property, or constructor."
+S05,Native CodeQL,cs/linq/missed-where,Assets/Scripts/API/Lua/LuaManager.cs,1147,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S05,Native CodeQL,cs/inefficient-containskey,Assets/Scripts/API/Lua/LuaManager.cs,328,Inefficient use of 'ContainsKey' and [indexer](1).
+S06,Native CodeQL,cs/zipslip,Assets/Scripts/MVZ2/Saves/SaveManager_Users.cs,239,"Unsanitized archive entry, which may contain '..', is used in a [file system operation](1)."
+S06,Native CodeQL,cs/path-combine,Assets/Scripts/MVZ2/Saves/SaveManager_Users.cs,180,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S06,Native CodeQL,cs/path-combine,Assets/Scripts/MVZ2/Saves/SaveManager_Users.cs,199,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S06,Native CodeQL,cs/path-combine,Assets/Scripts/MVZ2/Saves/SaveManager_Users.cs,243,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S06,Native CodeQL,cs/path-combine,Assets/Scripts/MVZ2/Saves/SaveManager_Users.cs,244,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S06,Native CodeQL,cs/useless-assignment-to-local,Assets/Scripts/MVZ2/Saves/SaveManager_Users.cs,192,"This assignment to [sourceDirInfo](1) is useless, since its value is never read."
+S06,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/MVZ2/Saves/SaveManager_Users.cs,167,Generic catch clause.
+S06,Native CodeQL,cs/linq/missed-where,Assets/Scripts/MVZ2/Saves/SaveManager_Users.cs,231,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S06,Native CodeQL,cs/linq/missed-where,Assets/Scripts/MVZ2/Saves/SaveManager_Users.cs,340,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S07,Native CodeQL,cs/path-combine,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,29,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S07,Native CodeQL,cs/path-combine,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,30,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S07,Native CodeQL,cs/path-combine,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,33,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S07,Native CodeQL,cs/path-combine,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,35,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S07,Native CodeQL,cs/path-combine,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,271,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S07,Native CodeQL,cs/path-combine,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,345,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S07,Native CodeQL,cs/path-combine,Assets/Scripts/UnityExtensionMethods/UnityFileMethods.cs,98,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S07,Native CodeQL,cs/path-combine,Assets/Scripts/UnityExtensionMethods/UnityFileMethods.cs,101,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S07,Native CodeQL,cs/path-combine,Assets/Scripts/UnityExtensionMethods/UnityFileMethods.cs,128,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S07,Native CodeQL,cs/path-combine,Assets/Scripts/UnityExtensionMethods/UnityFileMethods.cs,197,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S07,Native CodeQL,cs/dereferenced-value-may-be-null,Assets/Scripts/UnityExtensionMethods/UnityFileMethods.cs,389,"Variable [imageUrl](1) may be null at this access because of [this](2) potential null argument.
+Variable [imageUrl](1) may be null at this access because of [this](3) potential null argument.
+Variable [imageUrl](1) may be null at this access because of [this](4) potential null argument.
+Variable [imageUrl](1) may be null at this access because of [this](5) potential null argument."
+S07,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,207,Generic catch clause.
+S07,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,325,Generic catch clause.
+S07,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,451,Generic catch clause.
+S07,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,552,Generic catch clause.
+S07,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,734,Generic catch clause.
+S07,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1167,Generic catch clause.
+S07,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1209,Generic catch clause.
+S07,Native CodeQL,cs/catch-of-all-exceptions,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1284,Generic catch clause.
+S07,Native CodeQL,cs/missed-ternary-operator,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1227,Both branches of this 'if' statement write to the same variable - consider using '?' to express intent better.
+S07,Native CodeQL,cs/missed-ternary-operator,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1233,Both branches of this 'if' statement write to the same variable - consider using '?' to express intent better.
+S07,Native CodeQL,cs/nested-if-statements,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,805,These 'if' statements can be combined.
+S07,Native CodeQL,cs/linq/missed-where,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1351,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S07,Native CodeQL,cs/linq/missed-where,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1394,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S07,Native CodeQL,cs/linq/missed-where,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1406,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S07,Native CodeQL,cs/linq/missed-where,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1409,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S07,Native CodeQL,cs/linq/missed-where,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1412,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S07,Native CodeQL,cs/linq/missed-where,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1415,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+S07,Native CodeQL,cs/stringbuilder-creation-in-loop,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1050,Creating a 'StringBuilder' in a loop.
+S07,Native CodeQL,cs/call-to-object-tostring,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1001,"Default 'ToString()': [Dictionary<String,PropertyDefValuePair>](1) inherits 'ToString()' from 'Object', and so is not suitable for printing."
+S07,Native CodeQL,cs/call-to-object-tostring,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1001,"Default 'ToString()': [List<PropertyDef>](1) inherits 'ToString()' from 'Object', and so is not suitable for printing."
+S07,Native CodeQL,cs/call-to-object-tostring,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1014,"Default 'ToString()': [Dictionary<String,PropertyDefValuePair>](1) inherits 'ToString()' from 'Object', and so is not suitable for printing."
+S07,Native CodeQL,cs/call-to-object-tostring,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,1187,"Default 'ToString()': [Dictionary<String,String>](1) inherits 'ToString()' from 'Object', and so is not suitable for printing."
+S07,Native CodeQL,cs/call-to-object-tostring,Assets/Scripts/UnityExtensionMethods/UnityFileMethods.cs,323,"Default 'ToString()': [Action<T>](1) inherits 'ToString()' from 'Object', and so is not suitable for printing."
+S07,Native CodeQL,cs/useless-tostring-call,Assets/Scripts/FinolDigital.Cgs.Json.Unity/UnityCardGame.cs,384,Redundant call to 'ToString'.
+S08,Native CodeQL,cs/local-shadows-member,Assets/Scripts/Artun/ModelCreator.cs,364,Local scope variable 'printerObject' shadows [ModelCreator.printerObject](1).
+S08,Native CodeQL,cs/missed-readonly-modifier,Assets/Scripts/Artun/ModelCreator.cs,142,Field 'distance' can be 'readonly'.
+S08,Native CodeQL,cs/static-field-written-by-instance,Assets/Scripts/Artun/ModelCreator.cs,156,"Write to static field from instance method, property, or constructor."
+S09,Native CodeQL,cs/call-to-obsolete-method,Assets/Scripts/Managers/SaveManager.cs,55,Call to obsolete method [Deserialize](1).
+S09,Native CodeQL,cs/call-to-obsolete-method,Assets/Scripts/Managers/SaveManager.cs,32,Call to obsolete method [Serialize](1).
+S10,Native CodeQL,cs/constant-condition,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,959,Condition is always not null because of [... is ...](1).
+S10,Native CodeQL,cs/comparison-of-identical-expressions,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,280,Comparison of identical values.
+S10,Native CodeQL,cs/useless-assignment-to-local,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1748,"This assignment to [size](1) is useless, since its value is never read."
+S10,Native CodeQL,cs/catch-of-all-exceptions,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,334,Generic catch clause.
+S10,Native CodeQL,cs/catch-of-all-exceptions,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1307,Generic catch clause.
+S10,Native CodeQL,cs/catch-of-all-exceptions,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1424,Generic catch clause.
+S10,Native CodeQL,cs/catch-of-all-exceptions,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1418,Generic catch clause.
+S10,Native CodeQL,cs/catch-of-all-exceptions,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1509,Generic catch clause.
+S10,Native CodeQL,cs/catch-of-all-exceptions,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1576,Generic catch clause.
+S10,Native CodeQL,cs/catch-of-all-exceptions,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1142,Generic catch clause.
+S10,Native CodeQL,cs/catch-of-all-exceptions,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1700,Generic catch clause.
+S10,Native CodeQL,cs/missed-readonly-modifier,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,82,Field '_codec' can be 'readonly'.
+S10,Native CodeQL,cs/missed-readonly-modifier,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,129,Field '_lz4Options' can be 'readonly'.
+S10,Native CodeQL,cs/nested-if-statements,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1033,These 'if' statements can be combined.
+S10,Native CodeQL,cs/useless-tostring-call,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1612,Redundant call to 'ToString'.
+S10,Native CodeQL,cs/useless-tostring-call,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1455,Redundant call to 'ToString'.
+S10,Native CodeQL,cs/useless-tostring-call,nekoyume/Assets/_Scripts/Blockchain/RPCAgent.cs,1238,Redundant call to 'ToString'.
+S11,Native CodeQL,cs/path-combine,Assets/Fragsurf/ModTool/ModTool.Editor/ModTool.Editor/PackageExtractor.cs,87,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S11,Native CodeQL,cs/path-combine,Assets/Fragsurf/ModTool/ModTool.Editor/ModTool.Editor/PackageExtractor.cs,99,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S11,Native CodeQL,cs/path-combine,Assets/Fragsurf/ModTool/ModTool.Editor/ModTool.Editor/PackageExtractor.cs,127,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S11,Native CodeQL,cs/path-combine,Assets/Fragsurf/ModTool/ModTool.Editor/ModTool.Editor/PackageExtractor.cs,130,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S11,Native CodeQL,cs/path-combine,Assets/Fragsurf/ModTool/ModTool.Editor/ModTool.Editor/PackageExtractor.cs,131,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S11,Native CodeQL,cs/path-combine,Assets/Fragsurf/ModTool/ModTool.Editor/ModTool.Editor/PackageExtractor.cs,144,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S11,Native CodeQL,cs/path-combine,Assets/Fragsurf/ModTool/ModTool.Editor/ModTool.Editor/PackageExtractor.cs,155,Call to 'System.IO.Path.Combine' may silently drop its earlier arguments.
+S12,Native CodeQL,cs/class-implements-icloneable,UnityGameServer/Assets/Scripts/Config.cs,423,Class 'ItemCfg' implements 'ICloneable'.
+S12,Native CodeQL,cs/constant-condition,UnityGameServer/Assets/Scripts/Config.cs,218,Condition always evaluates to 'false'.
+S12,Native CodeQL,cs/empty-catch-block,UnityGameServer/Assets/Scripts/Config.cs,134,Poor error handling: empty catch block.
+S12,Native CodeQL,cs/empty-catch-block,UnityGameServer/Assets/Scripts/Config.cs,232,Poor error handling: empty catch block.
+S12,Native CodeQL,cs/useless-assignment-to-local,GameClient/Assets/Scripts/Networking%20stuff/ClientHandle.cs,121,"This assignment to [_id](1) is useless, since its value is never read."
+S12,Native CodeQL,cs/catch-of-all-exceptions,GameClient/Assets/Scripts/Map%20loading%20related%20stuff/Config.cs,150,Generic catch clause.
+S12,Native CodeQL,cs/catch-of-all-exceptions,UnityGameServer/Assets/Scripts/Config.cs,134,Generic catch clause.
+S12,Native CodeQL,cs/catch-of-all-exceptions,UnityGameServer/Assets/Scripts/Config.cs,232,Generic catch clause.
+S12,Native CodeQL,cs/missed-readonly-modifier,UnityGameServer/Assets/Scripts/Config.cs,290,Field 'end' can be 'readonly'.
+S12,Native CodeQL,cs/missed-readonly-modifier,UnityGameServer/Assets/Scripts/Config.cs,289,Field 'start' can be 'readonly'.
+S12,Native CodeQL,cs/missed-readonly-modifier,UnityGameServer/Assets/Scripts/Config.cs,388,Field 'random' can be 'readonly'.
+S12,Native CodeQL,cs/linq/missed-where,GameClient/Assets/Scripts/Map%20loading%20related%20stuff/Config.cs,102,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+P01,Native CodeQL,cs/constant-condition,Assets/Scripts/Networking/FusionSession.cs,257,Condition is always false because of [access to field _cancelConnectionRetryRequested](1).
+P01,Native CodeQL,cs/missed-readonly-modifier,Assets/Scripts/Networking/FusionSession.cs,28,Field '_defaultMapName' can be 'readonly'.
+P01,Native CodeQL,cs/missed-readonly-modifier,Assets/Scripts/Networking/FusionSession.cs,25,Field '_gameSceneName' can be 'readonly'.
+P01,Native CodeQL,cs/linq/missed-where,Assets/Scripts/Networking/Voice/VoicePhraseSync.cs,157,This foreach loop [implicitly filters its target sequence](1) - consider filtering the sequence explicitly using '.Where(...)'.
+P04,Native CodeQL,cs/missed-ternary-operator,Assets/Scripts/GipperPosePublisher.cs,45,Both branches of this 'if' statement write to the same variable - consider using '?' to express intent better.
