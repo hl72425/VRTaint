@@ -1,9 +1,0 @@
-bin/
-build/
-new_dataset/
-obj/
-output/
-repos/
-test_data/
-vulnerability_dataset/
-.vscode/
