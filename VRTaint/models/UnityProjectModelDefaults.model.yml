@@ -1,0 +1,68 @@
+# Portable zero-fact definitions for the Unity project-model extension contract.
+#
+# CodeQL requires every reachable extensible predicate to have a physical data
+# definition at evaluation time. These sentinel rows use confidence/provenance
+# "none" and therefore never become lifecycle, instance, binding, reference, or
+# execution-order facts. Project-generated model packs add high/medium rows to
+# the same predicates when instance-sensitive analysis is requested.
+extensions:
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityComponentInstanceModel
+    data:
+      - ["__VRTaintEmpty__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "unknown", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityLifecycleEntryModel
+    data:
+      - ["__NONE__", "__NONE__", "__NONE__", "none", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityNodeInstanceModel
+    data:
+      - ["__NONE__", 0, "none", "__NONE__", "__NONE__", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityEntryInstanceModel
+    data:
+      - ["__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityComponentReferenceModel
+    data:
+      - ["__NONE__", "none", "__NONE__", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityExecutionOrderModel
+    data:
+      - ["__NONE__", 0, "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityInstanceCoverageModel
+    data:
+      - ["__NONE__", "__NONE__", "partial", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unitySerializedUnityEventBindingModel
+    data:
+      - ["__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", -1, -1, "none", "0", "__NONE__", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unitySerializedUnityEventInvocationModel
+    data:
+      - ["__NONE__", "__NONE__", -1, "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityPrivacySourceLocationModel
+    data:
+      - ["__NONE__", 0, "none", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unitySerializedPrivacyExposureModel
+    data:
+      - ["__NONE__", 0, "none", "none", "__NONE__", 0, "none", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityRecoveredPrivacyExposureModel
+    data:
+      - ["__NONE__", 0, "none", "__NONE__", 0, "none", "none", "none"]

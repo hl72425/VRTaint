@@ -1,0 +1,7 @@
+{
+  "schema": "vrtaint-official-pack-lock/v1",
+  "codeql_cli": "2.25.2",
+  "csharp_queries": "1.7.1",
+  "javascript_queries": "2.3.3",
+  "notes": "JavaScript 2.3.3 is pinned because CLI 2.25.2 does not parse the OCI manifest emitted for JavaScript queries 2.4.3."
+}

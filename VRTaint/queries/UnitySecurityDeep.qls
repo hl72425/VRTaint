@@ -1,0 +1,12 @@
+- description: VRTaint cross-lifecycle/event/coroutine security layer; use a per-project evaluation budget
+- queries: .
+- include:
+    id: cs/unity-untrusted-deserialization
+- include:
+    id: cs/unity-tainted-file-path
+- include:
+    id: cs/unity-command-injection
+- include:
+    id: cs/unity-sensitive-data-exposure
+- include:
+    id: cs/unity-script-write-execution

@@ -1,0 +1,10 @@
+﻿---
+library: false
+warnOnImplicitThis: false
+name: my-org/csharp-custom-queries
+version: 0.3.0
+dependencies:
+  codeql/csharp-all: ^5.5.0
+dataExtensions:
+  - models/*.model.yml
+

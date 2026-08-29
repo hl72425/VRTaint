@@ -1,0 +1,2 @@
+- description: Auto-generated VRTaint wrappers for compatible official CSharp flow libraries
+- queries: queries/generated_official_adapters

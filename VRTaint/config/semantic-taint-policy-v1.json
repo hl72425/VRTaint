@@ -1,0 +1,41 @@
+{
+  "schema": "semantic-taint-policy/v1",
+  "tuple": ["object", "field_path", "phase", "context", "source"],
+  "phase_semantics": "Exact Unity MonoBehaviour lifecycle entry proven by the source call graph; non-lifecycle serialized callbacks are Unbound; conflicting multiple entries are Ambiguous",
+  "phase_values": [
+    "Reset", "Awake", "OnEnable", "Start", "FixedUpdate", "Update", "LateUpdate",
+    "OnTriggerEnter", "OnTriggerExit", "OnTriggerStay", "OnCollisionEnter",
+    "OnCollisionExit", "OnCollisionStay", "OnMouseDown", "OnMouseUp", "OnMouseEnter",
+    "OnMouseOver", "OnMouseExit", "OnMouseDrag", "OnPreCull", "OnBecameVisible",
+    "OnBecameInvisible", "OnWillRenderObject", "OnPreRender", "OnRenderObject",
+    "OnPostRender", "OnRenderImage", "OnGUI", "OnApplicationPause",
+    "OnApplicationFocus", "OnApplicationQuit", "OnDisable", "OnDestroy",
+    "OnAnimatorIK", "OnAnimatorMove", "Unbound", "Ambiguous"
+  ],
+  "context_schema": {
+    "name": "unity-context/v1",
+    "ordered_keys": [
+      "schema", "project", "scene", "game_object", "component", "script",
+      "entry", "callable", "event", "thread", "coroutine", "async"
+    ],
+    "missing_value": "UNKNOWN",
+    "not_applicable_value": "NONE"
+  },
+  "source_policy": {
+    "UnityEventArgument": {"influence": "data", "security_source": true},
+    "UnitySerializedConstant": {"influence": "configuration", "security_source": false},
+    "UnityEventControl": {"influence": "control", "security_source": false}
+  },
+  "precision": {
+    "max_access_path_depth": 8,
+    "unknown_index": "[*]",
+    "unknown_object": "Type#*",
+    "max_context_values_per_key": 16,
+    "cross_scene_requires": ["static", "persistent", "DontDestroyOnLoad", "scene-transition"]
+  },
+  "design": {
+    "codeql_role": "path engine and endpoint classifier",
+    "external_role": "object identity, Unity scene/context, source provenance and tuple materialization",
+    "flow_state_role": "reserved for bounded discriminators only"
+  }
+}

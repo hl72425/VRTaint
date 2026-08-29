@@ -1,0 +1,46 @@
+extensions:
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityComponentInstanceModel
+    data:
+      - ["__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "none", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityLifecycleEntryModel
+    data:
+      - ["__NONE__", "__NONE__", "__NONE__", "__NONE__", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityNodeInstanceModel
+    data:
+      - ["__NONE__", 0, "none", "__NONE__", "__NONE__", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityEntryInstanceModel
+    data:
+      - ["__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityComponentReferenceModel
+    data:
+      - ["__NONE__", "__NONE__", "__NONE__", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityExecutionOrderModel
+    data:
+      - ["__NONE__", 0, "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unityInstanceCoverageModel
+    data:
+      - ["__NONE__", "__NONE__", "partial", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unitySerializedUnityEventBindingModel
+    data:
+      - ["__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", "__NONE__", -1, -1, "none", "0", "__NONE__", "none"]
+  - addsTo:
+      pack: my-org/csharp-custom-queries
+      extensible: unitySerializedUnityEventInvocationModel
+    data:
+      - ["__NONE__", "__NONE__", 0, "none"]

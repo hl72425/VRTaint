@@ -1,0 +1,22 @@
+- description: VRTaint Unity security extensions; combine with the official CodeQL suite through the runner
+- queries: .
+- include:
+    id: cs/unity-zipslip
+- include:
+    id: cs/unitypackage-path-traversal
+- include:
+    id: cs/unity-untrusted-deserialization
+- include:
+    id: cs/unity-tainted-file-path
+- include:
+    id: cs/unity-tainted-file-path-fast
+- include:
+    id: cs/unity-command-injection
+- include:
+    id: cs/unity-unauthenticated-http-surface
+- include:
+    id: cs/unity-unbounded-grpc-decompression
+- include:
+    id: cs/unity-sensitive-data-exposure
+- include:
+    id: cs/unity-script-write-execution

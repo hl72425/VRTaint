@@ -1,0 +1,199 @@
+{
+  "schema": "vrtaint-official-deep-adapter/v1",
+  "official_model_library_count": 21,
+  "vrtaint_adapter_count": 19,
+  "official_native_only_count": 2,
+  "suite": "queries\\UnityOfficialDeepAdapters.qls",
+  "generated": [
+    {
+      "family": "CleartextStorage",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\CleartextStorageQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.CleartextStorageQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialCleartextStorage.ql",
+      "query_id": "cs/vrtaint-official-cleartextstorage",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-only"
+    },
+    {
+      "family": "CodeInjection",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\CodeInjectionQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.CodeInjectionQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialCodeInjection.ql",
+      "query_id": "cs/vrtaint-official-codeinjection",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "CommandInjection",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\CommandInjectionQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.CommandInjectionQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialCommandInjection.ql",
+      "query_id": "cs/vrtaint-official-commandinjection",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "ConditionalBypass",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\ConditionalBypassQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.ConditionalBypassQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialConditionalBypass.ql",
+      "query_id": "cs/vrtaint-official-conditionalbypass",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "ExposureOfPrivateInformation",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\ExposureOfPrivateInformationQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.ExposureOfPrivateInformationQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialExposureOfPrivateInformation.ql",
+      "query_id": "cs/vrtaint-official-exposureofprivateinformation",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-only"
+    },
+    {
+      "family": "HardcodedCredentials",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\HardcodedCredentialsQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.HardcodedCredentialsQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialHardcodedCredentials.ql",
+      "query_id": "cs/vrtaint-official-hardcodedcredentials",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-only"
+    },
+    {
+      "family": "LDAPInjection",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\LDAPInjectionQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.LDAPInjectionQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialLDAPInjection.ql",
+      "query_id": "cs/vrtaint-official-ldapinjection",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "LogForging",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\LogForgingQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.LogForgingQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialLogForging.ql",
+      "query_id": "cs/vrtaint-official-logforging",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "MissingXMLValidation",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\MissingXMLValidationQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.MissingXMLValidationQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialMissingXMLValidation.ql",
+      "query_id": "cs/vrtaint-official-missingxmlvalidation",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "ReDoS",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\ReDoSQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.ReDoSQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialReDoS.ql",
+      "query_id": "cs/vrtaint-official-redos",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "RegexInjection",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\RegexInjectionQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.RegexInjectionQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialRegexInjection.ql",
+      "query_id": "cs/vrtaint-official-regexinjection",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "ResourceInjection",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\ResourceInjectionQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.ResourceInjectionQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialResourceInjection.ql",
+      "query_id": "cs/vrtaint-official-resourceinjection",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "SqlInjection",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\SqlInjectionQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.SqlInjectionQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialSqlInjection.ql",
+      "query_id": "cs/vrtaint-official-sqlinjection",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "TaintedPath",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\TaintedPathQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.TaintedPathQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialTaintedPath.ql",
+      "query_id": "cs/vrtaint-official-taintedpath",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "UnsafeDeserialization",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\UnsafeDeserializationQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.UnsafeDeserializationQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialUnsafeDeserialization.ql",
+      "query_id": "cs/vrtaint-official-unsafedeserialization",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "UrlRedirect",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\UrlRedirectQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.UrlRedirectQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialUrlRedirect.ql",
+      "query_id": "cs/vrtaint-official-urlredirect",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "XMLEntityInjection",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\XMLEntityInjectionQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.XMLEntityInjectionQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialXMLEntityInjection.ql",
+      "query_id": "cs/vrtaint-official-xmlentityinjection",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "XPathInjection",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\XPathInjectionQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.XPathInjectionQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialXPathInjection.ql",
+      "query_id": "cs/vrtaint-official-xpathinjection",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    },
+    {
+      "family": "ZipSlip",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\ZipSlipQuery.qll",
+      "import": "semmle.code.csharp.security.dataflow.ZipSlipQuery",
+      "query": "queries\\generated_official_adapters\\VRTaintOfficialZipSlip.ql",
+      "query_id": "cs/vrtaint-official-zipslip",
+      "compatibility": "vrtaint-standard-source-sink-sanitizer",
+      "source_policy": "official-plus-unity-external"
+    }
+  ],
+  "official_native_only": [
+    {
+      "family": "ExternalAPIs",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\ExternalAPIsQuery.qll",
+      "classes": [],
+      "compatibility": "official-native-only",
+      "reason": "standard public Source/Sink/Sanitizer triple is not exposed"
+    },
+    {
+      "family": "XSS",
+      "official_library": "codeql-packages/codeql\\csharp-all\\5.5.0\\semmle\\code\\csharp\\security\\dataflow\\XSSQuery.qll",
+      "classes": [
+        "Sanitizer",
+        "Source"
+      ],
+      "compatibility": "official-native-only",
+      "reason": "standard public Source/Sink/Sanitizer triple is not exposed"
+    }
+  ]
+}

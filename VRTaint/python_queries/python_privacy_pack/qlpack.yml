@@ -1,0 +1,4 @@
+name: vrtaint/python-privacy-queries
+version: 0.1.0
+dependencies:
+  codeql/python-all: 7.0.4

@@ -1,0 +1,7 @@
+name: my-org/vrtaint-unity-instance-models
+version: 1.0.0
+library: true
+extensionTargets:
+  my-org/csharp-custom-queries: ^0.3.0
+dataExtensions:
+  - models/*.model.yml

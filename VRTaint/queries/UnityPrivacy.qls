@@ -1,0 +1,8 @@
+- description: VRTaint generic Unity privacy analysis
+- queries: .
+- include:
+    id: cs/unity-sensitive-data-exposure-fast
+- include:
+    id: cs/unity-serialized-sensitive-data-exposure
+- include:
+    id: cs/unity-recovered-sensitive-data-exposure

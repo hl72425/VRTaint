@@ -1,0 +1,20 @@
+{
+  "schema": "vrtaint-official-adapter-policy/v1",
+  "official_pack": "codeql/csharp-queries",
+  "included_query_kinds": ["problem", "path-problem"],
+  "excluded_output_kinds": [
+    "metric", "diagnostic", "table", "treemap", "file-classifier",
+    "alert-suppression", "definitions", "source-link"
+  ],
+  "execution_semantics": {
+    "official_query_logic": "unchanged",
+    "deduplication": "one execution per resolved official query path",
+    "unity_enrichment": "post-SARIF five-tuple adapter",
+    "deep_flow": "separate VRTaint query layer; does not rewrite official queries"
+  },
+  "tuple_origin": {
+    "native": "query or Unity IR derived all five fields",
+    "inferred-slot": "missing semantics represented by typed slots",
+    "scene-enriched": "context joined with Unity scene/component IR"
+  }
+}

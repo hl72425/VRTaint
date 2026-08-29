@@ -1,0 +1,31 @@
+extensions:
+  - addsTo:
+      pack: codeql/csharp-all
+      extensible: sourceModel
+    data:
+      # Unity runtime inputs.
+      - ["UnityEngine", "Application", False, "get_absoluteURL", "()", "", "ReturnValue", "remote", "manual"]
+      - ["UnityEngine.Networking", "DownloadHandler", True, "get_text", "()", "", "ReturnValue", "remote", "manual"]
+      - ["UnityEngine.Networking", "DownloadHandler", True, "get_data", "()", "", "ReturnValue", "remote", "manual"]
+      - ["UnityEngine.Networking", "DownloadHandler", True, "GetText", "()", "", "ReturnValue", "remote", "manual"]
+      - ["UnityEngine.Networking", "DownloadHandler", True, "GetData", "()", "", "ReturnValue", "remote", "manual"]
+      # Legacy Unity networking.
+      - ["UnityEngine.Networking", "NetworkReader", True, "ReadString", "()", "", "ReturnValue", "remote", "manual"]
+      - ["UnityEngine.Networking", "NetworkReader", True, "ReadBytes", "", "", "ReturnValue", "remote", "manual"]
+      - ["UnityEngine.Networking", "NetworkReader", True, "ReadBytesAndSize", "()", "", "ReturnValue", "remote", "manual"]
+      # Mirror networking.
+      - ["Mirror", "NetworkReader", True, "ReadString", "()", "", "ReturnValue", "remote", "manual"]
+      - ["Mirror", "NetworkReader", True, "ReadBytes", "", "", "ReturnValue", "remote", "manual"]
+      - ["Mirror", "NetworkReader", True, "ReadBytesAndSize", "()", "", "ReturnValue", "remote", "manual"]
+      # Photon data stream values are controlled by peers/server messages.
+      - ["Photon.Pun", "PhotonStream", True, "ReceiveNext", "()", "", "ReturnValue", "remote", "manual"]
+      - ["Photon.Pun", "PhotonStream", True, "ToArray", "()", "", "ReturnValue", "remote", "manual"]
+      - ["Photon.Bolt", "UdpPacket", True, "ReadString", "", "", "ReturnValue", "remote", "manual"]
+      - ["Photon.Bolt", "UdpPacket", True, "ReadByteArray", "", "", "ReturnValue", "remote", "manual"]
+      # Common Unity transport/network packages.
+      - ["Unity.Netcode", "FastBufferReader", True, "ReadValueSafe", "", "", "Argument[0]", "remote", "manual"]
+      - ["Unity.Networking.Transport", "DataStreamReader", True, "ReadFixedString32", "()", "", "ReturnValue", "remote", "manual"]
+      - ["Unity.Networking.Transport", "DataStreamReader", True, "ReadFixedString64", "()", "", "ReturnValue", "remote", "manual"]
+      - ["Unity.Networking.Transport", "DataStreamReader", True, "ReadFixedString128", "()", "", "ReturnValue", "remote", "manual"]
+      - ["Unity.Networking.Transport", "DataStreamReader", True, "ReadFixedString512", "()", "", "ReturnValue", "remote", "manual"]
+

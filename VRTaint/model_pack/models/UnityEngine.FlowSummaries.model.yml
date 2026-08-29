@@ -1,0 +1,10 @@
+extensions:
+  - addsTo:
+      pack: codeql/csharp-all
+      extensible: summaryModel
+    data:
+      - ["UnityEngine", "JsonUtility", False, "FromJson", "", "", "Argument[0]", "ReturnValue", "taint", "manual"]
+      - ["UnityEngine", "JsonUtility", False, "FromJsonOverwrite", "", "", "Argument[0]", "Argument[1]", "taint", "manual"]
+      - ["UnityEngine.Networking", "UnityWebRequest", True, "get_downloadHandler", "()", "", "Argument[this]", "ReturnValue", "taint", "manual"]
+      - ["UnityEngine.Networking", "DownloadHandler", True, "get_text", "()", "", "Argument[this]", "ReturnValue", "taint", "manual"]
+      - ["UnityEngine.Networking", "DownloadHandler", True, "get_data", "()", "", "Argument[this]", "ReturnValue", "taint", "manual"]

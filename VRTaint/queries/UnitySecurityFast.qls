@@ -1,0 +1,13 @@
+- description: Scalable high-precision Unity risk layer; run before lifecycle-expensive VRTaint queries
+- queries: .
+- include:
+    id: cs/unity-zipslip
+- include:
+    id: cs/unitypackage-path-traversal
+- include:
+    id: cs/unity-tainted-file-path-fast
+- include:
+    id: cs/unity-unauthenticated-http-surface
+- include:
+    id: cs/unity-unbounded-grpc-decompression
+
